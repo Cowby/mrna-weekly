@@ -17,6 +17,7 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from typing import Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ── Bio.Entrez (PubMed) ──────────────────────────────────────────────
 
@@ -167,42 +168,16 @@ BIORXIV_TERMS = [
 ]
 
 
-def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv") -> list[dict]:
-    """Search bioRxiv/medRxiv for recent preprints via the API.
+def _fetch_biorxiv_day(server: str, date_str: str) -> tuple[str, list[dict]]:
+    """Fetch bioRxiv data for a single day (helper for parallel execution)."""
+    url = f"https://api.biorxiv.org/details/{server}/{date_str}/{date_str}/0/json"
     
-    Uses /details/ endpoint with chunked date ranges to avoid timeouts.
-    """
-    today = datetime.now(timezone.utc)
-    articles = []
-    
-    # Split date range into 1-day chunks to minimize timeout risk
-    # bioRxiv API is slow, so we need very small chunks
-    chunk_size = 1  # 1 day per chunk
-    num_chunks = min(days, 14)  # Limit to 14 days max to avoid too many requests
-    
-    for i in range(num_chunks):
-        if len(articles) >= max_results:
-            break
-        
-        # Single-day chunk
-        chunk_date = today - timedelta(days=i + 1)
-        start_date = chunk_date.strftime("%Y-%m-%d")
-        end_date = chunk_date.strftime("%Y-%m-%d")
-        
-        # Use /details/ endpoint - no pagination needed for single day
-        url = f"https://api.biorxiv.org/details/{server}/{start_date}/{end_date}/0/json"
-        
-        try:
-            with urllib.request.urlopen(url, timeout=45) as r:
-                data = json.loads(r.read())
-        except Exception as e:
-            # Log but continue with other days
-            print(f"  {server} {start_date} error: {e}", file=sys.stderr)
-            continue
+    try:
+        with urllib.request.urlopen(url, timeout=60) as r:
+            data = json.loads(r.read())
         
         collection = data.get("collection", [])
-        if not collection:
-            continue
+        articles = []
         
         for item in collection:
             title = item.get("title", "")
@@ -228,10 +203,48 @@ def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv
                     "categories": categories,
                     "url": f"https://doi.org/{doi}" if doi else "",
                 })
-                
-                if len(articles) >= max_results:
-                    break
+        
+        return (date_str, articles)
+    
+    except Exception as e:
+        print(f"  {server} {date_str} error: {e}", file=sys.stderr)
+        return (date_str, [])
 
+
+def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv") -> list[dict]:
+    """Search bioRxiv/medRxiv for recent preprints via the API.
+    
+    Uses parallel requests (ThreadPoolExecutor) to fetch multiple days simultaneously.
+    """
+    today = datetime.now(timezone.utc)
+    num_days = min(days, 14)  # Limit to 14 days max
+    
+    # Generate list of dates to fetch
+    dates_to_fetch = [
+        (today - timedelta(days=i + 1)).strftime("%Y-%m-%d")
+        for i in range(num_days)
+    ]
+    
+    # Fetch in parallel (max 5 concurrent requests to be polite to API)
+    articles = []
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        # Submit all tasks
+        futures = {
+            executor.submit(_fetch_biorxiv_day, server, date_str): date_str
+            for date_str in dates_to_fetch
+        }
+        
+        # Collect results as they complete
+        for future in as_completed(futures):
+            date_str = futures[future]
+            try:
+                _, day_articles = future.result()
+                articles.extend(day_articles)
+                if day_articles:
+                    print(f"  {server} {date_str}: {len(day_articles)} articles", file=sys.stderr)
+            except Exception as e:
+                print(f"  {server} {date_str} failed: {e}", file=sys.stderr)
+    
     return articles[:max_results]
 
 
