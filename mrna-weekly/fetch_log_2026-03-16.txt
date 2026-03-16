@@ -1,0 +1,32 @@
+╔══ mRNA Weekly Report Data Fetch ══╗
+║ Period: last 7 days
+║ Max results per source: 50
+╚═══════════════════════════════════╝
+
+📚 Searching PubMed (Bio.Entrez + MeSH)...
+   Found 50 PubMed articles
+
+📄 Searching bioRxiv preprints...
+  biorxiv 2026-03-12: 2 articles
+  biorxiv 2026-03-15: 1 articles
+  biorxiv 2026-03-10: 2 articles
+   Found 5 bioRxiv preprints
+
+🏥 Searching medRxiv preprints...
+  medrxiv 2026-03-10: 1 articles
+   Found 1 medRxiv preprints
+
+💊 Searching ClinicalTrials.gov...
+   Found 20 clinical trial updates
+
+✅ Total unique articles: 56
+   Categories: {
+  "LNP Engineering & Delivery": 35,
+  "Vaccines": 18,
+  "Cancer & Immunotherapy": 8,
+  "Clinical Development": 8,
+  "Other": 7,
+  "RNA Biology & Design": 6,
+  "Protein Replacement & Gene Therapy": 5,
+  "Manufacturing & Analytics": 2
+}

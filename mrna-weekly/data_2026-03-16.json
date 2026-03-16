@@ -1,0 +1,2125 @@
+{
+  "fetch_date": "2026-03-16T07:34:01.367927+00:00",
+  "period_days": 7,
+  "stats": {
+    "total_articles": 56,
+    "total_trials": 20,
+    "by_category": {
+      "LNP Engineering & Delivery": 35,
+      "Vaccines": 18,
+      "Cancer & Immunotherapy": 8,
+      "Clinical Development": 8,
+      "Other": 7,
+      "RNA Biology & Design": 6,
+      "Protein Replacement & Gene Therapy": 5,
+      "Manufacturing & Analytics": 2
+    },
+    "by_source": {
+      "pubmed": 50,
+      "biorxiv": 5,
+      "medrxiv": 1
+    },
+    "top_journals": {
+      "Molecular therapy. Nucleic acids": 14,
+      "Journal of controlled release : official journal of the Controlled Release Society": 5,
+      "biorxiv (Preprint)": 5,
+      "Journal of the American Chemical Society": 4,
+      "Nature protocols": 2,
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology": 1,
+      "Japanese journal of clinical oncology": 1,
+      "Hepatology international": 1,
+      "ACS nano": 1,
+      "Biomacromolecules": 1
+    },
+    "trial_phases": {
+      "PHASE2": 5,
+      "PHASE1": 5,
+      "EARLY_PHASE1": 1,
+      "N/A": 2,
+      "PHASE2, PHASE3": 1,
+      "PHASE4": 1,
+      "NA": 3,
+      "PHASE1, PHASE2": 1,
+      "PHASE3": 1
+    }
+  },
+  "articles": [
+    {
+      "source": "pubmed",
+      "pmid": "41506374",
+      "title": "Optimized lipid nanoparticles for pulmonary delivery of CRISPR/Cas9 targeting KRAS G12S in lung cancer.",
+      "authors": [
+        "Marschhofer M",
+        "Chen S",
+        "Molbay M",
+        "Winkeljann B",
+        "Villano E",
+        "Giancaspro C"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.jconrel.2026.114607",
+      "abstract": "KRAS G12S mutations in non-small cell lung cancer (NSCLC) remain refractory to current targeted therapies, with few clinical options and frequent resistance. While CRISPR/Cas9 enables mutation-specific gene disruption, its pulmonary application is limited by systemic clearance, hepatic tropism, and airway mucus barriers. Here, we present lipid nanoparticles (LNPs) specifically engineered for pulmonary delivery of Cas9 mRNA and KRAS G12S-targeting sgRNA, optimized through mRNA surrogate screening and orthogonal mixture design to guide lipid composition and Cas9:sgRNA weight-to-weight ratios. Two lead LNP formulations, A6 3:1 and A8 1:1, exhibited robust critical quality attributes, including particle sizes below 120 nm, low polydispersity, near-neutral zeta potential, and over 80 % encapsulation efficiency. Cryo-TEM revealed distinct morphologies correlated with enhanced transfection. In vitro, A8 1:1 achieved up to 90 % on-target gene editing in A549 cells and a 3.6-fold increase in apoptosis, while A6 3:1 induced a 3.7-fold apoptotic response. Both formulations efficiently traversed airway mucus in air-liquid interface cultures and preserved over 80 % cell viability across doses. In vivo, repeated pulmonary administration was well tolerated, with no signs of systemic toxicity or cytokine elevation in healthy or tumor-bearing mice. In an orthotopic A549-luc lung tumor model, intratracheal delivery of A6 3:1 and A8 1:1 modestly suppressed tumor growth, with histological evidence of tumor cell apoptosis for A8 1:1. Quantification confirmed a statistically significant increase of apoptosis in the A8 1:1 group, consistent with effective KRAS disruption in vivo. Overall, lead LNPs, particularly A8 1:1, enabled efficient and localized RNA-based gene editing that induced downstream apoptotic signaling, demonstrating a preliminary, yet promising, proof-of-concept for CRISPR/Cas9 therapy in NSCLC.",
+      "mesh_terms": [
+        "Animals",
+        "*Lung Neoplasms/genetics/therapy",
+        "*CRISPR-Cas Systems",
+        "Humans",
+        "*Nanoparticles/administration & dosage/chemistry",
+        "*Proto-Oncogene Proteins p21(ras)/genetics",
+        "*Lipids/chemistry/administration & dosage",
+        "Gene Editing",
+        "A549 Cells",
+        "*Carcinoma, Non-Small-Cell Lung/genetics/therapy",
+        "Mice",
+        "*CRISPR-Associated Protein 9/genetics",
+        "Mice, Nude",
+        "RNA, Guide, CRISPR-Cas Systems/administration & dosage/genetics",
+        "Female",
+        "RNA, Messenger/administration & dosage/genetics",
+        "Apoptosis",
+        "Cell Line, Tumor",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41506374/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41761919",
+      "title": "Self-Amplifying mRNA Enhances Transamniotic Fetal mRNA Delivery.",
+      "authors": [
+        "Huang AL",
+        "Scire EM",
+        "Dang TT",
+        "Zacharakis E",
+        "Kycia I",
+        "Zurakowski D"
+      ],
+      "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+      "date": "2026 Mar 15",
+      "doi": "10.1096/fj.202504498R",
+      "abstract": "Intraamniotic injection of encapsulated linear mRNA routes to the fetus after placental uptake but has a limited half-life and translation. Self-amplifying mRNA (saRNA) is a synthetic mRNA containing a replicase sequence and gene of interest (GOI) with replicase-targeting motifs that allow for the amplification of both the full saRNA and GOI. We compared the fetal distribution of saRNA and linear mRNA with the same GOI after intraamniotic injections in a rat model. Fetuses (n = 99) from seven Sprague-Dawley dams were divided into three groups based on volume-matched intraamniotic injections performed on gestational day 17 (E17; term = E21-E22). Two groups received firefly luciferase mRNA either in linear or self-amplifying form, both encapsulated by lipopolyplex. The third group received lipopolyplex without mRNA (controls). All groups were euthanized at term, while only saRNA and controls were euthanized on postnatal day 7 or 14. Luciferase activity was screened via microplate luminometry at multiple fetal and neonatal anatomical sites. Significantly higher luminescence compared to controls was detected at term at 9 anatomical sites (placenta, umbilical cord, gestational membranes, amniotic fluid, liver, heart, lung, kidney, and thymus; p = 0.039-< 0.001) in the saRNA group but at only 1 site (umbilical cord; p < 0.001) in the linear mRNA group. No significant differences with the controls were detected at any other timepoint. Self-amplifying mRNA leads to extended and more robust fetal and fetal annex translation of its encoded protein when compared with linear mRNA after transamniotic delivery. Self-amplifying mRNA may maximize the therapeutic potential of transamniotic fetal mRNA therapies.",
+      "mesh_terms": [
+        "Animals",
+        "*RNA, Messenger/administration & dosage/genetics",
+        "Female",
+        "Pregnancy",
+        "Rats, Sprague-Dawley",
+        "Rats",
+        "*Fetus/metabolism",
+        "*Amnion/metabolism",
+        "*Gene Transfer Techniques"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41761919/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41583559",
+      "title": "mRNA vaccines for HBV: Mechanisms, preclinical advances, and therapeutic clinical progress.",
+      "authors": [
+        "Pechnikova NA",
+        "Zafeiriou-Chatziefraimidou M",
+        "Poimenidou M",
+        "Patsidou C",
+        "Iliadis I",
+        "Ostankova YV"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102819",
+      "abstract": "Hepatitis B virus (HBV) remains a leading cause of cirrhosis and hepatocellular carcinoma, while functionally curative therapies remain scarce. Durable remission is hindered by the persistence of covalently closed circular DNA (cccDNA) and viral genome integration, both of which contribute to impaired immune responses. mRNA-based technologies provide a versatile platform for prevention and treatment, owing to their rapid development cycle and intrinsic immunostimulatory properties. In preclinical HBV-carrier mouse models, lipid-nanoparticle (LNP) mRNA vaccines encoding hepatitis B surface antigen (HBsAg) or polyvalent Ags have achieved HBsAg clearance and HBV-DNA reduction, outperforming protein-based comparators. Clinically, two phase I therapeutic trials have been initiated to date. An ARCUS nuclease delivered as LNP-mRNA entered first-in-human testing in 2025, with only preliminary safety data available from a small patient cohort and no published efficacy data. Similarly, HBx-biased mRNA vaccines, such as WGc-0201, have recently entered early clinical evaluation without reported clinical efficacy. Despite these advances, several challenges impede effective therapy, including innate-immune overactivation, HBV genotypic diversity, and the need for rational therapeutic combinations. This review summarizes current preclinical findings and emerging clinical evidence and outlines future strategies toward durable viral control and effective prophylaxis, including self-amplifying or cyclic RNAs, receptor-targeted LNPs, and multimodal therapeutic regimens.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41583559/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41359436",
+      "title": "Technological advances in mRNA delivery and engineering for therapeutic cancer vaccines.",
+      "authors": [
+        "Uchida S"
+      ],
+      "journal": "Japanese journal of clinical oncology",
+      "date": "2026 Mar 13",
+      "doi": "10.1093/jjco/hyaf199",
+      "abstract": "Messenger RNA (mRNA) offers a powerful platform for therapeutic cancer vaccines. Several clinical trials targeting tumor-associated antigens and neoantigens have demonstrated promising immunological and clinical responses. For effective cancer vaccination, technologies for in vivo mRNA delivery and mRNA molecular design are essential. mRNA delivery systems, typically based on synthetic nanoparticles, are designed to protect mRNA from enzymatic degradation, facilitate its delivery to lymphoid organs and antigen-presenting cells, and stimulate innate immune responses to serve as adjuvants. To maximize the potential of these delivery systems, molecular design of the delivered mRNA is also critical. Strategies such as nucleoside modification, self-amplifying RNA, circular RNA, and hybridization-based mRNA engineering are employed to modulate the immunostimulatory properties of mRNA, extend the duration of antigen presentation, and introduce additional functionalities to the delivery systems. While technological advances in these areas have significantly contributed to the recent progress of mRNA cancer vaccines, current formulations, including widely used lipid nanoparticles (iLNPs), still have considerable room for improvement in terms of safety and efficacy. This has prompted vigorous research efforts to redesign iLNPs and explore non-lipid-based approaches. In this context, this review outlines the established foundational technologies and highlights ongoing research in mRNA delivery and engineering, with a focus on their biological and functional aspects.",
+      "mesh_terms": [
+        "Humans",
+        "*Cancer Vaccines/administration & dosage/immunology/therapeutic use",
+        "*RNA, Messenger/administration & dosage/immunology/genetics",
+        "*Neoplasms/therapy/immunology",
+        "*Drug Delivery Systems/methods",
+        "Nanoparticles",
+        "Animals"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Cancer & Immunotherapy",
+        "RNA Biology & Design",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41359436/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41736889",
+      "title": "Lipid self-assembling nanoparticles as a novel platform for mRNA-based vaccination.",
+      "authors": [
+        "De Chiara A",
+        "Nele V",
+        "Angelillo A",
+        "Campani V",
+        "Campanile A",
+        "Froechlich G"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2026.102851",
+      "abstract": "Synthetic messenger RNA (mRNA) formulated in lipid nanoparticles (mRNA-LNPs) is a promising candidate for next-generation gene therapy and genetic vaccines. However, mRNA-LNP formulations require low-temperature storage to ensure proper transport and distribution. Here, we introduce a lipid self-assembling nanoparticle (SANP) technology to address the stability challenges of mRNA-based therapeutics. SANP formulations can be prepared by simply mixing the components immediately before use, allowing mRNA vaccines to be stored and transported at 4 degrees C without freezing, thereby enhancing their stability. SANPs loaded with mRNA (mRNA-SANPs) exhibited a sub-200 nm size, high mRNA encapsulation efficiency, colloidal stability post-assembly and in human plasma, and low hemolytic activity. Intramuscular (IM) and intravenous (IV) administration of mRNA-SANPs encoding a reporter gene in mice resulted in high levels of transgene expression, with no observed renal or hepatic toxicity and no release of pro-inflammatory cytokines. Additionally, protein fingerprint analysis of mRNA-SANPs in serum identified specific nanoparticle-protein interactions that correlated with in vivo biodistribution. Finally, mRNA-SANPs encoding the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike protein elicited a significant immune response in mice following both IM and IV administration.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736889/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41541271",
+      "title": "Spleen-targeted mRNA delivery via long-chain PEGylated lipids at low molar ratio enhances antitumor immunity against melanoma.",
+      "authors": [
+        "Liu S",
+        "Zhang L",
+        "Wu W",
+        "Chen MY",
+        "Qian F"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102803",
+      "abstract": "Lipid nanoparticles (LNPs) are pivotal for mRNA delivery, yet predominant hepatic accumulation limits their therapeutic application in immunologically active sites like the spleen. Engineering LNPs for splenic mRNA delivery is therefore essential for advancing mRNA-based immunotherapies. Here, we rationally designed a series of LNPs by modulating the alkyl chain length of PEGylated lipids (fast-shedding C14 DMG-PEG vs. slow-shedding C18 DSG-PEG) and their molar ratios (0.75% and 1.5%). This systematic variation precisely controlled nanoparticle physicochemical properties and protein corona composition. Among these formulations, DSG-PEG LNPs at 0.75% mol exhibited the largest size ( approximately 170 nm by DLS;  approximately 60 nm core by cryo-EM) and a distinct protein corona. Notably, this DSG-PEG 0.75% mol formulation demonstrated significantly enhanced selective spleen accumulation and efficient mRNA delivery in vivo. Furthermore, the optimized LNP potently activated dendritic cells, expanded antigen-specific CD4(+) T cell populations, and significantly inhibited tumor growth in a B16-ovalbumin (OVA) melanoma model. Collectively, our results establish a rational strategy via precise PEGylated lipid engineering to redirect LNP biodistribution from the liver to the spleen. These findings validate the spleen as a critical target for mRNA vaccines and provide a versatile platform for next-generation cancer immunotherapies.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41541271/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41803280",
+      "title": "Preparation of targeted lipid nanoparticles for precision nucleic acid delivery.",
+      "authors": [
+        "Geisler HC",
+        "Battistini E",
+        "Thatte AS",
+        "Padilla MS",
+        "Mitchell MJ"
+      ],
+      "journal": "Nature protocols",
+      "date": "2026 Mar 9",
+      "doi": "10.1038/s41596-025-01330-w",
+      "abstract": "Intravenous administration of lipid nanoparticles for the delivery of nucleic acid therapeutics remains constrained by passive uptake mechanisms in the liver, often necessitating high doses to achieve meaningful transfection in specific cells of interest. Targeted LNPs (tLNPs) can overcome these challenges by (i) enabling receptor-mediated endocytosis in difficult-to-transfect cells, thereby reducing passive clearance; (ii) increasing the proportion of LNPs reaching their intended target; and (iii) enabling comparable protein expression at lower doses. Here, we provide a step-by-step guide for formulating tLNPs functionalized with whole antibodies or antibody fragments using traditional laboratory equipment. We outline procedures for antibody preparation and labeling (0.5-1 d), antibody-LNP conjugation (1-2 d), tLNP purification and characterization (1 d) and in vivo and ex vivo targeting evaluation (3-4 d). To demonstrate the versatility of this protocol, we validate in vivo targeting to two mouse tissues: we show that anti-platelet endothelial cell adhesion molecule 1 antibody conjugation to lung-tropic LNPs enhances lung transfection by five times compared to nontargeted LNPs, and anti-epidermal growth factor receptor antibody conjugation to liver-tropic LNPs enhances liver transfection by 20 times. We also demonstrate ex vivo targeting to primary human T cells, where anti-CD5 antibody conjugation to LNPs boosts uptake by 4.5 times and significantly increases mRNA transfection. Importantly, this modular strategy is compatible with any LNP formulation or antibody. In outlining these procedures, we seek to deliver a robust and reproducible workflow for the manufacturing of tLNPs, with the ultimate goal of advancing their therapeutic potential and facilitating clinical translation.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Manufacturing & Analytics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41803280/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41807717",
+      "title": "Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders.",
+      "authors": [
+        "Swingle KL",
+        "Mitchell MJ"
+      ],
+      "journal": "Nature protocols",
+      "date": "2026 Mar 10",
+      "doi": "10.1038/s41596-025-01325-7",
+      "abstract": "Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders. In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and reproductive health.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41807717/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41803605",
+      "title": "mRNA vaccines for hepatocellular carcinoma: mechanisms, therapeutic strategies, and clinical perspectives.",
+      "authors": [
+        "Teng Z",
+        "Cui X",
+        "He C"
+      ],
+      "journal": "Hepatology international",
+      "date": "2026 Mar 9",
+      "doi": "10.1007/s12072-026-11071-x",
+      "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) remains a major global health challenge, characterized by late diagnosis, high recurrence, and limited treatment options for advanced stages. Current therapies face limitations such as toxicity, drug resistance, and an immunosuppressive tumor microenvironment. mRNA vaccines represent a promising therapeutic strategy due to their ability to encode tumor-specific antigens and stimulate robust, targeted immune responses. METHODS: This review investigates the potential of mRNA vaccines as a therapeutic strategy for HCC. A systematic search was conducted on Web of Science, PubMed, Scopus, and Google Scholar databases from 2005 to 2025 to identify studies on mechanisms, therapeutic strategies, and clinical perspectives of mRNA vaccines in HCC therapy. Keywords, such as \"Hepatocellular carcinoma\", \"mRNA vaccine\", \"Tumor-specific antigen\", \"Clinical trials\", were used to search the databases. RESULTS: mRNA vaccines for HCC demonstrate potential in preclinical models by inducing antigen-specific T-cell responses and reshaping the immunosuppressive tumor microenvironment. Strategies such as targeting neoantigens from aberrant splicing or non-canonical open reading frames expand the antigen repertoire. Combining mRNA vaccines with immune checkpoint inhibitors shows synergistic efficacy. However, clinical translation faces hurdles, including antigen scarcity due to low tumor mutational burden, suboptimal delivery efficiency, and the complex immunosuppressive landscape of HCC. CONCLUSION: mRNA vaccines offer a transformative modality for HCC treatment. Realizing their full potential requires a multi-faceted approach: expanding the antigen repertoire beyond traditional mutations, developing optimized and targeted delivery systems, and employing rational combination therapies. Future biomarker-driven clinical trials are essential to establish efficacy and integrate these strategies into the HCC treatment paradigm.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Cancer & Immunotherapy",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41803605/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41696513",
+      "title": "Advances in lipid nanoparticles delivering genetic medicines for solid cancers.",
+      "authors": [
+        "Yang F",
+        "Scott TA"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2026.102838",
+      "abstract": "Nucleic acid lipid nanoparticle (LNP) technology has enabled the delivery of genetic medicines to solid tumors, opening new avenues for oncology therapeutics. Solid tumors present unique challenges to nucleic acid delivery because of their complex tumor microenvironment (TME), which acts as a barrier to NP delivery. Nevertheless, nucleic acid LNPs carry diverse genetic medicine modalities that can exert anti-cancer effects. The versatility of LNPs allows both local and systemic administrations for the delivery of gene therapy payloads to solid cancer, with the additional capability to selectively target specific cell types through conjugation of targeting ligands onto the LNPs. Genetic medicines delivered by LNPs can directly affect cancer cells, such as by suppressing oncogenic drivers and cancer pathways with small non-coding RNAs, or through overexpression of toxin genes or tumor suppressors. Non-cancer components of the tumor, such as tumor-associated vasculature, can also be targeted and disrupted to inhibit the structures that support tumor growth. Alternatively, LNP delivery of genetic medicines can indirectly elicit anti-tumor effects by modifying the immune state of the tumor environment through delivery of immunomodulatory cytokines, overexpression of activatable receptors to stimulate immune cells with agonists, or antigen-binding scaffolds to direct immunity towards a cancer cell. In this review, we summarize recent advances, challenges, and prospects of LNP delivery of genetic medicines to treat solid tumors.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41696513/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41552388",
+      "title": "Circular RNA encoding relaxin-2 as a potential therapy for liver fibrosis.",
+      "authors": [
+        "Zhong J",
+        "Zhang Z",
+        "Xiao L",
+        "Wang C",
+        "Yang Y",
+        "Zhang Q"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102807",
+      "abstract": "Circular RNAs (circRNAs) have recently emerged as a promising new drug modality with significant therapeutic potential due to their higher stability and lower immunogenicity. Here, we report the development of a circRNA encoding human relaxin-2 (cRLN2), a short peptide hormone with well-established therapeutic potential, to treat liver fibrosis in a mouse model. Compared to the modified linear mRNA, cRLN2 mediated stronger and more prolonged expression of relaxin in vitro. In addition, the nanoparticle-mediated delivery of cRLN2 achieved a sustained translation into active relaxin in healthy mice with low immunogenicity. In a mouse model of liver fibrosis, cRLN2 treatment significantly decreased hepatic stellate cell activation and consequently reduced collagen deposition in fibrotic mice, while the treatment by relaxin protein showed limited anti-fibrosis effects. Toxicity evaluation confirmed that cRLN2 exhibits excellent safety and tolerability in mice. Collectively, our findings demonstrate that cRLN2 can efficiently express therapeutic proteins in vivo and alleviate liver fibrosis without obvious toxic effects, highlighting the potential of circRNAs as a novel therapeutic platform to treat fibrotic diseases.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41552388/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41503581",
+      "title": "Improved cross-protection and immunity against influenza A virus in mice using a novel mRNA vaccine with optimized design of RNA sequence.",
+      "authors": [
+        "Wang T",
+        "Han R",
+        "Hao Z",
+        "Cheng X",
+        "Li J",
+        "Zhai C"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102787",
+      "abstract": "Conventional influenza vaccines provide strain-specific immunity, and their production can be affected by egg-culture-adapted mutations. A universal influenza vaccine with conserved antigens and novel vaccine platforms is urgently required. To induce the immune responses toward more conserved epitopes, we generated a multi-antigen influenza mRNA vaccine, lipopolyplex (LPP)-HNH mRNA, coding headless hemagglutinin stem and neuraminidase with three different sequences (HNH-ORI, HNH-E1, or HNH-E2) and delivered by LPP. The immunogenicity and protective efficacy of these single-chain mRNA vaccines against influenza A viruses were evaluated in mice models. Mice exhibited sustained and robust antibody and cellular immune responses against all three LPP-HNH mRNA vaccines, indicating that these vaccines provided mice with broad protection against H1N1, H3N2, or H5N1 influenza viruses. HNH-E1 and HNH-E2 with optimized sequence showed higher protein expression, stronger specific CD4(+) and CD8(+) T cell responses, and more effective protection than those of HNH-ORI, owing to their lower minimum free energy and higher codon adaptation index. These results reveal that the LPP-HNH mRNA vaccine encoding conserved antigens with optimized sequences is a promising strategy for the development of universal influenza vaccines.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41503581/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41818630",
+      "title": "Mechanistic and Strategic Insights into How Lipid Nanoparticles Interact with Membrane-Based Biological Barriers.",
+      "authors": [
+        "Zhao Y",
+        "Liu C",
+        "Zhang X",
+        "Gu T",
+        "Wang Y",
+        "Zuo T"
+      ],
+      "journal": "ACS nano",
+      "date": "2026 Mar 12",
+      "doi": "10.1021/acsnano.5c21857",
+      "abstract": "Lipid nanoparticles (LNPs) have become the leading platform for nucleic acid delivery; yet, their therapeutic performance is strongly influenced by the membrane-based biological barriers they encounter in vivo. These barriers exist at multiple hierarchical levels, ranging from extracellular matrices and mucosal layers to endothelial interfaces, plasma membranes, and intracellular organelles. Each barrier imposes distinct physicochemical constraints that shape LNP transport, cellular entry, and cargo release. This review provides a mechanistic framework for understanding LNP-membrane interactions by integrating membrane biophysics, lipid chemistry, functional interfacial forces, and the acquired feature, i.e., protein corona. We also describe the interfaces encountered during major administration routes, including intramuscular, intravenous, intraperitoneal, inhaled, oral, and intratumoral delivery, and highlight how local architecture, fluid composition, and protein corona evolution influence biodistribution and targeting. At the cellular level, we compare the membrane properties of parenchymal, stromal, and immune cells, emphasizing how differences in surface chemistry, receptor expression, and endocytic pathways determine LNP binding and internalization. We then discuss the key organellar processes that regulate intracellular trafficking and mRNA release, including endosomal maturation, acid-triggered lipid protonation, fusion-driven membrane remodeling, and nonbilayer phase transitions. Moreover, we outline recent evidence for LNP transcytosis across restrictive barriers such as the blood-brain barrier, tumor vasculature, pulmonary epithelium, and intestinal mucosa, as well as the contribution of exocytosis and extracellular vesicles to secondary mRNA delivery. Finally, we highlight emerging experimental and computational tools for probing LNP-membrane interactions. By integrating molecular design considerations with membrane biophysics and nanobio interface chemistry, this review aims to provide a mechanistic and strategic perspective to guide the rational development of next-generation LNP delivery systems.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41818630/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41494604",
+      "title": "CD44-targeted lipid nanoparticles for enhanced CRISPR/Cas9 delivery in cancer gene editing.",
+      "authors": [
+        "Zeng Y",
+        "Zhao G",
+        "Wu S",
+        "Hu B",
+        "Forn-Cuni G",
+        "Knol R"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.jconrel.2025.114598",
+      "abstract": "Skin cancer is the third most common malignancy, with melanoma being the most challenging due to its resistance to current therapies. Gene editing technologies like CRISPR/Cas9 offer a promising strategy for targeting cancer-specific genes, but the efficient delivery of these tools to tumor sites remains a significant challenge. Lipid nanoparticles (LNPs) have emerged as the leading platform for gene editing tools due to their ability to protect and transport large payloads. To enhance the precision of gene editing in melanoma, we developed CD44-specific peptide-modified LNPs for targeted delivery of CRISPR/Cas9 mRNA and guide RNA against polo-like kinase 1 (sgPLK1). Our approach led to enhanced targeting and gene editing efficacy by specifically delivering CRISPR/Cas9 and sgPLK1 to melanoma tumor cells, resulting in significant inhibition of tumor growth in both in vitro and in vivo skin melanoma models. Moreover, this platform showed the capacity to reach metastatic melanoma in the brain and resulting in substantial suppression of tumor growth in brain metastasis models. We envision that this peptide-modification strategy could be further employed to improve the targeting capabilities and therapeutic outcomes of LNPs for CRISPR/Cas9-based gene editing, paving the way for more precise and effective cancer treatments.",
+      "mesh_terms": [
+        "*Nanoparticles/administration & dosage/chemistry",
+        "*CRISPR-Cas Systems",
+        "*Gene Editing/methods",
+        "Animals",
+        "*Hyaluronan Receptors/metabolism/genetics",
+        "Humans",
+        "*Lipids/chemistry/administration & dosage",
+        "Cell Line, Tumor",
+        "*Melanoma/genetics/therapy/pathology",
+        "Polo-Like Kinase 1",
+        "*Skin Neoplasms/genetics/therapy/pathology",
+        "Protein Serine-Threonine Kinases/genetics",
+        "RNA, Guide, CRISPR-Cas Systems/administration & dosage/genetics",
+        "Mice",
+        "Cell Cycle Proteins/genetics",
+        "Peptides/chemistry",
+        "Gene Transfer Techniques",
+        "Female",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41494604/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41757374",
+      "title": "N1MPsiU-modified mRNA vaccines break the mold in fish by enhancing innate immune activation.",
+      "authors": [
+        "Porter D",
+        "Jouneau L",
+        "Peruzzi M",
+        "Collet B",
+        "Verrier B",
+        "Boudinot P"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2026.102862",
+      "abstract": "Messenger RNA (mRNA) vaccines have revolutionized immunization strategies in mammals, with chemical modifications such as N1-methyl-pseudouridine (N1MPsiU) enhancing stability, translation, and reducing innate immune activation. However, the immunological implications of such modifications in non-mammalian species, particularly teleost fish, remain unclear. In this study, we evaluated the innate immune responses elicited by four vaccine platforms: a DNA vaccine, a live attenuated viral hemorrhagic septicemia virus (VHSV), an unmodified mRNA, and an N1MPsiU-modified mRNA. All four vaccines encode the G protein of VHSV (G(VHSV)) in rainbow trout. Following intramuscular injection, both mRNA vaccine formats induced robust type I interferon (IFN) responses, comparable to those induced by the DNA and attenuated virus vaccines. Notably, the N1MPsiU-modified mRNA vaccine did not suppress IFN induction, as observed in mammalian systems, but instead triggered distinct temporal transcriptional dynamics and stronger enrichment of autophagy, ubiquitination, and transcription-related pathways. These findings suggest that modified mRNA retains a strong immunostimulatory capacity in fish and may activate immune pathways differently than in mammals. Our results emphasize the need to reassess assumptions from mammalian vaccine design when translating mRNA vaccine strategies to non-mammalian vertebrates and highlight the potential for tailored mRNA vaccine development in aquaculture species.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757374/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41666458",
+      "title": "Selective mRNA Delivery to Activated Macrophages via Hyaluronic Acid-Functionalized Lipid Nanoparticles with Optimized PEGylation.",
+      "authors": [
+        "Cao M",
+        "Fay F",
+        "Hotier A",
+        "Domenichini S",
+        "Alexandre L",
+        "Ribes C"
+      ],
+      "journal": "Biomacromolecules",
+      "date": "2026 Mar 9",
+      "doi": "10.1021/acs.biomac.5c02390",
+      "abstract": "Activated proinflammatory macrophages are associated with various inflammatory diseases, and due to their overexpression of the CD44 receptor, they may be targeted for therapy by hyaluronic acid (HA), its natural ligand. This study aimed to develop lipid nanoparticles (LNPs) functionalized with HA and stabilized with an optimized amount of poly(ethylene glycol) (PEG) for targeted mRNA delivery to activated macrophages. Using microfluidic mixing, LNPs were produced with either 1.5% PEG (LNP(1.5%PEG)) or 0.5% PEG (LNP(0.5%PEG)). HA-coated LNPs (HA-LNPs) were prepared by postinsertion of an HA-DPPE conjugate, and changes in size and zeta potential demonstrated a successful and efficient HA coating, which was quantified by spectrofluorimetry and nanoscale flow cytometry. In vitro studies showed that HA-LNP(0.5%PEG) exhibited better uptake in activated macrophages while maintaining mRNA transfection efficiency, whereas HA-LNP(1.5%PEG) did not improve its uptake, suggesting that excessive PEG can hinder targeting. Overall, HA-LNP(0.5%PEG) effectively delivered mRNA to activated macrophages with enhanced selectivity.",
+      "mesh_terms": [
+        "*Hyaluronic Acid/chemistry",
+        "*Polyethylene Glycols/chemistry",
+        "*Nanoparticles/chemistry",
+        "*Macrophages/metabolism/drug effects",
+        "Animals",
+        "*RNA, Messenger/administration & dosage/genetics/chemistry",
+        "Mice",
+        "RAW 264.7 Cells",
+        "Macrophage Activation",
+        "*Lipids/chemistry",
+        "Humans"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41666458/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41731656",
+      "title": "FAP-Synergistic Organ-Targeted mRNA-LNP for Overcoming Delivery Barriers in Hepatic and Pulmonary Fibrosis.",
+      "authors": [
+        "Wei C",
+        "Shan X",
+        "Huang Y",
+        "Ma B",
+        "Zhao Z",
+        "Fang Y"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Mar 11",
+      "doi": "10.1021/jacs.5c16886",
+      "abstract": "The inefficient delivery of lipid nanoparticles (LNPs)-encapsulated mRNA to activated fibroblasts in fibrotic tissues remains a major challenge for antifibrotic therapy. To overcome this, we develop a fibrosis organ and cell unified-targeting system (FOCUS) for mRNA delivery with LNPs. FOCUS LNPs combines an ionizable lipid library (synthesized via Ugi multicomponent reactions) with fibroblast activation protein-alpha (FAP)-targeting lipid-like ligands. These LNPs achieve  approximately 3-fold and  approximately 12-fold greater mRNA expression in fibrotic liver and lung, along with  approximately 2-5-fold higher fibroblast distribution horizontal line unattainable by organ- or ligand-only targeting. As proof of concept, Pentraxin-2 mRNA (mPTX-2)-loaded FOCUS LNPs drive localized PTX-2 production in murine models of pulmonary and hepatic fibrosis, reducing collagen deposition by 60-80% while avoiding systemic side effects like impaired wound healing. Mechanistically, mPTX-2 FOCUS LNPs suppress monocyte-to-fibrocyte differentiation, M2 macrophage polarization, and fibroblast activation. This work establishes a precision mRNA delivery platform for fibrotic diseases, offering a safer and more effective therapeutic strategy.",
+      "mesh_terms": [
+        "Animals",
+        "*RNA, Messenger/genetics/administration & dosage/metabolism/chemistry",
+        "Mice",
+        "*Liver Cirrhosis/metabolism/pathology/drug therapy",
+        "*Nanoparticles/chemistry",
+        "*Pulmonary Fibrosis/metabolism/pathology/drug therapy",
+        "*Membrane Proteins/metabolism",
+        "*Lipids/chemistry",
+        "Humans",
+        "Mice, Inbred C57BL"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731656/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41733506",
+      "title": "Safe and Highly Efficient Lipid-Pro-Dexamethasone Nanoparticles for mRNA Delivery and Base Editing.",
+      "authors": [
+        "Zong Y",
+        "Zhong H",
+        "Wang Y",
+        "Lin Y",
+        "Zhao L",
+        "Wang X"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Mar 11",
+      "doi": "10.1021/jacs.6c01708",
+      "abstract": "The inherent immunogenicity of mRNA lipid nanoparticles (LNPs) poses a major challenge to their application in disease treatment. In this study, we developed a series of innovative dexamethasone (DEX) prodrug ionizable lipids (DPILs) to address the need for safe and effective mRNA delivery, leading to the establishment of the Safe and Highly Efficient Lipid-pro-dexamethasone (SHIELD) LNP platform. The lead formulation, DEX-SPM-CP10 SHIELD LNP, not only markedly decreased the levels of multiple proinflammatory cytokines but also achieved mRNA delivery efficiency comparable to that of the FDA-approved SM-102 LNP. Furthermore, the SHIELD platform demonstrated universality, as incorporating specific ratios of DPILs into various LNPs targeting different organs (such as the liver, lungs, spleen, and pancreas) led to notable reductions in inflammatory responses and enhancements in mRNA expression, highlighting its superiority over strategies that incorporate free DEX. Subsequently, we investigated its application in gene editing therapy by codelivering ABEmax mRNA and sgRNA to edit the EGFP reporter gene and endogenous PCSK9 gene, as well as in protein replacement therapy through multiple injections of mRNA-SHIELD LNPs. All of these results demonstrated excellent delivery efficacy with minimal immunogenicity, fully illustrating the therapeutic potential of this platform. Taken together, the SHIELD platform offers safe and efficient mRNA delivery and has the potential to expand the therapeutic applications of mRNA-based therapies.",
+      "mesh_terms": [
+        "*Dexamethasone/chemistry/pharmacology",
+        "*RNA, Messenger/genetics/chemistry/administration & dosage",
+        "*Nanoparticles/chemistry",
+        "*Lipids/chemistry",
+        "Animals",
+        "Mice",
+        "*Gene Editing",
+        "*Prodrugs/chemistry",
+        "Humans"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733506/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41808349",
+      "title": "Respiratory syncytial virus mRNA vaccine-induced immunity and protection against subgroups A and B in mice.",
+      "authors": [
+        "Lee S",
+        "Yoon J",
+        "Shooter S",
+        "Pak DS",
+        "Ha B",
+        "Rostad CA"
+      ],
+      "journal": "ImmunoHorizons",
+      "date": "2026 Mar 10",
+      "doi": "10.1093/immhor/vlag006",
+      "abstract": "Respiratory syncytial virus (RSV) is a major global cause of severe lower respiratory tract infections in infants and older adults. RSV has 2 subgroups, A (RSV-A) and B (RSV-B), which circulate together with different patterns of dominance. A vaccine must protect against both. Reccently, prefusion F protein-based vaccines for maternal and older adult populations achieved  approximately 70% efficacy, and Moderna's mRNA vaccine for older adults further underscores the potential of mRNA platforms. Here, we report preclinical evaluation of VER-027, a novel mRNA vaccine encoding prefusion F proteins from both RSV-A and RSV-B. A 2-dose intramuscular regimen induced high pre-F-specific immunoglobulin G (IgG) titers, potent neutralizing activity against both subgroups, and robust F85-93-specific CD8+ T cell responses. All mice vaccinated with this mRNA vaccine were fully protected against RSV-A and RSV-B challenge. These findings support VER-027 as a strong candidate for clinical development as a dual-subgroup RSV vaccine.",
+      "mesh_terms": [
+        "Animals",
+        "*Respiratory Syncytial Virus Infections/prevention & control/immunology",
+        "*Respiratory Syncytial Virus Vaccines/immunology/administration & dosage",
+        "Mice",
+        "Antibodies, Viral/blood/immunology",
+        "*Respiratory Syncytial Virus, Human/immunology",
+        "Female",
+        "Antibodies, Neutralizing/blood/immunology",
+        "CD8-Positive T-Lymphocytes/immunology",
+        "Humans",
+        "mRNA Vaccines/immunology",
+        "Immunoglobulin G/blood/immunology",
+        "*Viral Fusion Proteins/immunology/genetics",
+        "Mice, Inbred BALB C",
+        "Vaccines, Synthetic/immunology",
+        "RNA, Messenger/immunology/genetics",
+        "Vaccination"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41808349/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41823664",
+      "title": "Efficacy and immunological correlates of an mRNA-LNP vaccine for protection against an emerging rickettsial pathogen.",
+      "authors": [
+        "Lin M",
+        "Denton S",
+        "Duan N",
+        "Iqbal N",
+        "Boyaka PN",
+        "Dwivedi G"
+      ],
+      "journal": "Emerging microbes & infections",
+      "date": "2026 Mar 13",
+      "doi": "10.1080/22221751.2026.2645860",
+      "abstract": "A rickettsial pathogen Ehrlichia chaffeensis causes emerging tick-borne disease called human monocytic ehrlichiosis (HME). E. chaffeensis in ticks expresses a porin OMP-1B, the immunodominant major outer membrane protein, which is required for nutrient uptake across outer membrane of bacteria. We developed an OMP-1B-encoding mRNA-lipid nanoparticle (hereafter OMP-1B mRNA-LNP) vaccine. Immunization of naive mice with OMP-1B mRNA-LNP showed significant protection against E. chaffeensis infection following challenge with E. chaffeensis-infected tick cells. Following vaccination, increased OMP-1B-specific serum IgG, IgG1, and IgG2a titers, and E. chaffeensis infection-neutralizing antibodies were detected. An ELISpot assay revealed significant increase in OMP-1B-specific IFN-gamma-secreting cells in the blood and spleen samples from mice vaccinated with OMP-1B mRNA-LNP. Flow cytometry analysis of spleen samples showed OMP-1B antigen-specific IFN-gamma-producing CD4(+) and CD8(+) T cells and granzyme B-producing cytotoxic CD8(+) T cells were significantly increased in the vaccinated mice. Our results demonstrate that an mRNA vaccine targeting OMP-1B conferred protection against E. chaffeensis infection, with significant humoral immune responses including infection-neutralizing antibodies, balanced Th1/Th2 response, and antigen-specific T helper and cytotoxic T cell activation. These data suggest mRNA-LNP approach is a viable strategy for developing efficient anti-rickettsial vaccines.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41823664/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41819108",
+      "title": "Age-related differences in mRNA vaccine immunogenicity and adjuvancy.",
+      "authors": [
+        "Chinni SS",
+        "Trollope GS",
+        "Leung P",
+        "McQualter JL",
+        "Tan CW",
+        "Wang L"
+      ],
+      "journal": "Immunology and cell biology",
+      "date": "2026 Mar 12",
+      "doi": "10.1111/imcb.70102",
+      "abstract": "Older people mount poorer adaptive immune responses to mRNA vaccines, leaving them more vulnerable to infection with SARS-CoV-2. To design better mRNA vaccines for older people, we need to understand how aging alters mechanisms of adjuvancy that shape immunogenicity. To first define age-related changes in immunogenicity, we vaccinated young (< 5 months old) and aged (> 18 months old) C57BL/6 mice with an mRNA vaccine encoding the SARS-CoV-2 spike protein. T cell responses were markedly reduced in aged mice at peak and memory timepoints, using intracellular cytokine staining or activation-induced marker assays. Spike and receptor-binding domain binding and neutralizing antibody titers were also markedly reduced in aged mice, consistent with deficits seen in older humans. To define age-related changes in adjuvancy mechanisms, we vaccinated young and aged mice with mRNA vaccines loaded with DiD lipid dye or mScarlet mRNA, then tracked dendritic cell (DC) numbers, phenotype, vaccine uptake, antigen expression, and activation, as well as local and systemic cytokine production. DC numbers in the draining lymph nodes (dLN) were dramatically reduced before and early after vaccination in aged compared to young mice, with delayed recruitment of DCs to the dLN. Vaccine uptake was not impacted by age, but the frequency of DCs expressing antigen increased with age and DC activation decreased with age. Aging accelerated the expression of some cytokines (IL-1alpha, IL-6), while delaying others (IFNgamma, MCP-1) in dLNs and sera. This illustrates that aging impairs multiple adjuvancy mechanisms but mRNA vaccine strategies that address these age-related deficits could improve responses in older people.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41819108/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41831693",
+      "title": "Reactive oxygen species in lipid nanoparticle-based nucleic acid delivery: Mechanisms and engineering.",
+      "authors": [
+        "Qiao P",
+        "Yu J",
+        "Li C",
+        "Chen B",
+        "Wang Y"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.jconrel.2026.114820",
+      "abstract": "Reactive oxygen species (ROS) play essential yet double-edged roles in lipid nanoparticles (LNP)-mediated nucleic acids delivery, influencing the entire delivery cascade from formulation and tissue distribution to intracellular trafficking and gene expression. ROS critically regulate lipid stability, nucleic acid integrity, endosomal escape, transfection efficiency, and immune activation. In this review, we summarize the spatiotemporal distribution of ROS across the LNP delivery lifecycle and discuss their mechanistic roles in key processes, including endosomal membrane damage and repair, nucleic acid delivery efficiency, inflammasome activation, and complement system responses. Based on these mechanistic insights, we categorize emerging ROS-based engineering strategies into three classes, including ROS-responsive, ROS-regulatory, and combinatorial approaches. ROS-responsive strategies exploit redox stimuli to trigger controlled cargo release, whereas ROS-regulatory strategies incorporate antioxidant lipids or other functional components to modulate intracellular redox homeostasis and preserve nucleic acid stability. Combinatorial strategies integrate modalities such as photodynamic, photothermal, or chemotherapeutic agents to balance delivery efficiency and biosafety. A comprehensive understanding of ROS-mediated regulation provides a rational framework for the design of next-generation LNPs with satisfactory therapeutically relevant expression efficiency and minimized toxicity.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41831693/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41815890",
+      "title": "Optimizing C14120-based LNPs for in vitro and in vivo mRNA delivery.",
+      "authors": [
+        "Song P",
+        "Su J",
+        "Kristine Vraa CL",
+        "Gockert M",
+        "Fjelstrup S",
+        "Hager H"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2026.102866",
+      "abstract": "Lipid nanoparticles (LNPs) have proven to be an effective delivery system for RNA therapeutics. The chemical composition of LNPs determines their functional delivery efficiency and targeting properties, which vary between in vitro and in vivo contexts. Here, we have systematically characterized and compared 25 novel C14120-based LNP formulations for mRNA delivery in vitro and assessed in vivo mRNA expression and biodistribution using deep sequencing of DNA barcodes in a pooled LNP-mRNA library. In vitro experiments showed correlations of lipid composition with particle size and mRNA transfection efficiency in 4 different cell lines of distinct tissue and species origin. In vivo experiments employed a pooled LNP delivery of luciferase mRNA in combination with a multiplexed barcode system and identified LNP compositions with organ-specific targeting properties. Individual validation of three selected LNP candidates based on mRNA expression analysis confirmed high specificity for the lung-targeting candidate, lower specificity for the liver-targeting candidate, and inconclusive results for the spleen-targeting candidate. These findings identify LNP formulations with promising potential for in vitro and in vivo organ-targeted delivery.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41815890/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41770895",
+      "title": "Unraveling the Role of Ionizable Lipid Isomerism in Modulating Lipid Nanoparticles for mRNA Delivery.",
+      "authors": [
+        "He Z",
+        "Liu Z",
+        "Zuo T",
+        "Gao Z",
+        "Yang H",
+        "Zhang Z"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Mar 11",
+      "doi": "10.1021/jacs.5c20438",
+      "abstract": "Lipid nanoparticles (LNPs) have been demonstrated as effective mRNA delivery systems, with ionizable lipids (ILs) serving as critical determinants of their in vivo delivery efficacy. However, elucidating the structure-activity relationship of ILs remains a formidable challenge, hindering the rational design of next-generation LNPs with improved efficiency and targeting specificity. Here, we present a straightforward and powerful isomerism strategy for the efficient synthesis of 9 isomeric ILs using a four-component Ugi reaction (Ugi-4CR). Molecular dynamics simulations and small-angle neutron scattering investigations revealed that differences in IL isomerism lead to distinct IL-mRNA intermolecular interactions and varied IL distribution patterns within LNPs, ultimately resulting in variations in the apparent pK(a) of LNPs. In vivo evaluation demonstrated that isomeric ILs contribute to different transfection profiles across liver cell types following intravenous administration, enhance muscle-selective mRNA delivery after intramuscular administration, and modulate the delivery efficiency of DOTAP-mediated lung-targeted LNPs. The establishment of IL isomerism not only introduces a new molecular design dimension for IL optimization but also lays the foundation for the rational design of ILs for targeted mRNA delivery, thus expanding the potential applications of mRNA therapeutics.",
+      "mesh_terms": [
+        "*RNA, Messenger/administration & dosage/chemistry/genetics",
+        "*Nanoparticles/chemistry",
+        "Isomerism",
+        "*Lipids/chemistry",
+        "Animals",
+        "Molecular Dynamics Simulation",
+        "Humans",
+        "Mice"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770895/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41832144",
+      "title": "Prefusion-stabilized Hantaan virus glycoprotein nucleic acid vaccine elicits potent neutralizing antibody responses via germinal center activation.",
+      "authors": [
+        "Ye W",
+        "Dang Y",
+        "Wang Y",
+        "Yang Q",
+        "Zhang H",
+        "Ye C"
+      ],
+      "journal": "Nature communications",
+      "date": "2026 Mar 14",
+      "doi": "10.1038/s41467-026-70285-7",
+      "abstract": "Old World orthohantaviruses, including Hantaan virus (HTNV), cause hemorrhagic fever with renal syndrome (HFRS) in Eurasia. Available inactivated vaccines often induce low neutralizing antibodies and short-term protection. We evaluated nucleic acid vaccines expressing a prefusion-stabilized HTNV glycoprotein in female BALB/c mice. Both DNA and mRNA-LNP versions elicited robust neutralizing antibodies by strongly activating germinal centers, which protected mice against high-dose HTNV challenge. We further tested heterologous prime-boost regimens, where mice primed with inactivated vaccine received different boosters. All boosters increased neutralizing titers, but only the prefusion-stabilized glycoprotein mRNA-LNP vaccine raised titers to the level achieved by its own full primary vaccination course. This demonstrates the immunogen's superiority in developing next-generation vaccines and its unique ability to potently recall memory B cells induced by suboptimal inactivated vaccines. Thus, prefusion-stabilized glycoprotein-based nucleic acid vaccines are promising candidates for advanced orthohantavirus vaccine development.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41832144/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41711595",
+      "title": "Lipid Nanoparticles Formulated with a Molecular Hybridization-Derived Ionizable Lipid Enabled OVA-mRNA Delivery for Melanoma Prevention in Mice.",
+      "authors": [
+        "Liu Z",
+        "Jiang Q",
+        "Li H",
+        "Shi Y",
+        "Qian X",
+        "Sun T"
+      ],
+      "journal": "ACS biomaterials science & engineering",
+      "date": "2026 Mar 9",
+      "doi": "10.1021/acsbiomaterials.5c01698",
+      "abstract": "Lipid nanoparticles (LNPs) have emerged as a powerful platform for mRNA vaccine delivery, with ionizable lipids playing a pivotal role in enhancing cellular uptake and endosomal escape, thereby improving therapeutic efficacy. In this study, we designed and synthesized 12 novel ionizable lipids via molecular hybridization, incorporating a hydroxyalkylamine headgroup, an ester linkage, and a cis-double bond tail. These lipids were then formulated into LNPs with helper lipids and eGFP or LUC mRNA. Through cell transfection and in vivo imaging experiments, the O2-N5-OLE LNP was identified with superior mRNA delivery capabilities, particularly in immune cells. Subsequently, it was employed to encapsulate the tumor model antigen ovalbumin (OVA) mRNA vaccine, and its preventive effects against mouse melanoma were evaluated. The results demonstrated that O2-N5-OLE LNP@OVA mRNA exhibits superior tumor suppression. Additionally, the OVA mRNA delivered by O2-N5-OLE LNP significantly elevated serum OVA-IgG and IFN-gamma levels and activated dendritic cells and CD8(+) T lymphocytes, indicating that the vaccine effectively activated both humoral and cellular immunity. Coupled with the excellent biocompatibility of the O2-N5-OLE LNP, these findings highlight its remarkable delivery efficacy and provide a strong experimental foundation for its potential clinical application.",
+      "mesh_terms": [
+        "Animals",
+        "*Ovalbumin/genetics/immunology",
+        "*Nanoparticles/chemistry",
+        "*Lipids/chemistry",
+        "*RNA, Messenger/genetics/administration & dosage/chemistry",
+        "Mice",
+        "Mice, Inbred C57BL",
+        "*Cancer Vaccines/immunology",
+        "*Melanoma/prevention & control/immunology",
+        "Female",
+        "*Melanoma, Experimental/prevention & control/immunology",
+        "Cell Line, Tumor",
+        "Dendritic Cells/immunology",
+        "mRNA Vaccines",
+        "CD8-Positive T-Lymphocytes/immunology",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41711595/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41500407",
+      "title": "An inhalable liquid-core lipid nanoplatform enables macrophage-mediated mRNA delivery to lung tumors.",
+      "authors": [
+        "Liu C",
+        "Zhang Z",
+        "Yuan Y",
+        "Wang H",
+        "Guan J",
+        "Mao S"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.jconrel.2026.114601",
+      "abstract": "Immunotherapeutic failures in non-small cell lung cancer (NSCLC) and other solid tumors are often attributed to tumor-induced T cell dysfunction. However, current treatments frequently fail to initiate a complete cancer-immunity cycle within the immunosuppressive tumor microenvironment (TME). Inspired by intercellular RNA transfer mediated by extracellular vesicles (EVs), we developed an inhalable nanoplatform (p53 mRNA/lipid liquid nanoparticle complex, known as LLX) to \"relay\" delivery of p53 mRNA from tumor-associated macrophages (TAMs) to NSCLC cells, overcoming the challenges posed by passive diffusion and size limitations within the solid TME. After inhalation in a lung orthotopic tumor model, LLX uniformly dispersed throughout the lung airways and markedly boosted LLX-EV production by TAMs. This in vivo strategy of generating endogenous EVs loaded with exogenous mRNA not only induced p53-mediated apoptosis in NSCLC cells but also fundamentally reshaped the TME by directly modulating the TAM phenotype and alleviating T cell exhaustion. Our results show that p53 mRNA/LLX resulted in sustained tumor regression, underscoring its potential to expand the therapeutic scope of gene immunotherapy by effectively tackling key challenges in solid tumor treatment, such as immunosuppression and the limited transfection efficiency of mRNA.",
+      "mesh_terms": [
+        "*Lung Neoplasms/therapy/genetics/pathology",
+        "Animals",
+        "Humans",
+        "*RNA, Messenger/administration & dosage",
+        "*Tumor Suppressor Protein p53/genetics",
+        "*Nanoparticles/administration & dosage/chemistry",
+        "Tumor Microenvironment",
+        "*Carcinoma, Non-Small-Cell Lung/therapy/genetics",
+        "Cell Line, Tumor",
+        "Administration, Inhalation",
+        "Lipids/chemistry",
+        "Extracellular Vesicles/metabolism",
+        "*Tumor-Associated Macrophages/metabolism",
+        "Mice",
+        "Macrophages/metabolism",
+        "Female",
+        "Mice, Inbred C57BL"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41500407/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41833643",
+      "title": "Immunogenicity and efficacy over 12 months following a fourth dose of a bivalent mRNA or protein-based COVID-19 vaccine: A randomised controlled trial in Australia.",
+      "authors": [
+        "Mazarakis N",
+        "Toh ZQ",
+        "Neal E",
+        "Nguyen C",
+        "Bright K",
+        "Luu S"
+      ],
+      "journal": "The Journal of infection",
+      "date": "2026 Mar 13",
+      "doi": "10.1016/j.jinf.2026.106727",
+      "abstract": "OBJECTIVES: We report immunogenicity, safety and efficacy over 12 months following a fourth COVID-19 mRNA or protein vaccine dose. METHODS: Adults aged >18 years were randomised 1:1 to receive a bivalent mRNA vaccine (mRNA-1273.214/mRNA-1273.222, Moderna; n=177) or a protein vaccine (NVX-CoV-2373, Novavax; n=176). A self-selected control group (no fourth dose) were also recruited (n=143). Follow-up occurred at six- and 12-months post-vaccination. Geometric mean concentrations (GMCs) of anti-Spike binding IgG and surrogate neutralising antibodies to Ancestral and Omicron variants (BA.1, BA.4/5 and JN.1), and IFN-gamma concentrations (IGRA) as a proxy for T cell immunity were compared between the study groups. RESULTS: The IgG levels against Ancestral strain were higher in the Moderna group than the Novavax group at six- [Geometric mean ratio (GMR): 1.59, 95% CI: 1.38 to 1.82] and 12-months post-vaccination (GMR: 1.34, 95% CI:1.16 to 1.55), and similarly for Omicron BA.1, BA.4/5 and JN.1 variants (six months: ranged from GMR: 1.62 to 1.66, 95% CI: 1.41 to 1.91; 12 months: ranged from GMR: 1.33 to 1.43, 95% CI: 1.15 to 1.67). Similar results for neutralising antibodies were also observed. However, no differences in IGRA were observed between Moderna and Novavax. The IgG GMCs against Ancestral strain and Omicron variants in both vaccine groups were higher than the control group at both timepoints (six months: ranged from GMR: 1.24 to 2.40; 12 months: ranged from GMR: 1.04 to 1.62). As a post-hoc analysis, 68.1% (94/138) in the control group, had a SARS-CoV-2 infection over the 12-month period, compared with 43.0% (74/172) and 47.0% (77/164) in the Moderna and Novavax group, respectively. CONCLUSIONS: While the bivalent Moderna vaccine induced higher immune responses than the Ancestral Novavax vaccine as a fourth dose, both vaccines appeared to provide comparable protection against SARS-CoV-2 Omicron variants over 12-months.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41833643/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41690309",
+      "title": "Local antibody feedback enforces a checkpoint on affinity maturation in the germinal center and promotes epitope spreading.",
+      "authors": [
+        "Yan Y",
+        "Wang X",
+        "Xie Z",
+        "Bader DLV",
+        "Lim RH",
+        "Ma KM"
+      ],
+      "journal": "Immunity",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.immuni.2026.01.011",
+      "abstract": "Circulating antibodies from previous immune encounters impact subsequent humoral responses. Here, we investigated how local epitope-specific competition shapes ongoing germinal center (GC) responses by delivering an mRNA-LNP-encoded membrane-bound immunogen displaying three conserved HIV-1 envelope (Env) epitopes to mouse models bearing B cell receptors (BCRs) of defined affinities. High-affinity B cells exhibited shorter GC residency than lower-affinity counterparts. B cells engaged GC reactions at equivalent rates in the presence or absence of clonal lineages binding the same epitope with similar affinities; however, higher-affinity clones suppressed lower-affinity counterparts targeting the same epitope. Spatial transcriptomics revealed plasma-like cells within and adjacent to the GC, and early immunoglobulin G (IgG) was detectable in draining lymph nodes. Our findings suggest that a self-modulating local antibody feedback loop limits epitope-specific recognition-dampening selection for higher-affinity B cells and facilitating epitope spreading by redirecting the response toward alternative epitopes.",
+      "mesh_terms": [
+        "*Germinal Center/immunology",
+        "Animals",
+        "Mice",
+        "*B-Lymphocytes/immunology",
+        "*Antibody Affinity/immunology",
+        "Receptors, Antigen, B-Cell/immunology/metabolism",
+        "*HIV-1/immunology",
+        "*Epitopes, B-Lymphocyte/immunology",
+        "Epitopes/immunology",
+        "Mice, Inbred C57BL",
+        "Immunoglobulin G/immunology",
+        "Humans",
+        "HIV Antibodies/immunology",
+        "Feedback, Physiological"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41690309/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41548667",
+      "title": "A new type of lipid nanoparticles with sphingomyelin-induced active lipid raft structures for improved mRNA cellular uptake.",
+      "authors": [
+        "Ling D",
+        "Li N",
+        "Pan X",
+        "Gao W",
+        "Li H",
+        "Tian Q"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.jconrel.2026.114640",
+      "abstract": "Lipid nanoparticles (LNPs) are widely used as carriers for mRNA therapeutics. Although the safety of LNP has been significantly improved with evolvement of biodegradable ionizable lipids, the delivery efficiency still remains as a major challenge limiting the broader application of mRNA in many disease areas. Here we report a new strategy for enhancing mRNA delivery using sphingomyelin (SM) to replace DSPC and leveraging the formation of biologically active lipid raft structures with cholesterol in LNP. As a result, the novel lipid raft nanoparticles (LRNPs) formulated with an ionizable lipid, sphingomyelin (10-20 mol%), cholesterol and DMG-PEG2000 exhibited a novel \"semi-lamellar\" morphology which showed both electron dense and multilayer structure under cryogenic electron microscopy (Cryo-EM). The presence of lipid rafts in LRNPs was further confirmed by small-angle X-ray scattering (SAXS) data. In addition, the LRNPs exhibited significantly enhanced protein expression both in-vitro and in-vivo as compared with LNPs containing 10 mol% of DSPC. Furthermore, this enhanced therapeutic efficacy was observed in protein replacement therapy and prophylactic vaccines after intravenous and intramuscular administration, respectively. We also studied the protein corona on LRNP and found drastically different protein profiles compared to conventional LNPs, which may help to explain the improved delivery efficiency. Finally, we tested this improved delivery with different ionizable lipids such as ALC-0315 and lipid 5 in LRNP and confirmed its broad applicability. In summary, the replacement of DSPC with sphingomyelin in LNP represents an efficient approach to improve mRNA delivery in vivo and may present new opportunities for mRNA therapeutics.",
+      "mesh_terms": [
+        "*Sphingomyelins/chemistry/administration & dosage",
+        "*Nanoparticles/chemistry/administration & dosage",
+        "*RNA, Messenger/administration & dosage",
+        "Animals",
+        "*Membrane Microdomains/metabolism/chemistry",
+        "Humans",
+        "Mice",
+        "Cholesterol/chemistry",
+        "Polyethylene Glycols/chemistry",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41548667/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41813804",
+      "title": "DNA origami vaccine nanoparticles improve humoral and cellular immune responses to infectious diseases.",
+      "authors": [
+        "Zeng YC",
+        "Young OJ",
+        "Xiong Q",
+        "Si L",
+        "Ku MW",
+        "Bernier SG"
+      ],
+      "journal": "Nature biomedical engineering",
+      "date": "2026 Mar 11",
+      "doi": "10.1038/s41551-026-01614-w",
+      "abstract": "Current SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccines have shown robust induction of neutralizing antibodies and CD4(+) T cell activation; however, CD8(+) responses are variable, and the duration of immunity and protection against variants are limited. Here we repurpose our DNA origami vaccine nanotechnology DoriVac to target infectious viruses, namely, SARS-CoV-2, HIV and Ebola. The DNA origami nanoparticle, conjugated with infectious-disease-specific heptad repeat 2 peptides, which act as highly conserved antigens, and CpG adjuvant at precise nanoscale spacing, induces neutralizing antibodies, Th1 CD4(+) T cells and CD8(+) T cells in naive mice, with significant improvement over a bolus control. Pre-clinical studies using lymph-node-on-a-chip systems validate that DoriVac, when conjugated with antigenic peptides or proteins, induces promising cellular and humoral immune responses in human cells. Moreover, DoriVac bearing full-length SARS-CoV-2 spike protein achieves immune responses comparable to current mRNA vaccine platforms while potentially reducing storage constraints. These results suggest that DoriVac holds potential as a versatile, modular vaccine platform, capable of inducing both humoral and cellular immunities, underscoring its potential future use.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41813804/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41811961",
+      "title": "Biodegradable targeted polymeric mRNA nanoparticles enable in vivo CD19 CAR T cell generation and lead to B cell depletion.",
+      "authors": [
+        "Jain M",
+        "Est-Witte SE",
+        "Shannon SR",
+        "Neshat SY",
+        "Yu X",
+        "Dunham S"
+      ],
+      "journal": "Science advances",
+      "date": "2026 Mar 13",
+      "doi": "10.1126/sciadv.adz1722",
+      "abstract": "While chimeric antigen receptor (CAR) T cell therapies have demonstrated therapeutic efficacy against B cell malignancies, widespread implementation of these therapies is hindered by a cumbersome, ex vivo manufacturing process. Delivery of CAR-encoding messenger RNA (mRNA) to endogenous T cells can generate these therapeutic cells in vivo and streamline this manufacturing workflow. To accomplish this, T cell-activating ligands were conjugated to a biodegradable polymeric mRNA nanoparticle to form T cell-targeted particles. By conjugating multiple activating ligands, T cell transfection and stimulation in vitro was increased, and greater T cell transfection and selectivity in vivo was achieved compared to an untargeted particle. These nanoparticles can flexibly encapsulate mRNA cargos and were used to deliver anti-CD19 CAR mRNA in vivo, enabling depletion of 95% of B cells in the peripheral blood and 50% depletion of splenic B cells in healthy mice. These findings regarding nanoparticle tropism and their potential therapeutic efficacy highlight the importance of this nonviral, polymeric platform to address key limitations associated with current CAR T practices.",
+      "mesh_terms": [
+        "Animals",
+        "*Nanoparticles/chemistry",
+        "*B-Lymphocytes/immunology/metabolism/cytology",
+        "*Antigens, CD19/immunology/genetics/metabolism",
+        "Mice",
+        "*T-Lymphocytes/immunology/metabolism",
+        "*RNA, Messenger/genetics/chemistry",
+        "Humans",
+        "*Polymers/chemistry",
+        "*Receptors, Chimeric Antigen/genetics/immunology/metabolism",
+        "*Immunotherapy, Adoptive/methods",
+        "*Lymphocyte Depletion"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41811961/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41583553",
+      "title": "Enhanced neuronal transfection in the injured brain following systemic delivery of peptide-targeted lipid nanoparticles.",
+      "authors": [
+        "Wu JR",
+        "Hernandez Y",
+        "Canjels A",
+        "Bailey KL",
+        "Kwon EJ"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102817",
+      "abstract": "The consequence of traumatic brain injury (TBI) is significant loss of nervous tissue that leads to long-term neurological deficits. Nucleic acid payloads offer potential treatments that can address the complex pathophysiology that unfolds after injury. TBI causes a transient disruption of the blood-brain barrier, allowing access of systemically administered nanoparticles to the affected nervous tissue. In this work, we evaluated the dosing window post-injury in which lipid nanoparticles (LNPs) carrying mRNA can access and transfect the injured brain after systemic administration and identified 24 h post-injury as a delivery time that achieves both LNP access and transfection activity. We observed that transfected cell types were majorly astrocytes and endothelial cells with no appreciable transfection of neurons. To increase neuronal transfection, we functionalized LNPs with the peptide RVG and were able to increase the proportion of neurons transfected 6.4-fold over untargeted LNPs. These results identify timelines in which LNPs can access the injured brain parenchyma to mediate gene expression and strategies to achieve neuron-specific gene delivery.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41583553/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41458876",
+      "title": "Myomerger-derived peptide enhances skeletal muscle tropism and reduces liver transduction of lipid nanoparticles for gene delivery.",
+      "authors": [
+        "Ji J",
+        "Lipkow E",
+        "Anton N",
+        "Crucifix C",
+        "Eberling P",
+        "Laporte J"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102785",
+      "abstract": "Lipid nanoparticles (LNPs) are emerging as nonviral vectors for gene therapy; yet, their strong liver tropism and lack of tissue specificity remain limiting. Here, we developed, through rational design, a skeletal muscle-targeted delivery platform by functionalizing LNPs with MyomP1, an extracellular conserved peptide derived from the muscle-specific fusogenic protein Myomerger. MyomP1-LNPs were engineered to encapsulate plasmid DNA or mRNA. In vitro, MyomP1 conjugation significantly increased transduction efficiency in murine and human myoblasts and myotubes. In vivo, MyomP1-LNPs significantly enhanced muscle transduction when delivering DNA cargo, strongly reduced liver accumulation following intramuscular and intravenous mRNA delivery, and attenuated local immune activation. This work demonstrates a ligand-guided strategy to overcome organ-specific barriers in nonviral gene transfer, with improved safety and specificity. It suggests that MyomP1-engineered LNPs hold strong potential to improve therapeutic outcomes for patients with rare muscle diseases, offering a promising alternative to traditional viral gene therapy platforms.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41458876/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41826940",
+      "title": "Self-amplifying RNA therapy encoding CNTF with disulfiram co-delivery promotes optic nerve repair through microglial pyroptosis inhibition and RGC axonal regeneration.",
+      "authors": [
+        "Zhang Q",
+        "Liu Y",
+        "Wei Q",
+        "Song M",
+        "Liu S",
+        "Zhang H"
+      ],
+      "journal": "Journal of nanobiotechnology",
+      "date": "2026 Mar 13",
+      "doi": "10.1186/s12951-026-04272-x",
+      "abstract": "BACKGROUND: Traumatic optic neuropathy (TON) is a devastating cause of irreversible vision loss for which no effective treatment currently exists. Its poor prognosis stems from two major challenges: the limited regenerative capacity of retinal ganglion cells (RGCs) and the hostile, inflammation-driven environment that follows injury. RESULTS: In this work, using transcriptomic bioinformatic and histopathological analysis, we discovered that mechanical trauma and subsequent neuroinflammation trigger microglial pyroptosis through the NLRP3/CASP1/GSDMD pathway. This process amplifies inflammatory cascades and exacerbates RGC degeneration via microglia-neuron interactions. To overcome these dual barriers, we engineered a microglia-targeted lipid nanoparticle (LNP) platform co-delivering disulfiram (DSF), a selective GSDMD inhibitor, together with self-amplifying mRNA (saRNA) encoding ciliary neurotrophic factor (CNTF). We found that this combinatorial strategy concurrently suppresses pyroptosis-driven neuroinflammation while providing sustained neurotrophic support. Through comprehensive in vitro and in vivo evaluations, the co-delivery system showed enhanced RGC survival, remarkable axonal regeneration, and eventually significant restoration of visual function. CONCLUSIONS: In summary, our results demonstrate that a coordinated strategy targeting both neuroinflammatory mechanisms and regenerative pathways yields superior therapeutic outcomes in TON. This work underscores the potential of integrated RNA-small molecule therapies as a promising multi-target treatment paradigm, with broad applicability for other neuroinflammatory and neurodegenerative diseases.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41826940/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41412557",
+      "title": "In vitro expression and seroreactivity of Toxoplasma gondii GRA1 protein encoded by unmodified and nucleoside-modified mRNA constructs.",
+      "authors": [
+        "Sahinci MN",
+        "Doskaya M",
+        "Karakavuk M",
+        "Kaplan S",
+        "Mutlu G",
+        "Percin TG"
+      ],
+      "journal": "Gene",
+      "date": "2026 Mar 10",
+      "doi": "10.1016/j.gene.2025.149965",
+      "abstract": "Toxoplasmosis is an infectious parasitic disease caused by Toxoplasma gondii, with a global seroprevalence estimated to affect more than one-third of the human population. T. gondii can be a serious health concern for pregnant women and immunocompromised patients. Currently, there is no effective and safe vaccine for humans. However, mRNA technology is a promising platform to develop efficient and safe vaccines against toxoplasmosis. Therefore, we designed nucleoside-modified and unmodified mRNA vaccine transcripts expressing T. gondii recombinant GRA1 protein and analyzed their in vitro protein expression profile as well as potential immunogenicity using IFAT, Western blot, and ELISA. Moreover, to compare translational efficiency, poly-A tail was extended with an extra  approximately 150 bp in addition to the existing  approximately 120 bp poly-A tail in two distinct mRNA designs. The results showed that all four mRNA constructs expressed rGRA1 protein in HEK293T cells. However, mRNA constructs with extended poly-A tails exhibited reduced expression level of rGRA1 protein compared to other mRNA vaccine transcripts. Additionally, unmodified mRNA construct with or without extended poly-A tail yielded significantly higher protein expression compared to nucleoside-modified mRNA constructs through ELISA using anti-polyhis antibody (P<0.05). Western blot showed that rGRA1 protein expressed by all four mRNA constructs reacted strongly with T. gondii IgG seropositive mice sera. Furthermore, ELISA revealed that rGRA1 proteins derived from unmodified and nucleoside-modified mRNA constructs formed significantly stronger immune complexes with T. gondii IgG antibodies compared to negative controls (P<0.05). These data suggest that both unmodified and nucleosidemodified mRNA constructs expressing rGRA1 protein have potential as vaccine candidates and warrant further investigation for development of an mRNA-based vaccine against toxoplasmosis. However, encapsulation of the produced mRNA constructs in LNPs and in vivo studies are required to validate these preliminary results.",
+      "mesh_terms": [
+        "*Protozoan Proteins/genetics/immunology",
+        "*Toxoplasma/immunology/genetics",
+        "Humans",
+        "*RNA, Messenger/genetics/immunology/chemistry",
+        "*Antigens, Protozoan/genetics/immunology",
+        "HEK293 Cells",
+        "Animals",
+        "Mice",
+        "Toxoplasmosis/prevention & control/immunology",
+        "*Protozoan Vaccines/immunology/genetics",
+        "Female",
+        "Nucleosides/chemistry",
+        "Antibodies, Protozoan/immunology/blood",
+        "Recombinant Proteins/immunology/genetics",
+        "Mice, Inbred BALB C"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41412557/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41739179",
+      "title": "Hydrophobic Refinement of Polarity-Switchable Lipo-Xenopeptides Modulates Endosomal Escape and Enhances mRNA Delivery In Vitro and In Vivo.",
+      "authors": [
+        "Burghardt T",
+        "Thalmayr S",
+        "Obeser L",
+        "Pohmerer J",
+        "Yazdi M",
+        "Hohn M"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Mar 11",
+      "doi": "10.1021/jacs.5c19141",
+      "abstract": "Double pH-responsive lipo-xenopeptides combine polar oligoamino acids (OAAs) such as succinoyl tetraethylene pentamine (Stp) with apolar lipoamino fatty acid (LAF) domains. The resulting potent mRNA carriers undergo a profound shift in their polarity upon endosomal protonation. In the current chemical evolution approach, three top-performing xenopeptides based on a U-shaped (LAF(2)Stp(1), LAF(4)Stp(2)) or bundle (LAF(4)Stp(1)) topology were modified by replacing Stp with a variety of hydrophobized OAAs. Octanol/water distribution (log D) was determined by a novel label-free mass spectrometry-based method. At neutral pH, the new xenopeptide analogues displayed an up to 85-fold higher hydrophobicity (log D(7.4) > 2) than Stp-based carriers, with a sharp pH-responsive decrease at endosomal pH (log D(5.5) -1). Transfection efficacies were influenced by the amine count of the OAAs, with tetraethylene pentamine outperforming the OAAs with fewer amines. For both topologies, a strong correlation between mRNA expression and endosomal escape, as quantified by calcein release, was found. For U-shaped carriers (LAF/OAA = 2:1), lipophilic OAAs improved endosomal escape and mRNA transfection efficiency. In contrast, for bundle carriers (LAF/OAA = 4:1), lipophilic OAA incorporation did not further enhance endosomal escape or transfection. Mechanistic studies revealed that LAF-xenopeptide polyplexes can adopt both endosomal pH-dependent and pH-independent cytosolic entry mechanisms, with hydrophobization accelerating expression kinetics and enhancing pH-independent entry. Optimized U-shaped xenopeptides were identified with improved mRNA transfection in tumor cells, a dendritic cell line, and low-passage human colon carcinoma cells. In vivo, enhanced mRNA expression was found upon either intramuscular or intravenous administration in several organs and tumor tissue.",
+      "mesh_terms": [
+        "Hydrophobic and Hydrophilic Interactions",
+        "*Endosomes/metabolism",
+        "*RNA, Messenger/genetics/administration & dosage/metabolism/chemistry",
+        "Humans",
+        "Animals",
+        "Hydrogen-Ion Concentration",
+        "Mice",
+        "*Peptides/chemistry"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739179/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41811986",
+      "title": "Amino acid supplementation enhances in vivo efficacy of lipid nanoparticle-mediated mRNA delivery in preclinical models.",
+      "authors": [
+        "Chen K",
+        "Wang W",
+        "Lennon A",
+        "McClure RA",
+        "Vuchkovska A",
+        "Kelley SO"
+      ],
+      "journal": "Science translational medicine",
+      "date": "2026 Mar 11",
+      "doi": "10.1126/scitranslmed.adx4097",
+      "abstract": "Lipid nanoparticles (LNPs) play a critical role in the delivery of therapeutic messenger RNA (mRNA). Despite extensive efforts to optimize lipid formulations for in vivo delivery, efficacy of mRNA by LNPs remains suboptimal in many organs. Here, we demonstrate that LNP delivery efficacy is influenced by cellular metabolism, with the physiologic metabolome imposing constraints on mRNA expression from LNPs. Using an in vitro system, we found that simulated physiologic metabolic conditions led to the down-regulation of certain amino acid metabolic programs. Supplementation with an optimized formulation of methionine, arginine, and serine as an amino acid supplement (AAS) enhanced the uptake of LNPs and the expression of delivered mRNA cargo in epithelial cells in vitro. Coadministration of AAS with LNPs led to a 5- to 20-fold improvement in mRNA expression across various cell types and lipid formulations in vitro by promoting clathrin-independent carrier-mediated endocytosis. Delivery of mRNA by LNPs coadministered with AAS by multiple routes enhanced in vivo mRNA expression in preclinical models. Delivery of mRNA encoding growth hormone by LNPs with coadministration of AAS improved the liver growth hormone expression and the therapeutic outcomes in a model of inflammatory liver damage. Delivery of gene editing materials by LNP and AAS through an intratracheal route increased lung-targeted in vivo gene editing efficiency compared with LNP alone. The addition of an optimized AAS as a codelivered agent with LNPs may provide a simple strategy to broadly improve the efficacy of mRNA-based cell and gene therapies.",
+      "mesh_terms": [
+        "Animals",
+        "*Nanoparticles/chemistry",
+        "*RNA, Messenger/metabolism/administration & dosage/genetics",
+        "*Amino Acids/pharmacology",
+        "Humans",
+        "*Lipids/chemistry",
+        "Mice",
+        "*Dietary Supplements",
+        "Liver/metabolism/pathology/drug effects",
+        "Endocytosis/drug effects",
+        "Male",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41811986/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41830302",
+      "title": "Poking Pluripotency: Nanoinjection Into Human iPSCs.",
+      "authors": [
+        "Harberts J",
+        "Ho VTTX",
+        "Yang Y",
+        "Jiang Y",
+        "Elnathan R",
+        "Voelcker NH"
+      ],
+      "journal": "Advanced materials (Deerfield Beach, Fla.)",
+      "date": "2026 Mar 14",
+      "doi": "10.1002/adma.202521046",
+      "abstract": "Human induced pluripotent stem cells (hiPSCs) play an essential role in regenerative medicine and disease modeling, yet their utility critically depends on the efficient and safe delivery of exogenous genetic material. Conventional viral and electroporation-based methods continue to present limitations, notably biosafety and regulatory barriers, suboptimal transfection precision, and substantial post-transfection cytotoxicity. Here, for the first time, nanotube (NT)-mediated nanoinjection is introduced as an effective non-viral strategy for functional messenger RNA (mRNA) delivery into hiPSCs. To enable nanoinjection into hiPSCs, the work implements delayed extracellular matrix (ECM) application and advanced surface engineering, combined with a re-engineered NT design featuring large cargo reservoirs to increase loading capacity and sharp rim geometries for improved cell interfacing. Effective nanoinjection into hiPSCs, while maintaining their pluripotent profile, is demonstrated using mCherry, GFP, and YPet mRNA (average transfection yields:  approximately 55% to  approximately 64%), including co-transfection of mCherry and GFP mRNA ( approximately 61%). Post-nanoinjection hiPSC integrity is confirmed over several passages by excellent pluripotency marker expression (NANOG, OCT4, SOX2) and neuronal differentiation capacity. This proof-of-concept study demonstrates that nanoinjection is a powerful tool for delivering mRNA to hiPSCs with high expression yields and establishes nanoinjection as an enabling platform for precise cellular engineering and functional stem-cell applications.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41830302/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41814652",
+      "title": "SORT LNPs encapsulating Cas9 mRNA achieve efficient editing in skeletal muscle in a dystrophic mouse model.",
+      "authors": [
+        "Iyer S",
+        "Daman K",
+        "Sun Y",
+        "Tutto A",
+        "Holbrook SE",
+        "Joynt AT"
+      ],
+      "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+      "date": "2026 Mar 11",
+      "doi": "10.1016/j.ymthe.2026.03.010",
+      "abstract": "Limb Girdle Muscular Dystrophy (LGMD) is the fourth most common type of muscular dystrophy. Gene editing holds promise for treating neuromuscular disorders such as LGMD, but clinical translation remains challenging due to lack of complementary delivery tools for skeletal muscle. Lipid nanoparticles (LNPs) offer a promising platform for transient delivery of gene editing reagents as mRNA or ribonucleoprotein complexes (RNPs) to skeletal muscle but editing efficiencies remain modest. While lipid compositions have been optimized to improve delivery to muscle, the impact of cargo type on editing efficiency, biodistribution and immune response has not been evaluated. Here we demonstrate that selective organ targeting (SORT) LNPs encapsulating optimized Cas9 cargo facilitate efficient, local delivery to skeletal muscle. Using a LGMDR7 mouse model harboring a mutation in TCAP as a proof-of-concept target, we show that LNP cargo type impacts LNP size, delivery to neighboring muscle groups and editing efficiency. RNP and mRNA LNPs also provoked distinct innate and adaptive immune responses upon repeated dosing. The optimized SORT LNP platform resulted in 40% restoration of Telethonin expression in treated muscle. Overall, these findings offer valuable insights for the continued development of LNP-based gene editing reagents to facilitate disease-modifying interventions for neuromuscular diseases.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41814652/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41825439",
+      "title": "CircRNA-encoded RIPK1-98 protein drives lung adenocarcinoma progression.",
+      "authors": [
+        "Sun Q",
+        "Chi R",
+        "Zhang X",
+        "Chen T",
+        "Xu X",
+        "Ma L"
+      ],
+      "journal": "Developmental cell",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.devcel.2026.02.014",
+      "abstract": "Unexplored biological matter-including uncharacterized genetic elements, molecular entities, and microbial components-remains poorly understood. Here, we use integrated multi-omics approaches to identify and characterize previously unrecognized protein products encoded by circular RNAs (circRNAs) in human tissue specimens and to delineate their roles in the progression of lung adenocarcinoma (LUAD). The transcription of precursor mRNA by RNA polymerase Ⅱ subunit A (RPB1) is crucial for the biogenesis of these potential circRNA-encoded proteins. Functional and translational analyses link their expression to distinct pathological stages of LUAD in patients. The protein RIPK1-98, encoded by circRIPK1, was identified as functionally distinct from its parental gene product, receptor-interacting serine/threonine kinase 1 (RIPK1). RIPK1-98 modulates cyclin-dependent kinase 2 (CDK2)-dependent cell-cycle regulation, thereby facilitating tumor proliferation in cellular and animal models. Together, these findings suggest that RIPK1-98 serves as a biomarker for cell-cycle progression in LUAD and highlight its potential as a therapeutic target to counteract resistance to first-line treatments, such as osimertinib.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41825439/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41583555",
+      "title": "Therapeutic potential of ISG20 in attenuating podocyte injury via inhibition of ferroptosis.",
+      "authors": [
+        "Zhou D",
+        "Chen X",
+        "Jia M",
+        "Liu X",
+        "Huang L",
+        "Xie Y"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102818",
+      "abstract": "Ferroptosis, an iron-dependent form of cell death characterized by lipid peroxidation, has been recognized as a critical mechanism contributing to podocyte injury in diabetic kidney disease (DKD). Although interferon-stimulated gene 20 (ISG20) has been identified as a novel regulator of RNA oxidation stress in acute kidney disease, its specific role and mechanism in DKD remain to be elucidated. In this study, we investigated the role of ISG20 in ferroptosis and its potential as a therapeutic target in DKD. We found that ISG20-deficient mice exhibited excessive iron accumulation, increased lipid peroxidation, and markedly higher proteinuria compared to wild-type mice. Nevertheless, the administration of a ferroptosis inhibitor, ferrostatin-1(Fer-1), mitigated kidney injury. Consistent results were observed in vitro, where the detrimental effects of ISG20 gene silencing could be mitigated by Fer-1 treatment in mouse podocytes under high glucose (HG) conditions. To further investigate the protective effects of ISG20, we administered two distinct vectors into diabetic mice: an adenovirus vector overexpressing ISG20 and a novel mRNA-loaded lipid nanoparticle (LNP) therapeutic vector expressing ISG20 mRNA. Both approaches effectively mitigated podocyte ferroptosis, alleviated podocyte injury, and reduced proteinuria in DKD. Similar results were also found in mice with adriamycin-induced nephropathy. Overall, this study establishes that ISG20 safeguards podocyte viability by suppressing ferroptosis, which extends ISG20's biological role. These findings suggest that ISG20 may be a potential therapeutic strategy for treating patients with proteinuric kidney disease.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41583555/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41570728",
+      "title": "Discovery of potent and orally bioavailable benzothiazole-benzenesulfonamide derivatives as ABCA1 upregulators for the management of dyslipidemia.",
+      "authors": [
+        "Li W",
+        "Lei L",
+        "Zhang G",
+        "Zhang Y",
+        "Wang Y",
+        "Wu Y"
+      ],
+      "journal": "European journal of medicinal chemistry",
+      "date": "2026 Mar 15",
+      "doi": "10.1016/j.ejmech.2026.118582",
+      "abstract": "ATP-binding cassette transporter A1 (ABCA1), a key regulator of cholesterol efflux and reverse cholesterol transport, represents a promising therapeutic target for atherosclerosis. However, small-molecule ABCA1 upregulators combining high potency and drug-like properties remain scarce. Through rational structure optimization, we designed and synthesized a series of novel benzothiazole-benzenesulfonamide derivatives. These compounds were systematically evaluated by ABCA1 upregulating activity test, followed by mRNA and protein expression analysis of ABCA1, murine macrophages cholesterol efflux experiments, safety assessment, and in vivo efficacy studies in hyperlipidemic golden hamsters and pharmacokinetic (PK) profiling in ICR mice. Several derivatives, particularly compound 85 demonstrated unprecedented ABCA1 upregulating activity (up to 578 %, EC(50) = 0.15 muM). Compounds 25, 56, 68, 85 and 87 significantly induced ABCA1 expression at both mRNA and protein levels, promoted cholesterol efflux in RAW264.7 macrophage cells, and exhibited favorable safety profiles in acute toxicity tests. In hyperlipidemic golden hamsters, these compounds markedly improved plasma lipid profiles-notably increasing HDL-C levels by up to 44 % while effectively reducing TC and TG. Importantly, 85 and 87 displayed exceptional PK properties with oral bioavailability >90 % and systemic exposure significantly superior to conventional lipid-lowering drugs.",
+      "mesh_terms": [
+        "Animals",
+        "*ATP Binding Cassette Transporter 1/metabolism/genetics",
+        "Mice",
+        "*Sulfonamides/chemistry/pharmacology/administration & dosage",
+        "Cricetinae",
+        "Administration, Oral",
+        "*Benzothiazoles/chemistry/pharmacology/administration & dosage",
+        "*Dyslipidemias/drug therapy/metabolism",
+        "Structure-Activity Relationship",
+        "Molecular Structure",
+        "*Drug Discovery",
+        "Biological Availability",
+        "Mice, Inbred ICR",
+        "RAW 264.7 Cells",
+        "Male",
+        "Dose-Response Relationship, Drug",
+        "Up-Regulation/drug effects",
+        "Humans",
+        "Mesocricetus",
+        "Benzenesulfonamides"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41570728/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41817653",
+      "title": "Combination of adenovirus vector and subunit protein elicits a robust immune response against the SARS-CoV-2 Omicron variant.",
+      "authors": [
+        "Ye C",
+        "Huang X",
+        "Hong W",
+        "Shi J",
+        "Ao D",
+        "Zhang Y"
+      ],
+      "journal": "Molecular biomedicine",
+      "date": "2026 Mar 12",
+      "doi": "10.1186/s43556-026-00410-x",
+      "abstract": "The rapid and ongoing emergence of SARS-CoV-2 variants has progressively reduced the protection offered by current vaccines, underscoring the urgent need for novel vaccine strategies. In this study, we designed a two-component vaccine in which one component is an adenoviral vector encoding the Omicron XBB.1.5 spike protein (Ad5(XBB.1.5)), and the other component is a self-assembling trimeric receptor-binding domain protein (RBD(XBB.1.5)-HR or RBD(JN.1)-HR). This platform integrates the complementary advantages of subunit protein and adenoviral vector vaccines, elicits robust humoral and cellular immunity in mice after intramuscular administration. Durable IgG responses induced by this two-component vaccine were maintained for over six months post-immunization in mice, attributed to their ability to generate memory B cells and long-lived plasma cells responses. Furthermore, in a heterologous booster setting following mRNA (mRNA(BA.4) and mRNA(XBB.1.5)) priming, the two-component vaccine can be severed as a boost shot to rescue the neutralization against emerging variants, such as JN.1. These findings indicate that the two-component vaccine system can act effectively on its own and also serve as a heterologous booster that enhances protection against antigenically evolved variants. Furthermore, the modularity of this platform suggests broad applicability for rapid adaptation to future SARS-CoV-2 strains and for vaccine development against other fast-evolving respiratory viruses. Collectively, this study provides a generalizable framework for next-generation COVID-19 vaccine design and supports the translational relevance of two-component vaccines in the context of continual viral diversification.",
+      "mesh_terms": [
+        "Animals",
+        "*SARS-CoV-2/immunology/genetics",
+        "*Spike Glycoprotein, Coronavirus/immunology/genetics",
+        "Mice",
+        "*COVID-19 Vaccines/immunology/genetics/administration & dosage",
+        "*COVID-19/immunology/prevention & control/virology",
+        "*Adenoviridae/genetics",
+        "*Genetic Vectors/genetics/immunology",
+        "Antibodies, Viral/immunology/blood",
+        "Female",
+        "Humans",
+        "Antibodies, Neutralizing/immunology",
+        "Mice, Inbred BALB C",
+        "Immunity, Cellular",
+        "Immunization, Secondary",
+        "Vaccines, Subunit/immunology",
+        "Immunity, Humoral",
+        "Immunoglobulin G/immunology"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817653/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41826253",
+      "title": "A Novel Immune-Modulating Nanodrug Enhances Liver-Targeted mRNA Delivery.",
+      "authors": [
+        "Luo D",
+        "Guo D",
+        "Luo M",
+        "Li Y",
+        "Luo J",
+        "Lu H"
+      ],
+      "journal": "Molecular pharmaceutics",
+      "date": "2026 Mar 13",
+      "doi": "10.1021/acs.molpharmaceut.5c01715",
+      "abstract": "Liver-specific delivery of mRNAs encoding key regulatory genes via lipid nanoparticles (LNPs) is promising to restore liver homeostasis and resume liver functions in inflammatory liver diseases. However, inflammation downregulates the global mRNA expression in general as a self-defensive mechanism, e.g., to block viral protein expression, which also reduces the efficiency of therapeutic mRNA delivered to hepatocytes. In addition, ionizable LNPs are immunogenic, which exacerbates inflammation. In this project, we applied a novel immune-modulating telodendrimer (TD) nanodrug (ND) to inhibit inflammation and improve specific mRNA delivery. We tested TD ND in both mouse and human immune cells, liver cell lines, and primary human hepatocytes (PHH) to inhibit endotoxin-induced inflammation. TD ND was able to inhibit both endogenous and LPS-induced inflammation in liver cells, which improved cell proliferation in culture and also significantly enhanced the efficiency of mRNA/LNP delivery both in vitro in human monocytes and PHH. Finally, we demonstrated that TD ND is superior to steroid drugs in inhibiting endotoxin-induced inflammation and sustaining liver function in mice, thereby rebooting the efficacy of liver-targeted LNP mRNA delivery and expression. These findings highlight the potential of TD ND as an effective adjuvant therapy to enhance mRNA delivery for inflammatory disease treatments.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41826253/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41820674",
+      "title": "A structure-based mRNA vaccine for Nipah virus in healthy adults: a phase 1 trial.",
+      "authors": [
+        "Ploquin A",
+        "Mason RD",
+        "Holman LA",
+        "Happe M",
+        "Widge AT",
+        "Novik L"
+      ],
+      "journal": "Nature medicine",
+      "date": "2026 Mar 12",
+      "doi": "10.1038/s41591-026-04265-1",
+      "abstract": "Nipah virus (NiV) is a highly pathogenic, zoonotic paramyxovirus with pandemic potential. No licensed vaccines or treatments are available. Therefore, we conducted a phase 1, first-in-human, open-label, dose-escalation trial of a lipid nanoparticle mRNA vaccine, mRNA-1215, encoding a chimeric pre-fusion F (Pre-F) protein linked to glycoprotein G of a NiV Malaysian strain. Forty healthy adults, who met eligibility criteria, were enrolled into the 10-, 25-, 50- or 100-mug dose groups with ten participants per group. Each participant received two doses of mRNA-1215, intramuscularly, at a 4-week interval except for one participant in the 10-mug dose group who received only the first dose. All participants remained in the study until their final study visit. The primary outcome of vaccine safety and tolerability was determined by prespecified end points: the frequency and severity of solicited local and systemic adverse events (AEs), unsolicited AEs, safety laboratory measures, medically attended AEs, AEs of special interest, new chronic medical conditions and serious AEs. The most frequently reported local and systemic AEs were mild pain and tenderness at the injection site (n  = 33; 82%) and mild malaise (n  = 16; 40%), respectively. Overall, the vaccine was well tolerated. No serious AEs occurred during the study. mRNA-1215 elicited robust Pre-F and G binding antibody titers, the prespecified secondary end points. An exploratory analysis found that mRNA-1215 elicited neutralizing titers by 2 weeks after the prime in all dose groups. Responses increased after the boost and remained elevated for at least 1 year after vaccination. These findings demonstrate an initial overall favorable safety profile and immunogenicity results for a first-in-human, structure-based, chimeric mRNA Nipah virus vaccine. mRNA-1215 is a promising vaccine candidate for continued clinical development for populations at risk for regional and potentially larger outbreaks caused by Nipah virus. ClinicalTrials.gov identifier: NCT05398796 .",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41820674/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41696512",
+      "title": "Multigenic single-chain mRNA vaccine provides full protection against Dabie bandavirus infection.",
+      "authors": [
+        "Costa da Silva GH",
+        "Carvalho Costa PA",
+        "Pires Goulart Guimaraes P"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2026.102841",
+      "abstract": "",
+      "mesh_terms": [],
+      "pub_types": [
+        "News"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41696512/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41583552",
+      "title": "A symphony of immunity: How HPV mRNA-LNP vaccination orchestrates systemic anti-tumor responses.",
+      "authors": [
+        "Elia U",
+        "Peer D"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102823",
+      "abstract": "",
+      "mesh_terms": [],
+      "pub_types": [
+        "News"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41583552/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41824787",
+      "title": "Amelioration of Vascular Hyperpermeability Mediated by Targeted LNP Delivery of VE-Cadherin mRNA In Vivo.",
+      "authors": [
+        "Leo L",
+        "Papp TE",
+        "Chen CC",
+        "Pham J",
+        "Jeong S",
+        "Halilovic F"
+      ],
+      "journal": "Blood advances",
+      "date": "2026 Mar 13",
+      "doi": "10.1182/bloodadvances.2025017949",
+      "abstract": "Blood vessel hyperpermeability underlies a wide spectrum of potentially fatal diseases ranging from acute pulmonary edema to brain injuries such as ischemic stroke. Yet, effective strategies for rapid rehabilitation of the vascular endothelium to restore vascular homeostasis remain lacking. Here we developed an mRNA therapeutic encoding the vascular membrane structural protein VE-Cadherin (VEc), delivered via an anti-CD31 targeted lipid nanoparticle (aCD31/tLNP-VEc) directly to CD31+ vascular endothelial cells, for the quick restoration of vascular integrity. We showed that administration of a single dose of aCD31/tLNP-VEc significantly ameliorates pathological onsets in multiple mouse models of vascular hyperpermeability. In a bleomycin-induced lung edema model, we found aCD31/tLNP-VEc treatment significantly reduced fluid extravasation and decreased macrophage infiltrations. In a transient middle cerebral artery occlusion (tMCAO)-induced ischemic stroke model, aCD31/tLNP-VEc delivered post-injury diminished plasma protein leakage from brain edema by 50%. Targeted LNP-mediated delivery of VEc mRNA to the vascular network presents a promising platform for treating clinically relevant conditions involving vascular disruption.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41824787/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41552384",
+      "title": "Poly(A) variants supporting robust transmission stability in bacteria and high protein expression in animals for mRNA in vitro transcription.",
+      "authors": [
+        "Chen H",
+        "Qin W",
+        "Bao H",
+        "Chen X",
+        "Ye X",
+        "Wang Y"
+      ],
+      "journal": "Molecular therapy. Nucleic acids",
+      "date": "2026 Mar 12",
+      "doi": "10.1016/j.omtn.2025.102809",
+      "abstract": "Poly(A) tail is crucial in regulating mRNA stability and protein translation. Thus, it is an essential element of mRNAs transcribed in vitro for mRNA medicines. However, the repetitive nature of the poly(A) tail can lead to significant poly(A) length variation and compromise the quality of the mRNA drug substance. Previous studies improved poly(A) transmission stability by inserting a non-adenosine spacer. Here, we designed new segmented poly(A) variants and evaluated their transmission stability in bacteria transformation and their ability in supporting protein expression in animals. We identified specific variants with multiple non-adenosine insertions that can maintain high transmission stability with robustness in Escherichia coli and facilitate high protein expression in animals. Among the newly designed poly(A) variants, RG2 showed high and consistent transmission stability comparable to the A30-70 variant that is the industry gold standard but higher protein expression in animals than A30-70. We also isolate new factors that can influence the stable transmission of poly(A), such as poly(A) surrounding sequences and bacteria culture temperature. Thus, our work offers new tools valuable for rapidly developing mRNA vaccines and therapeutics.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "RNA Biology & Design",
+        "Manufacturing & Analytics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41552384/"
+    },
+    {
+      "source": "biorxiv",
+      "pmid": null,
+      "title": "Bivalent mRNA booster encoding virus-like particles elicits potent polyclass receptor-binding domain antibodies in pre-vaccinated mice",
+      "authors": [
+        "Fan, C.",
+        "Cohen, A. A.",
+        "Dam, K.-M. A.",
+        "Rorick, A. V.",
+        "Priso Fils, A.-C. I.",
+        "Yang, Z."
+      ],
+      "journal": "biorxiv (Preprint)",
+      "date": "2026-03-12",
+      "doi": "10.1101/2025.08.18.670983",
+      "abstract": "mRNA vaccines emerged as a leading vaccine technology during the COVID-19 pandemic. However, their sustained protective efficacies were limited by relatively short-lived antibody responses and the emergence of SARS-CoV-2 variants, necessitating frequent and variant-updated boosters. We recently developed the ESCRT- and ALIX-binding region (EABR) mRNA vaccine platform, which encodes engineered immunogens that induce budding of enveloped virus-like particles (eVLPs) from the plasma membrane, thereby resulting in presentation of immunogens on cell surfaces and eVLPs. Prior studies showed that spike (S)-EABR mRNA-LNP immunizations elicited enhanced neutralizing antibody responses against ancestral and variant SARS-CoV-2 compared with conventional S mRNA-LNP in naive mice, but the effectiveness of S-EABR mRNA-LNP boosters in the context of pre-existing immunity has not been investigated. Here, we evaluated monovalent Wuhan-Hu-1 (Wu1) and bivalent (Wu1/BA.5) S-EABR mRNA-LNP boosters in mice pre-vaccinated with conventional Wu1 S mRNA-LNP. Compared to conventional S mRNA-LNP boosters, the EABR approach enhanced monovalent and bivalent mRNA-LNP booster-induced neutralizing responses against Omicron subvariants BA.1, BA.5, BQ.1.1, and XBB.1, with bivalent S-EABR mRNA-LNP consistently eliciting the highest titers. Epitope mapping of polyclonal antisera by deep mutational scanning revealed that bivalent S-EABR mRNA-LNP boosted diverse \"polyclass\" anti-receptor-binding domain (RBD) responses, suggesting balanced targeting of multiple RBD epitope classes. In contrast, monovalent S, bivalent S, and monovalent S-EABR mRNA-LNP boosters elicited less diverse polyclonal serum responses primarily targeting immunodominant RBD epitopes. Cryo-EM structures demonstrated that bivalent mRNA immunizations promote S heterotrimer formation, potentially enhancing bivalent S-EABR mRNA-LNP booster-induced antibody breadth and polyclass epitope targeting by activating cross-reactive B cells through intra-S crosslinking. These findings support the future design of bivalent or multivalent S-EABR mRNA-LNP boosters as a promising strategy to confer broader, and therefore potentially more durable, protection against emerging SARS-CoV-2 variants and other rapidly evolving viruses.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines"
+      ],
+      "url": "https://doi.org/10.1101/2025.08.18.670983"
+    },
+    {
+      "source": "biorxiv",
+      "pmid": null,
+      "title": "Modular mRNA lipid nanoparticle platform rescues diverse genetic male infertility",
+      "authors": [
+        "Jiang, Q. K.",
+        "Su, K.",
+        "Li, G.",
+        "Luo, H.",
+        "Wang, H.",
+        "Luo, J."
+      ],
+      "journal": "biorxiv (Preprint)",
+      "date": "2026-03-12",
+      "doi": "10.1101/2025.11.13.688269",
+      "abstract": "Genetic male infertility arises from diverse mutations that disrupt spermatogenesis, yet molecular therapies capable of restoring germ-cell function remain limited. Messenger RNA (mRNA) therapeutics offer transient protein replacement without permanent genome modification, but efficient and safe delivery to the seminiferous epithelium remains challenging. Here we develop a modular mRNA-lipid nanoparticle (LNP) platform that restores spermatogenesis across multiple genetic infertility models. Systematic comparison of clinically relevant ionizable lipids revealed that the clinically validated ionizable lipid MC3 uniquely provides sustained mRNA expression in the seminiferous epithelium while minimizing inflammation and systemic leakage. In contrast, lipids such as ALC-0315 produced higher transient reporter expression but failed to support functional rescue. A single intratesticular injection of an optimized Papolb mRNA restored spermiogenesis in [~]25% of seminiferous tubules and generated functional sperm capable of producing healthy offspring through intracytoplasmic sperm injection. The platform extended to both meiotic (Spo11) and post-meiotic (Btbd18) arrest models and enabled efficient mRNA expression in cultured human seminiferous tubules. Comprehensive analyses demonstrated long-term safety in treated animals and multigenerational genetic and epigenetic stability in offspring. Together, these findings establish a modular mRNA-LNP platform for correcting diverse genetic causes of male infertility and reveal a design principle for extrahepatic RNA delivery: delivery efficiency alone does not predict functional therapeutic rescue, highlighting the importance of expression kinetics and tissue context in nanoparticle design.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://doi.org/10.1101/2025.11.13.688269"
+    },
+    {
+      "source": "biorxiv",
+      "pmid": null,
+      "title": "Correction of a recurrent pathogenic variant in methylmalonic acidemia using adenine base editing",
+      "authors": [
+        "Kahn, E. M.",
+        "Said, H.",
+        "Qu, P.",
+        "Alameh, M.-G.",
+        "Wang, X.",
+        "Musunuru, K."
+      ],
+      "journal": "biorxiv (Preprint)",
+      "date": "2026-03-15",
+      "doi": "10.64898/2026.03.12.711365",
+      "abstract": "Methylmalonic acidemia (MMA) is a recessive genetic disease caused by variants in the MMUT (mitochondrial enzyme methylmalonyl-CoA mutase) gene or by defects in transport or metabolism of MMUT cofactor (5' deoxyadenosylcobalamin), including variants in the MMAB gene. For the most recurrent pathogenic MMAB variant, c.556C>T (R186W), we identified a corrective editing strategy using adenine base editing. Deploying an adenine base editor mRNA and optimized hybrid guide RNA with lipid nanoparticles, we observed efficient in vitro corrective editing of the variant to wild-type, with minimized bystander editing and off-target editing in hepatocytes. These observations lay the groundwork for a gene editing therapy for patients with MMA resulting from at least one copy of the MMAB c.556C>T (R186W) variant, as well as a platform of similar therapies for patients with MMA caused by other variants amenable to adenine base editing.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.12.711365"
+    },
+    {
+      "source": "biorxiv",
+      "pmid": null,
+      "title": "LP.8.1-directed COVID-19 mRNA vaccines durably boost neutralizing antibodies and mitigate ancestral immune imprinting",
+      "authors": [
+        "Mellis, I. A.",
+        "Wu, M.",
+        "Hong, H.",
+        "Bowen, A.",
+        "Daniel, K.",
+        "Gherasim, C."
+      ],
+      "journal": "biorxiv (Preprint)",
+      "date": "2026-03-10",
+      "doi": "10.64898/2026.01.03.697434",
+      "abstract": "As SARS-CoV-2 evolves, it evades existing immunity elicited by exposure to earlier strains of the virus. In response, vaccine manufacturers have updated COVID-19 vaccines annually since 2022, though immune imprinting to the ancestral strain has blunted antibody responses to modern viral variants. In early 2025, the JN.1 subvariant LP.8.1 was dominant and manufacturers updated mRNA vaccine formulations to target LP.8.1 (LP.8.1 MV). However, by late 2025, other subvariants were dominant (XFG and NB.1.8.1) or emerging (e.g., PE.1.4, BA.3.2, PY.1.1.1) around the world. It is critical to understand the extent to which updated vaccine boosters elicit titers against both their target strain and recent variants. Further, it is important to quantify the extent to which immune imprinting continues to shape antiviral immune responses. Using pseudoviruses, we measured neutralizing antibody titers against a panel of 11 SARS-CoV-2 variants in serum samples from 36 adult participants in the United States before and approximately 1 month after LP.8.1 MV booster. We found that neutralizing antibody titers were substantially increased by the boost, with the greatest increases elicited against LP.8.1 and XFG. For the first time since 2022, post-boost titers were higher against the homologous vaccine target (LP.8.1) than against D614G (representing the ancestral strain). Combined, these results indicate that ancestral immune imprinting is mitigated to the greatest extent observed to date by LP.8.1 MV. Lastly, for a subset of participants, we measured neutralizing titers at approximately 4 months post-booster and found that LP.8.1-directed antibody titers were durable, with an estimated average half-life of approximately 66 days.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://doi.org/10.64898/2026.01.03.697434"
+    },
+    {
+      "source": "biorxiv",
+      "pmid": null,
+      "title": "Chiral Histidine-Modified Gold Nanoclusters Loaded into Cationic Lipid Nanoparticles for Treatment of Biofilm-associated Infections",
+      "authors": [
+        "Ye, Z.",
+        "Jin, X.",
+        "Koekman, A.",
+        "van Steenbergen, M.",
+        "Liu, Y.",
+        "Xing, Z."
+      ],
+      "journal": "biorxiv (Preprint)",
+      "date": "2026-03-10",
+      "doi": "10.64898/2026.02.25.707929",
+      "abstract": "Antimicrobial resistance has heightened the risk of device-associated infections, in which Staphylococcus aureus (S. aureus) biofilms persist through extracellular-matrix protection and marked physiological heterogeneity. Gold nanoclusters (AuNCs) can disrupt biofilms via redox-associated stress, but limited in vivo stability and poor local retention constrain their translational potential. Here, we synthesized chiral histidine-modified AuNCs (D-, L-, and DL-AuNCs) and formulated them into mildly cationic lipid nanoparticles (AuNCs@LNP) by microfluidic assembly to enhance biofilm engagement while preserving nanocluster identity. The resulting particles were [~]100-120 nm with high gold loading and a modest charge reversal. In established S. aureus USA300 biofilms, free DL-AuNCs reduced viable burden by up to 5.6 log10 CFU/mL, suppressed metabolic activity, and increased ROS signaling. Notably, LNP encapsulation maintained bactericidal activity and further improved killing by [~]1 log10 CFU at matched Au dose, while substantially enhancing biomass removal (crystal violet residual biomass: 63.77% vs 45.17%), consistent with carrier-mediated matrix destabilization. In a subcutaneous implant infection model, a single perilesional dose of DL-AuNCs@LNP reduced implant-associated bacterial burden by 2.6 log10 CFU per implant versus PBS. These results establish a modular antibiofilm platform that couples nanocluster-driven killing with lipid-facilitated biofilm disruption and defines an efficacy-tolerability window to guide optimization of locally delivered antibiofilm nanomedicines.\n\n\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=61 SRC=\"FIGDIR/small/707929v2_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (22K):\norg.highwire.dtl.DTLVardef@119134forg.highwire.dtl.DTLVardef@142e7b2org.highwire.dtl.DTLVardef@1799550org.highwire.dtl.DTLVardef@139c33a_HPS_FORMAT_FIGEXP  M_FIG C_FIG",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://doi.org/10.64898/2026.02.25.707929"
+    },
+    {
+      "source": "medrxiv",
+      "pmid": null,
+      "title": "Effectiveness of COVID-19 Vaccination Schedules Against Severe COVID-19 in Children Aged 6 Months to 4 Years in Brazil: A Population-Based Cohort Study (2023-2024)",
+      "authors": [
+        "Negretto Schrarstzhaupt, I.",
+        "Diaz-Quijano, F. A."
+      ],
+      "journal": "medrxiv (Preprint)",
+      "date": "2026-03-10",
+      "doi": "10.64898/2026.03.03.26347530",
+      "abstract": "BackgroundAlthough the impact of COVID-19 vaccination is widely documented in the general population, the evidence on its effectiveness in children under 5 years of age is still limited. In this context, the continuation of vaccination programs in this age group has been debated globally. Consequently, we estimated the effectiveness of the 3-dose series of BNT162b2 (Pfizer-BioNTech) in children aged 6 months to 4 years and the complete 2-dose series of CoronaVac (Sinovac) in children aged 3 to 4 in reducing the risk of hospitalizations due to COVID-19-attributed severe acute respiratory infection (SARI) in Brazil.\n\nMethodsWe conducted a retrospective cohort study in 24 Brazilian municipalities, using surveillance data. We evaluated vaccine effectiveness in reducing the incidence rate of COVID-19-attributed SARI hospitalizations from July 2023 to December 2024. Covariate adjustments, defined a priori based on a conceptual model represented by a directed acyclic graph (DAG), were implemented using random-effects Poisson regression models. We also analyzed alternative vaccination schedules and obtained age-specific estimates of effectiveness.\n\nResultsThe cohort comprised 37.6 million person-months of follow-up and 1,384 COVID-19-attributed SARI hospitalizations, including 27 associated deaths. The 3-dose series of BNT162b2 vaccine had an effectiveness of 97% (IRR 0.03, 95%CI 0.01-0.10) in the group aged 6 months to 4 years, with no significant differences among age-specific estimates. No deaths occurred among children who completed the 3-dose series, whereas four deaths were observed among those with fewer doses. The effectiveness of CoronaVac was small and not statistically significant (IRR 0.96, 95%CI 0.57-1.62). However, no deaths were recorded among children who received any number of CoronaVac doses, and no COVID-19-attributed SARI hospitalizations were observed among those who received a third dose of this vaccine.\n\nConclusionsThe 3-dose series of the mRNA vaccine (BNT162b2) had high and consistent effectiveness in protecting against severe COVID-19 in children aged 6 months to 4 years. These findings support the maintenance of routine COVID-19 vaccination in this age group.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Preprint"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.03.26347530"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT03419234",
+      "title": "Abiraterone Acetate and Antiandrogen Therapy With or Without Cabazitaxel and Prednisone in Treating Patients With Metastatic, Castration-Resistant Prostate Cancer Previously Treated With Docetaxel",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Castration Levels of Testosterone",
+        "Castration-Resistant Prostate Carcinoma",
+        "Metastatic Prostate Carcinoma in the Soft Tissue",
+        "Prostate Carcinoma Metastatic in the Bone",
+        "Stage IV Prostate Adenocarcinoma AJCC v7"
+      ],
+      "interventions": [
+        "Abiraterone Acetate",
+        "Androgen deprivation therapy",
+        "Cabazitaxel",
+        "Prednisone"
+      ],
+      "sponsor": "ECOG-ACRIN Cancer Research Group",
+      "summary": "This randomized phase II trial studies how well abiraterone acetate and antiandrogen therapy, with or without cabazitaxel and prednisone, work in treating patients with castration-resistant prostate cancer previously treated with docetaxel that has spread to other parts of the body. Androgens can cause the growth of prostate cancer cells. Hormone therapy using abiraterone acetate and antiandrogen therapy may fight prostate cancer by lowering and/or blocking the use of androgens by the tumor cells. Drugs used in chemotherapy, such as cabazitaxel and prednisone, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving abiraterone acetate and antiandrogen therapy with or without cabazitaxel and prednisone may help kill more tumor cells.",
+      "url": "https://clinicaltrials.gov/study/NCT03419234"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07197671",
+      "title": "Y-NM600 in Patients Receiving Anti-PD-1 or Anti-PD-L1 for Metastatic Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Metastatic Cancer"
+      ],
+      "interventions": [
+        "90Y-NM600"
+      ],
+      "sponsor": "University of Wisconsin, Madison",
+      "summary": "Participants with metastatic cancer who are taking anti-PD-1 or anti-PD-L1 therapy will be enrolled to assess the safety of and find the optimal dose for radioactive imaging agents and to explore whether these agents will make current drug therapies work better. Up to 60 participants will be enrolled and can expect to be on study for up to 9 months.",
+      "url": "https://clinicaltrials.gov/study/NCT07197671"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT04573140",
+      "title": "A Study of RNA-lipid Particle (RNA-LP) Vaccines for Newly Diagnosed Pediatric High-Grade Gliomas (pHGG) and Adult Glioblastoma (GBM)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Adult Glioblastoma",
+        "High Grade Glioma",
+        "WHO Grade III or IV Malignant Glioma"
+      ],
+      "interventions": [
+        "Autologous total tumor mRNA and pp65 full length (fl) lysosomal associated membrane protein (LAMP) mRNA loaded DOTAP liposome vaccine administered intravenously (RNA loaded lipid particles, RNA-LPs)"
+      ],
+      "sponsor": "University of Florida",
+      "summary": "The primary objective will be to demonstrate the manufacturing feasibility and safety, and to determine the maximum tolerated dose (MTD) of RNA-LP vaccines in (Stratum 1) adult patients with newly diagnosed GBM (MGMT low level or unmethylated in adults only) and (Stratum 2) in pediatric patients with newly diagnosed HGG (pHGG). Funding Source - FDA OOPD",
+      "url": "https://clinicaltrials.gov/study/NCT04573140"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT04837547",
+      "title": "PEACH TRIAL- Precision Medicine and Adoptive Cellular Therapy",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Neuroblastoma",
+        "Diffuse Intrinsic Pontine Glioma"
+      ],
+      "interventions": [
+        "Tumor-specific ex vivo expanded autologous lymphocyte transfer (TTRNA-xALT)"
+      ],
+      "sponsor": "University of Florida",
+      "summary": "A Phase I open-label, multicenter study, to evaluate the safety, feasibility, and maximum tolerated dose (MTD) of treating children with newly diagnosed DIPG or recurrent neuroblastoma with molecular targeted therapy in combination with adoptive cell therapy (Total tumor mRNA-pulsed autologous Dendritic Cells (DCs) (TTRNA-DCs), Tumor-specific ex vivo expanded autologous lymphocyte transfer (TTRNA-xALT) and Autologous G-CSF mobilized Hematopoietic Stem Cells (HSCs)).",
+      "url": "https://clinicaltrials.gov/study/NCT04837547"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06431607",
+      "title": "A Study to Find the Dose and Assess the Immune Response and Safety of a Vaccine Against Influenza in Healthy Younger and Older Adults",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Influenza, Human"
+      ],
+      "interventions": [
+        "F2G22B/DL001Z",
+        "F2H23D/DL001Z-NH",
+        "F2H23B/DL001Z-NH",
+        "F2H23H/DL001Z",
+        "FDQ23A-NH (Flu D-QIV)",
+        "GSK5800544A",
+        "Flu D-TIV",
+        "F2H23A/DL001Z-NH",
+        "F2H23G/DL001Z",
+        "Fluzone HD Quadrivalent",
+        "Fluzone HD"
+      ],
+      "sponsor": "GlaxoSmithKline",
+      "summary": "The purpose of this study is to assess the safety and immune response of GlaxoSmithKlines (GSK) messenger RNA (mRNA)-based multivalent vaccine (GSK4382276A) candidate against influenza, administered in healthy younger adults (YA) and older adults (OA).",
+      "url": "https://clinicaltrials.gov/study/NCT06431607"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07448298",
+      "title": "A Clinical Study of AFN50 in the Treatment of Autoimmune Diseases",
+      "status": "RECRUITING",
+      "phase": "EARLY_PHASE1",
+      "conditions": [
+        "Relapsed/Refractory Autoimmune Diseases"
+      ],
+      "interventions": [
+        "AFN50 injection"
+      ],
+      "sponsor": "Beijing Boren Hospital",
+      "summary": "This study is a single-arm, open-label, single-centre exploratory clinical trial designed to evaluate the safety, tolerability, and preliminary efficacy of AFN50 Injection in adult patients with B-cell-mediated refractory/replapased autoimmune diseases.",
+      "url": "https://clinicaltrials.gov/study/NCT07448298"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07470320",
+      "title": "Placental Biology in Health and Disease",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "conditions": [
+        "Pre-eclampsia",
+        "Gestational Diabetes Mellitus (GDM)",
+        "Fetal Growth Restriction (FGR)",
+        "Pregnancy Induced Hypertension (PIH)",
+        "Placenta",
+        "Pregnancy"
+      ],
+      "interventions": [
+        "There are no interventions for this study"
+      ],
+      "sponsor": "University of Oxford",
+      "summary": "Pre-eclampsia (PET) is a condition characterised by high blood pressure and damage to other organs, and is a leading cause of maternal and fetal complications such as fetal growth restriction (FGR). Gestational diabetes mellitus (GDM) involves abnormal blood sugar levels during pregnancy and can have both short and long-term impacts on the health of the mother and child. Both conditions are linked to placental dysfunction but the precise mechanisms behind these links remain unclear.\n\nA major focus of this study is on extracellular vesicles (EVs) which are tiny, bubble-like particles released by the placenta into the mother's and baby's bloodstreams. These EVs act as messengers, carrying proteins, lipids and genetic material that can influence how cells function, even in parts of the body far from the placenta. Notably, the number and content of these EVs change in conditions like PET and GDM, suggesting they may play a role in the development of these complications.\n\nThis single-site, observational, laboratory study aims to investigate how these EVs contribute to maternal health and disease. To enable analysis across different physiological and pathological conditions pregnant participants with healthy pregnancies, pregnancies predisposed to PET and pregnancies complicated by GDM, FGR and PET will be recruited alongside healthy non-pregnant controls. Recruitment will be from the Oxford University Hospitals NHS Foundation Trust and the Nuffield Department of Women's and Reproductive Health, University of Oxford (who fund the research). Demographic and clinical data will be collected as well as blood, urine, breath, placenta, umbilical cord, umbilical cord blood, amniotic fluid and/or uterine vein blood samples.\n\nThrough examining EV content and function, it is hoped a better understanding of their role in pregnancy complications will be gained, including their potential as non-invasive biomarkers for early detection and targeted treatments, improving outcomes for mothers and babies worldwide.",
+      "url": "https://clinicaltrials.gov/study/NCT07470320"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT00001888",
+      "title": "Sample Collections From the Airways of Asthmatic Patients",
+      "status": "COMPLETED",
+      "phase": "N/A",
+      "conditions": [
+        "Asthma"
+      ],
+      "interventions": [],
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "summary": "Fiberoptic bronchoscopy is a procedure which involves passing a pencil-thin tube into the lung in order to collect fluid and cells from the airways. Fiberoptic bronchoscopy can collect cells from the walls of airways by gently brushing them (bronchial brushing). In addition, squirting small amounts of sterile water in to the airway and gently suctioning it back into the bronchoscope (bronchoalveolar lavage) collects cells.\n\nIn this study, researchers plan to perform these tests on patients with asthma and normal volunteers. This research may help to improve the understanding of the processes involved in airway inflammation and asthma....",
+      "url": "https://clinicaltrials.gov/study/NCT00001888"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07391605",
+      "title": "Descartes-08 in Autoantibody Myositis",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Antisynthetase Syndrome"
+      ],
+      "interventions": [
+        "Descartes-08",
+        "Placebo"
+      ],
+      "sponsor": "Cartesian Therapeutics",
+      "summary": "This is a randomized, double-blind, placebo-controlled phase 2 study to evaluate the efficacy, safety and tolerability of an autologous T-cells expressing a chimeric antigen receptor (CAR) directed to B-Cell maturation antigen (BCMA) in patients with autoantibody-mediated myositis, including antisynthetase syndrome (ASyS) and dermatomyositis (DM).",
+      "url": "https://clinicaltrials.gov/study/NCT07391605"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06181292",
+      "title": "Safety and Immunogenicity of a Booster Vaccination With an Adapted Vaccine",
+      "status": "COMPLETED",
+      "phase": "PHASE2, PHASE3",
+      "conditions": [
+        "SARS-CoV2 Infection"
+      ],
+      "interventions": [
+        "PHH-1V81",
+        "Comirnaty Omicron XBB1.5"
+      ],
+      "sponsor": "Hipra Scientific, S.L.U",
+      "summary": "This is a phase IIb/III, double-blind, randomised, active-controlled, multi-centre, non-inferiority clinical trial that aims to determine safety, tolerability and immunogenicity of a booster vaccination with a recombinant protein receptor binding domain (RBD) fusion homodimer of XBB.1.16 adapted candidate against SARS-CoV-2 developed by HIPRA (PHH-1V81).",
+      "url": "https://clinicaltrials.gov/study/NCT06181292"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT02152995",
+      "title": "Trametinib in Increasing Tumoral Iodine Incorporation in Patients With Recurrent or Metastatic Thyroid Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Metastatic Thyroid Gland Carcinoma",
+        "Poorly Differentiated Thyroid Gland Carcinoma",
+        "Recurrent Thyroid Gland Carcinoma",
+        "Refractory Thyroid Gland Carcinoma",
+        "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7"
+      ],
+      "interventions": [
+        "Computed Tomography",
+        "Iodine I 124",
+        "Iodine I-131",
+        "Laboratory Biomarker Analysis",
+        "Pharmacodynamic Study",
+        "Positron Emission Tomography",
+        "Trametinib"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase II trial studies how well trametinib works in increasing tumoral iodine incorporation in patients with thyroid cancer that has come back or spread to another place in the body. Trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and may help make treatment with iodine I-131 more effective.",
+      "url": "https://clinicaltrials.gov/study/NCT02152995"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06585241",
+      "title": "A Study to Investigate the Immunogenicity and Safety of mRNA COVID-19 Variant-containing Vaccine Formulations",
+      "status": "RECRUITING",
+      "phase": "PHASE4",
+      "conditions": [
+        "SARS-CoV-2"
+      ],
+      "interventions": [
+        "mRNA-1273 Variant-containing Formulation"
+      ],
+      "sponsor": "ModernaTX, Inc.",
+      "summary": "The purpose of this study is to investigate the immunogenicity and safety of mRNA COVID-19 variant-containing vaccine formulations against the vaccine-matched variants and newly emerged variants of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "url": "https://clinicaltrials.gov/study/NCT06585241"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07471542",
+      "title": "Copper Supplementation in Cirrhosis",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Cirrhosis",
+        "Chronic Liver Disease",
+        "Fibrosis",
+        "Infection"
+      ],
+      "interventions": [
+        "Copper Gluconate"
+      ],
+      "sponsor": "University of Washington",
+      "summary": "End stage liver disease or cirrhosis is a major cause of mortality in the United States and the world. Other than targeting the underlying cause, such as alcohol cessation and antiviral therapy, very few medical treatments can change the natural history of cirrhosis. Malnutrition is one of the few potentially modifiable factors that have been associated with cirrhosis severity and poor prognosis. The transition metal copper (Cu) is an essential trace metal that must be acquired from diet. Its metabolism is primarily regulated by the liver in its role as a master regulator of nutrients. In 2019, the investigators reported that Cu deficiency defined by below normal serum or liver concentrations occurred in a wide range of liver disorders and was associated with a severe disease phenotype. Improvement in liver function was observed in 2 of the 3 patients who received Cu supplementation. In 2023, the investigators conducted a longitudinal cohort study utilizing clinical, serum and liver explant tissue data from 183 cirrhosis patients. The investigators showed that Cu deficiency was associated with 2-fold higher infection rate and a more than 3-fold increase in the risk of death compared to patients with normal Cu status. These preliminary findings and the well-established importance of Cu in human health prompted the investigators to design the current pilot randomized, placebo-controlled, crossover trial to determine the effect of Cu supplementation on Cu dependent biochemical changes, patient safety and patient reported outcomes in cirrhosis.",
+      "url": "https://clinicaltrials.gov/study/NCT07471542"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07466836",
+      "title": "The Effects of Chiropractic Care on Inflammation and Quality of Life in People Living With HIV",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Human Immunodeficiency Virus (HIV)"
+      ],
+      "interventions": [
+        "Chiropractic Care"
+      ],
+      "sponsor": "Tyson Perez, DC, PhD",
+      "summary": "The main aim of this pilot trial is to investigate the feasibility of undertaking a randomized controlled trial involving adults living with HIV. Additionally, this trial will explore potential change differences in self-reported quality of life and blood-derived immune markers between a chiropractic care group and no treatment controls.",
+      "url": "https://clinicaltrials.gov/study/NCT07466836"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07173504",
+      "title": "The Effect of Continuous Versus Intermittent Enteral Nutrition on Metabolic Outcomes in Critically Ill Patients",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Critical Illness"
+      ],
+      "interventions": [
+        "Intermittent enteral nutrition"
+      ],
+      "sponsor": "Gelderse Vallei Hospital",
+      "summary": "The goal of this clinical trial is to investigate the effect of continuous versus intermittent enteral nutrition on metabolic outcomes in critically ill adult patients.\n\nThe aim of this study is to:\n\n• To assess the effect of a daytime intermittent tube feeding pattern compared to standard continuous tube feeding on glycaemic control, gastrointestinal function, gastrointestinal hormones, markers of sleep quality and circadian rhythm, and lean body mass and body composition.\n\nParticipants will receive either continuous enteral nutrition for 24 hours a day or intermittent enteral nutrition during the day, consisting of 4 portions each administered over 1 hour between 8 am and 8 pm. The maximum duration of the intervention is 5 days or until participants do not receive exclusive gastric enteral nutrition.",
+      "url": "https://clinicaltrials.gov/study/NCT07173504"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05189925",
+      "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Chronic Granulomatous Disease",
+        "Infection"
+      ],
+      "interventions": [
+        "gp91 Grans"
+      ],
+      "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+      "summary": "Background:\n\nCGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells.\n\nObjective:\n\nTo test a procedure in which mRNA is added to a person s blood cells.\n\nEligibility:\n\nMales aged 18-75 with CGD with a mutation in the gene that makes the protein gp91phox.\n\nDesign:\n\nParticipants will be screened with:\n\nMedical history\n\nPhysical exam\n\nBlood and urine tests\n\nSwab to test for strep throat\n\nSome screening tests will be repeated during the study.\n\nParticipants will be admitted to the NIH Clinical Center hospital for at least 7 days. They will have apheresis. For this, a medicine is injected under their skin to prepare their white blood cells for collection. An IV line is placed into an arm vein. Blood goes through the IV line into a machine that divides whole blood into red blood cells, plasma, and white blood cells. The white blood cells are removed, and the rest of the blood is returned to the participant through an IV line in their other arm. The next day, they will get their mRNA-corrected cells via IV. They will be monitored for 3 more days.\n\nAfter discharge, participants will keep a symptom diary. They will be contacted weekly for one month, and then once a month. They will have a follow-up visit 3 months after the infusion.",
+      "url": "https://clinicaltrials.gov/study/NCT05189925"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07444580",
+      "title": "PrP-targeting siRNA Safety & Mechanism Study",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Prion Disease"
+      ],
+      "interventions": [
+        "PrP-siRNA"
+      ],
+      "sponsor": "Broad Institute of MIT and Harvard",
+      "summary": "The purpose of this trial is to evaluate safety, tolerability, pharmacokinetics and pharmacodynamic impact of PrP-siRNA in symptomatic prion disease patients.",
+      "url": "https://clinicaltrials.gov/study/NCT07444580"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05668741",
+      "title": "A Phase 1/2 Study of VX-522 in Participants With Cystic Fibrosis (CF)",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        "VX-522 mRNA therapy",
+        "IVA"
+      ],
+      "sponsor": "Vertex Pharmaceuticals Incorporated",
+      "summary": "The purpose of this study is to evaluate the safety, and tolerability and efficacy of VX-522 in participants 18 years of age and older with cystic fibrosis and a cystic fibrosis transmembrane conductance regulator (CFTR) genotype not responsive to CFTR modulator therapy.",
+      "url": "https://clinicaltrials.gov/study/NCT05668741"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06172296",
+      "title": "Dinutuximab With Chemotherapy, Surgery and Stem Cell Transplantation for the Treatment of Children With Newly Diagnosed High Risk Neuroblastoma",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Ganglioneuroblastoma, Nodular",
+        "Neuroblastoma"
+      ],
+      "interventions": [
+        "Biospecimen Collection",
+        "Bone Marrow Aspiration",
+        "Bone Marrow Biopsy",
+        "Carboplatin",
+        "Cisplatin",
+        "Computed Tomography",
+        "Cyclophosphamide",
+        "Dinutuximab",
+        "Doxorubicin",
+        "Echocardiography Test",
+        "Etoposide",
+        "FDG-Positron Emission Tomography and Computed Tomography Scan",
+        "Hematopoietic Cell Transplantation",
+        "Irinotecan",
+        "Isotretinoin",
+        "Leukapheresis",
+        "Magnetic Resonance Imaging",
+        "Melphalan",
+        "Multigated Acquisition Scan",
+        "Radiation Therapy",
+        "Radionuclide Imaging",
+        "Survey Administration",
+        "Temozolomide",
+        "Thiotepa",
+        "Topotecan",
+        "Tumor Resection",
+        "Vincristine"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase III trial tests how well the addition of dinutuximab to Induction chemotherapy along with standard of care surgical resection of the primary tumor, radiation, stem cell transplantation, and immunotherapy works for treating children with newly diagnosed high-risk neuroblastoma. Dinutuximab is a monoclonal antibody that binds to a molecule called GD2, which is found on the surface of neuroblastoma cells, but is not present on many healthy or normal cells in the body. When dinutuximab binds to the neuroblastoma cells, it helps signal the immune system to kill the tumor cells. This helps the cells of the immune system kill the cancer cells, this is a type of immunotherapy. When chemotherapy and immunotherapy are given together, during the same treatment cycle, it is called chemoimmunotherapy. This clinical trial randomly assigns patients to receive either standard chemotherapy and surgery or chemoimmunotherapy (chemotherapy plus dinutuximab) and surgery during Induction therapy. Chemotherapy drugs administered during Induction include, cyclophosphamide, topotecan, cisplatin, etoposide, vincristine, and doxorubicin. These drugs work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing or by stopping them from spreading. Upon completion of 5 cycles of Induction therapy, a disease evaluation is completed to determine how well the treatment worked. If the tumor responds to therapy, patients receive a tandem transplantation with stem cell rescue. If the tumor has little improvement or worsens, patients receive chemoimmunotherapy on Extended Induction. During Extended Induction, dinutuximab is given with irinotecan, temozolomide. Patients with a good response to therapy move on to Consolidation therapy, when very high doses of chemotherapy are given at two separate points to kill any remaining cancer cells. Following, transplant, radiation therapy is given to the site where the cancer originated (primary site) and to any other areas that are still active at the end of Induction. The final stage of therapy is Post-Consolidation. During Post-Consolidation, dinutuximab is given with isotretinoin, with the goal of maintaining the response achieved with the previous therapy. Adding dinutuximab to Induction chemotherapy along with standard of care surgical resection of the primary tumor, radiation, stem cell transplantation, and immunotherapy may be better at treating children with newly diagnosed high-risk neuroblastoma.",
+      "url": "https://clinicaltrials.gov/study/NCT06172296"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06322628",
+      "title": "A Phase 2 Clinical Trial to Evaluate the Efficacy and Safety of VSA006 in Chinese NASH Patients",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Nash"
+      ],
+      "interventions": [
+        "VSA006",
+        "Placebo"
+      ],
+      "sponsor": "Visirna Therapeutics HK Limited",
+      "summary": "Human genetic studies have shown that loss of function (LOF) mutations in HSD17β13 gene have a protective effect on the progression of alcohol-related and non-alcohol-related liver diseases, such as NASH, without significant adverse phenotypes.\n\nVSA006 is a siRNA drug targeting HSD17β13 mRNA in the liver and reduce the protein level of HSD17β13. Based on phase 1 study results in healthy volunteers and NASH/suspected NASH patients, this phase 2 study is designed to evaluate the efficacy, safety, PK profiles and immunogenicity of VSA006 in Chinese NASH patients.",
+      "url": "https://clinicaltrials.gov/study/NCT06322628"
+    }
+  ]
+}
