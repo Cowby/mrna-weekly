@@ -35,7 +35,8 @@ mkdir -p "$WEEKLY_DIR"
 # Step 1: Fetch data
 echo "📥 Step 1/5: Fetching data from PubMed, bioRxiv, medRxiv, ClinicalTrials.gov..."
 cd "$WORKSPACE_DIR"
-python3 "$SCRIPT_DIR/pubmed_fetch_v2.py" "$DAYS" "$MAX_RESULTS" > "$WEEKLY_DIR/data_${DATE}.json" 2>&1 | tee "$WEEKLY_DIR/fetch_log_${DATE}.txt"
+python3 "$SCRIPT_DIR/pubmed_fetch_v2.py" "$DAYS" "$MAX_RESULTS" > "$WEEKLY_DIR/data_${DATE}.json" 2>"$WEEKLY_DIR/fetch_log_${DATE}.txt"
+echo "  (Check fetch_log_${DATE}.txt for progress)"
 
 if [ ! -f "$WEEKLY_DIR/data_${DATE}.json" ]; then
     echo "❌ Error: Data fetch failed! No JSON output."
@@ -104,11 +105,20 @@ echo ""
 # Step 5: Git push
 echo "🚀 Step 5/5: Pushing to GitHub..."
 if git remote get-url origin &>/dev/null; then
-    git push origin master || git push origin main || echo "⚠️  Push failed (check remote configuration)"
-    echo "✅ Pushed to GitHub"
+    # Determine default branch
+    DEFAULT_BRANCH=$(git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | sed 's@^refs/remotes/origin/@@' || echo "master")
+    
+    if git push origin "$DEFAULT_BRANCH" 2>&1; then
+        echo "✅ Pushed to GitHub ($DEFAULT_BRANCH)"
+    else
+        echo "⚠️  Push failed. Check:"
+        echo "   - SSH key configured? (ssh -T git@github.com)"
+        echo "   - Remote URL correct? (git remote -v)"
+        echo "   - Branch exists? (git branch -a)"
+    fi
 else
     echo "⚠️  No Git remote configured, skipping push"
-    echo "   To configure: git remote add origin <your-repo-url>"
+    echo "   To configure: git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO.git"
 fi
 echo ""
 
