@@ -50,125 +50,155 @@ This week showcases remarkable innovation in **precise mRNA delivery systems** w
 
 ## 🔬 Top Publications
 
-*Ranked by relevance score combining recency, category importance, impact indicators, journal prestige, and source credibility. See Methodology section for details.*
+*Ranked by relevance score combining recency, category importance, impact indicators, journal prestige, and source credibility. See Methodology section for comprehensive scoring details.*
 
-### 1. Correction of a recurrent pathogenic variant in methylmalonic acidemia using adenine base editing ⭐⭐ [BIORXIV]
+### 1. Correction of a recurrent pathogenic variant in methylmalonic acidemia using adenine base editing ⭐⭐ [BIORXIV PREPRINT]
 
-**Authors:** Kahn, E. M. et al.  
-**Journal:** biorxiv (Preprint) (2026-03-15)  
+> **Kahn, E. M. et al.** – *biorxiv (Preprint)* (2026-03-15)  
+DOI: 10.64898/2026.03.12.711365  
+
 **Categories:** LNP Engineering & Delivery, Protein Replacement & Gene Therapy  
-**Relevance Score:** 56.3/100  
-**DOI:** 10.64898/2026.03.12.711365  
+**Relevance Score:** 56.3/100
 
-Methylmalonic acidemia (MMA) is a recessive genetic disease caused by variants in the MMUT gene. This study presents a corrective editing strategy using adenine base editing delivered via lipid nanoparticles. The approach successfully corrects the recurrent pathogenic MMAB variant c.556C>T (R186W), demonstrating potential for precision genetic medicine in metabolic disorders.
+Methylmalonic acidemia (MMA) is a recessive genetic disease caused by variants in the MMUT (mitochondrial enzyme methylmalonyl-CoA mutase) gene or by defects in transport or metabolism of MMUT cofactor (5' deoxyadenosylcobalamin), including variants in the MMAB gene. For the most recurrent pathogenic MMAB variant, c.556C>T (R186W), we identified a corrective editing strategy using adenine base editing. Deploying an adenine base editor mRNA and optimized hybrid guide RNA with lipid nanoparticles, we observed efficient in vitro corrective editing of the variant to wild-type, with minimized bystander editing and off-target editing in hepatocytes.
+
+*[Continued]* These observations lay the groundwork for a gene editing therapy for patients with MMA resulting from at least one copy of the MMAB c.556C>T (R186W) variant, as well as a platform of similar therapies for patients with MMA caused by other variants amenable to adenine base editing.
+
+**Why This Matters:** Advances precision gene editing delivery for therapeutic applications. Recent preprint highlights cutting-edge research. 
 
 ---
 
-### 2. Lipid Nanoparticles Formulated with a Molecular Hybridization-Derived Ionizable Lipid Enabled OVA-mRNA Delivery for Melanoma Prevention ⭐⭐
+### 2. Lipid Nanoparticles Formulated with a Molecular Hybridization-Derived Ionizable Lipid Enabled OVA-mRNA Delivery for Melanoma Prevention in Mice. ⭐⭐
 
-**Authors:** Liu Z et al.  
-**Journal:** ACS biomaterials science & engineering (2026 Mar 9)  
+> **Liu Z et al.** – *ACS biomaterials science & engineering* (2026 Mar 9)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41711595/) | DOI: 10.1021/acsbiomaterials.5c01698  
+
 **Categories:** LNP Engineering & Delivery, Vaccines, Cancer & Immunotherapy  
-**Relevance Score:** 56.2/100  
-**PMID:** 41711595 | **DOI:** 10.1021/acsbiomaterials.5c01698  
+**Relevance Score:** 56.2/100
 
-Novel ionizable lipids designed via molecular hybridization enable enhanced mRNA delivery for cancer vaccines. The study demonstrates successful OVA-mRNA delivery for melanoma prevention in mouse models, representing advancement in therapeutic cancer vaccine development.
+Lipid nanoparticles (LNPs) have emerged as a powerful platform for mRNA vaccine delivery, with ionizable lipids playing a pivotal role in enhancing cellular uptake and endosomal escape, thereby improving therapeutic efficacy. In this study, we designed and synthesized 12 novel ionizable lipids via molecular hybridization, incorporating a hydroxyalkylamine headgroup, an ester linkage, and a cis-double bond tail. These lipids were then formulated into LNPs with helper lipids and eGFP or LUC mRNA. Through cell transfection and in vivo imaging experiments, the O2-N5-OLE LNP was identified with superior mRNA delivery capabilities, particularly in immune cells.
+
+*[Continued]* Subsequently, it was employed to encapsulate the tumor model antigen ovalbumin (OVA) mRNA vaccine, and its preventive effects against mouse melanoma were evaluated. The results demonstrated that O2-N5-OLE LNP@OVA mRNA exhibits superior tumor suppression. Additionally, the OVA mRNA delivered by O2-N5-OLE LNP significantly elevated serum OVA-IgG and IFN-gamma levels and activated dendritic cells and CD8(+) T lymphocytes, indicating that the vaccine effectively activated both humoral and cellular immunity. Coupled with the excellent biocompatibility of the O2-N5-OLE LNP, these findings highlight its remarkable delivery efficacy and provide a strong experimental foundation for its potential clinical application.
+
+**Why This Matters:** Represents novel advancement in the field. 
 
 ---
 
-### 3. A structure-based mRNA vaccine for Nipah virus in healthy adults: a phase 1 trial ⭐⭐
+### 3. A structure-based mRNA vaccine for Nipah virus in healthy adults: a phase 1 trial. ⭐⭐
 
-**Authors:** Ploquin A et al.  
-**Journal:** Nature medicine (2026 Mar 12)  
+> **Ploquin A et al.** – *Nature medicine* (2026 Mar 12)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41820674/) | DOI: 10.1038/s41591-026-04265-1  
+
 **Categories:** LNP Engineering & Delivery, Vaccines, Clinical Development  
-**Relevance Score:** 55.8/100  
-**PMID:** 41820674 | **DOI:** 10.1038/s41591-026-04265-1  
+**Relevance Score:** 55.8/100
 
-First-in-human Phase 1 trial of mRNA-1215, an LNP-formulated mRNA vaccine encoding chimeric pre-fusion F protein for Nipah virus. Conducted in 40 healthy adults with dose-escalation design. Represents critical advancement for pandemic-potential pathogen preparedness.
+Nipah virus (NiV) is a highly pathogenic, zoonotic paramyxovirus with pandemic potential. No licensed vaccines or treatments are available. Therefore, we conducted a phase 1, first-in-human, open-label, dose-escalation trial of a lipid nanoparticle mRNA vaccine, mRNA-1215, encoding a chimeric pre-fusion F (Pre-F) protein linked to glycoprotein G of a NiV Malaysian strain. Forty healthy adults, who met eligibility criteria, were enrolled into the 10-, 25-, 50- or 100-mug dose groups with ten participants per group. Each participant received two doses of mRNA-1215, intramuscularly, at a 4-week interval except for one participant in the 10-mug dose group who received only the first dose. All participants remained in the study until their final study visit.
+
+*[Continued]* The primary outcome of vaccine safety and tolerability was determined by prespecified end points: the frequency and severity of solicited local and systemic adverse events (AEs), unsolicited AEs, safety laboratory measures, medically attended AEs, AEs of special interest, new chronic medical conditions and serious AEs. The most frequently reported local and systemic AEs were mild pain and tenderness at the injection site (n  = 33; 82%) and mild malaise (n  = 16; 40%), respectively. Overall, the vaccine was well tolerated. No serious AEs occurred during the study. mRNA-1215 elicited robust Pre-F and G binding antibody titers, the prespecified secondary end points. An exploratory analysis found that mRNA-1215 elicited neutralizing titers by 2 weeks after the prime in all dose groups. Responses increased after the boost and rem
+
+**Why This Matters:** Clinical trial data provides validation for mRNA therapeutic approach. Represents novel advancement in the field. 
 
 ---
 
-### 4. mRNA vaccines for HBV: Mechanisms, preclinical advances, and therapeutic clinical progress ⭐⭐
+### 4. mRNA vaccines for HBV: Mechanisms, preclinical advances, and therapeutic clinical progress. ⭐⭐
 
-**Authors:** Pechnikova NA et al.  
-**Journal:** Molecular therapy. Nucleic acids (2026 Mar 12)  
+> **Pechnikova NA et al.** – *Molecular therapy. Nucleic acids* (2026 Mar 12)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41583559/) | DOI: 10.1016/j.omtn.2025.102819  
+
 **Categories:** LNP Engineering & Delivery, Vaccines, Clinical Development  
-**Relevance Score:** 55.8/100  
-**PMID:** 41583559 | **DOI:** 10.1016/j.omtn.2025.102819  
+**Relevance Score:** 55.8/100
 
-Comprehensive review of mRNA-based technologies for hepatitis B virus treatment. Addresses challenges of cccDNA persistence and immune dysfunction. Highlights versatile platform potential for both prevention and functional cure strategies.
+Hepatitis B virus (HBV) remains a leading cause of cirrhosis and hepatocellular carcinoma, while functionally curative therapies remain scarce. Durable remission is hindered by the persistence of covalently closed circular DNA (cccDNA) and viral genome integration, both of which contribute to impaired immune responses. mRNA-based technologies provide a versatile platform for prevention and treatment, owing to their rapid development cycle and intrinsic immunostimulatory properties. In preclinical HBV-carrier mouse models, lipid-nanoparticle (LNP) mRNA vaccines encoding hepatitis B surface antigen (HBsAg) or polyvalent Ags have achieved HBsAg clearance and HBV-DNA reduction, outperforming protein-based comparators. Clinically, two phase I therapeutic trials have been initiated to date.
+
+*[Continued]* An ARCUS nuclease delivered as LNP-mRNA entered first-in-human testing in 2025, with only preliminary safety data available from a small patient cohort and no published efficacy data. Similarly, HBx-biased mRNA vaccines, such as WGc-0201, have recently entered early clinical evaluation without reported clinical efficacy. Despite these advances, several challenges impede effective therapy, including innate-immune overactivation, HBV genotypic diversity, and the need for rational therapeutic combinations. This review summarizes current preclinical findings and emerging clinical evidence and outlines future strategies toward durable viral control and effective prophylaxis, including self-amplifying or cyclic RNAs, receptor-targeted LNPs, and multimodal therapeutic regimens.
+
+**Why This Matters:** Clinical trial data provides validation for mRNA therapeutic approach. Represents novel advancement in the field. 
 
 ---
 
-### 5. Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders ⭐⭐
+### 5. Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders. ⭐⭐
 
-**Authors:** Swingle KL, Mitchell MJ  
-**Journal:** Nature protocols (2026 Mar 10)  
+> **Swingle KL, Mitchell MJ** – *Nature protocols* (2026 Mar 10)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41807717/) | DOI: 10.1038/s41596-025-01325-7  
+
 **Categories:** LNP Engineering & Delivery, Protein Replacement & Gene Therapy  
-**Relevance Score:** 55.6/100  
-**PMID:** 41807717 | **DOI:** 10.1038/s41596-025-01325-7  
+**Relevance Score:** 55.6/100
 
-Detailed protocol for engineering placenta-targeted LNPs for mRNA delivery. Novel application addressing pregnancy disorders through precision nucleic acid delivery. Represents expansion of mRNA therapeutics into maternal-fetal medicine.
+Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders.
+
+*[Continued]* In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and repr
+
+**Why This Matters:** Represents novel advancement in the field. 
 
 ---
 
-### 6. Amino acid supplementation enhances in vivo efficacy of lipid nanoparticle-mediated mRNA delivery ⭐⭐
+### 6. Amino acid supplementation enhances in vivo efficacy of lipid nanoparticle-mediated mRNA delivery in preclinical models. ⭐⭐
 
-**Authors:** Chen K et al.  
-**Journal:** Science translational medicine (2026 Mar 11)  
+> **Chen K et al.** – *Science translational medicine* (2026 Mar 11)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41811986/) | DOI: 10.1126/scitranslmed.adx4097  
+
 **Categories:** LNP Engineering & Delivery  
-**Relevance Score:** 55.0/100  
-**PMID:** 41811986 | **DOI:** 10.1126/scitranslmed.adx4097  
+**Relevance Score:** 55.0/100
 
-Demonstrates that cellular metabolism constrains mRNA expression from LNPs. Amino acid supplementation significantly enhances delivery efficacy across multiple organs. Reveals metabolic optimization as key strategy for improving therapeutic mRNA delivery.
+Lipid nanoparticles (LNPs) play a critical role in the delivery of therapeutic messenger RNA (mRNA). Despite extensive efforts to optimize lipid formulations for in vivo delivery, efficacy of mRNA by LNPs remains suboptimal in many organs. Here, we demonstrate that LNP delivery efficacy is influenced by cellular metabolism, with the physiologic metabolome imposing constraints on mRNA expression from LNPs. Using an in vitro system, we found that simulated physiologic metabolic conditions led to the down-regulation of certain amino acid metabolic programs. Supplementation with an optimized formulation of methionine, arginine, and serine as an amino acid supplement (AAS) enhanced the uptake of LNPs and the expression of delivered mRNA cargo in epithelial cells in vitro.
+
+*[Continued]* Coadministration of AAS with LNPs led to a 5- to 20-fold improvement in mRNA expression across various cell types and lipid formulations in vitro by promoting clathrin-independent carrier-mediated endocytosis. Delivery of mRNA by LNPs coadministered with AAS by multiple routes enhanced in vivo mRNA expression in preclinical models. Delivery of mRNA encoding growth hormone by LNPs with coadministration of AAS improved the liver growth hormone expression and the therapeutic outcomes in a model of inflammatory liver damage. Delivery of gene editing materials by LNP and AAS through an intratracheal route increased lung-targeted in vivo gene editing efficiency compared with LNP alone. The addition of an optimized AAS as a codelivered agent with LNPs may provide a simple strategy to broadly improve the efficacy of mR
+
+**Why This Matters:** Demonstrates improved specificity for therapeutic delivery. 
 
 ---
 
-### 7. Optimizing C14120-based LNPs for in vitro and in vivo mRNA delivery ⭐
+### 7. Optimizing C14120-based LNPs for in vitro and in vivo mRNA delivery. ⭐
 
-**Authors:** Song P et al.  
-**Journal:** Molecular therapy. Nucleic acids (2026 Mar 12)  
+> **Song P et al.** – *Molecular therapy. Nucleic acids* (2026 Mar 12)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41815890/) | DOI: 10.1016/j.omtn.2026.102866  
+
 **Categories:** LNP Engineering & Delivery  
-**Relevance Score:** 55.0/100  
-**PMID:** 41815890 | **DOI:** 10.1016/j.omtn.2026.102866  
+**Relevance Score:** 55.0/100
 
-Systematic characterization of 25 novel C14120-based LNP formulations comparing in vitro versus in vivo delivery efficiency. Establishes formulation optimization strategies for context-dependent mRNA delivery applications.
+Lipid nanoparticles (LNPs) have proven to be an effective delivery system for RNA therapeutics. The chemical composition of LNPs determines their functional delivery efficiency and targeting properties, which vary between in vitro and in vivo contexts. Here, we have systematically characterized and compared 25 novel C14120-based LNP formulations for mRNA delivery in vitro and assessed in vivo mRNA expression and biodistribution using deep sequencing of DNA barcodes in a pooled LNP-mRNA library. In vitro experiments showed correlations of lipid composition with particle size and mRNA transfection efficiency in 4 different cell lines of distinct tissue and species origin.
+
+*[Continued]* In vivo experiments employed a pooled LNP delivery of luciferase mRNA in combination with a multiplexed barcode system and identified LNP compositions with organ-specific targeting properties. Individual validation of three selected LNP candidates based on mRNA expression analysis confirmed high specificity for the lung-targeting candidate, lower specificity for the liver-targeting candidate, and inconclusive results for the spleen-targeting candidate. These findings identify LNP formulations with promising potential for in vitro and in vivo organ-targeted delivery.
 
 ---
 
-### 8. Modular mRNA lipid nanoparticle platform rescues diverse genetic male infertility ⭐ [BIORXIV]
+### 8. Modular mRNA lipid nanoparticle platform rescues diverse genetic male infertility ⭐ [BIORXIV PREPRINT]
 
-**Authors:** Jiang, Q. K. et al.  
-**Journal:** biorxiv (Preprint) (2026-03-12)  
+> **Jiang, Q. K. et al.** – *biorxiv (Preprint)* (2026-03-12)  
+DOI: 10.1101/2025.11.13.688269  
+
 **Categories:** LNP Engineering & Delivery  
-**Relevance Score:** 54.8/100  
-**DOI:** 10.1101/2025.11.13.688269  
+**Relevance Score:** 54.8/100
 
-Novel modular mRNA-LNP platform for treating genetic male infertility. Demonstrates efficient delivery to seminiferous epithelium and transient protein replacement without genome modification. Represents potential breakthrough therapeutic approach for diverse spermatogenesis mutations.
+Genetic male infertility arises from diverse mutations that disrupt spermatogenesis, yet molecular therapies capable of restoring germ-cell function remain limited. Messenger RNA (mRNA) therapeutics offer transient protein replacement without permanent genome modification, but efficient and safe delivery to the seminiferous epithelium remains challenging. Here we develop a modular mRNA-lipid nanoparticle (LNP) platform that restores spermatogenesis across multiple genetic infertility models. Systematic comparison of clinically relevant ionizable lipids revealed that the clinically validated ionizable lipid MC3 uniquely provides sustained mRNA expression in the seminiferous epithelium while minimizing inflammation and systemic leakage.
+
+*[Continued]* In contrast, lipids such as ALC-0315 produced higher transient reporter expression but failed to support functional rescue. A single intratesticular injection of an optimized Papolb mRNA restored spermiogenesis in [~]25% of seminiferous tubules and generated functional sperm capable of producing healthy offspring through intracytoplasmic sperm injection. The platform extended to both meiotic (Spo11) and post-meiotic (Btbd18) arrest models and enabled efficient mRNA expression in cultured human seminiferous tubules. Comprehensive analyses demonstrated long-term safety in treated animals and multigenerational genetic and epigenetic stability in offspring. Together, these findings establish a modular mRNA-LNP platform for correcting diverse genetic causes of male infertility and reveal a design principle for extrahepatic RNA delivery: delivery ef
 
 ---
 
-### 9. Preparation of targeted lipid nanoparticles for precision nucleic acid delivery ⭐
+### 9. Preparation of targeted lipid nanoparticles for precision nucleic acid delivery. ⭐
 
-**Authors:** Geisler HC et al.  
-**Journal:** Nature protocols (2026 Mar 9)  
+> **Geisler HC et al.** – *Nature protocols* (2026 Mar 9)  
+> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41803280/) | DOI: 10.1038/s41596-025-01330-w  
+
 **Categories:** LNP Engineering & Delivery, Manufacturing & Analytics  
-**Relevance Score:** 54.4/100  
-**PMID:** 41803280 | **DOI:** 10.1038/s41596-025-01330-w  
+**Relevance Score:** 54.4/100
 
-Comprehensive protocol for targeted LNP (tLNP) preparation enabling receptor-mediated endocytosis in difficult-to-transfect cells. Overcomes liver accumulation challenges through precision targeting. Enables meaningful transfection at lower doses in specific cell populations.
+Intravenous administration of lipid nanoparticles for the delivery of nucleic acid therapeutics remains constrained by passive uptake mechanisms in the liver, often necessitating high doses to achieve meaningful transfection in specific cells of interest. Targeted LNPs (tLNPs) can overcome these challenges by (i) enabling receptor-mediated endocytosis in difficult-to-transfect cells, thereby reducing passive clearance; (ii) increasing the proportion of LNPs reaching their intended target; and (iii) enabling comparable protein expression at lower doses. Here, we provide a step-by-step guide for formulating tLNPs functionalized with whole antibodies or antibody fragments using traditional laboratory equipment.
+
+*[Continued]* We outline procedures for antibody preparation and labeling (0.5-1 d), antibody-LNP conjugation (1-2 d), tLNP purification and characterization (1 d) and in vivo and ex vivo targeting evaluation (3-4 d). To demonstrate the versatility of this protocol, we validate in vivo targeting to two mouse tissues: we show that anti-platelet endothelial cell adhesion molecule 1 antibody conjugation to lung-tropic LNPs enhances lung transfection by five times compared to nontargeted LNPs, and anti-epidermal growth factor receptor antibody conjugation to liver-tropic LNPs enhances liver transfection by 20 times. We also demonstrate ex vivo targeting to primary human T cells, where anti-CD5 antibody conjugation to LNPs boosts uptake by 4.5 times and significantly increases mRNA transfection. Importantly, this modular strategy is compatible with any LNP formulation or antibody. In outl
 
 ---
 
-### 10. Bivalent mRNA booster encoding virus-like particles elicits potent polyclass receptor-binding domain antibodies ⭐ [BIORXIV]
+### 10. Bivalent mRNA booster encoding virus-like particles elicits potent polyclass receptor-binding domain antibodies in pre-vaccinated mice ⭐ [BIORXIV PREPRINT]
 
-**Authors:** Fan, C. et al.  
-**Journal:** biorxiv (Preprint) (2026-03-12)  
+> **Fan, C. et al.** – *biorxiv (Preprint)* (2026-03-12)  
+DOI: 10.1101/2025.08.18.670983  
+
 **Categories:** LNP Engineering & Delivery, Vaccines  
-**Relevance Score:** 51.1/100  
-**DOI:** 10.1101/2025.08.18.670983  
+**Relevance Score:** 51.1/100
 
-Novel EABR mRNA vaccine platform encoding engineered virus-like particles. Demonstrates enhanced antibody durability compared to conventional mRNA vaccines. Addresses limitations of short-lived responses and variant emergence in COVID-19 vaccination.
+mRNA vaccines emerged as a leading vaccine technology during the COVID-19 pandemic. However, their sustained protective efficacies were limited by relatively short-lived antibody responses and the emergence of SARS-CoV-2 variants, necessitating frequent and variant-updated boosters. We recently developed the ESCRT- and ALIX-binding region (EABR) mRNA vaccine platform, which encodes engineered immunogens that induce budding of enveloped virus-like particles (eVLPs) from the plasma membrane, thereby resulting in presentation of immunogens on cell surfaces and eVLPs. Prior studies showed that spike (S)-EABR mRNA-LNP immunizations elicited enhanced neutralizing antibody responses against ancestral and variant SARS-CoV-2 compared with conventional S mRNA-LNP in naive mice, but the effectiveness of S-EABR mRNA-LNP boosters in the context of pre-existing immunity has not been investigated. Here, we evaluated monovalent Wuhan-Hu-1 (Wu1) and bivalent (Wu1/BA.5) S-EABR mRNA-LNP boosters in mice pre-vaccinated with conventional Wu1 S mRNA-LNP. Compared to conventional S mRNA-LNP boosters, the EABR approach enhanced monovalent and bivalent mRNA-LNP booster-induced neutralizing responses against Omicron subvariants BA.1, BA.5, BQ.1.1, and XBB.1, with bivalent S-EABR mRNA-LNP consistently eliciting the highest titers. Epitope mapping of polyclonal antisera by deep mutational scanning revealed that bivalent S-EABR mRNA-LNP boosted diverse "polyclass" anti-receptor-binding domain (RBD) responses, suggesting balanced targeting of multiple RBD epitope classes. In contrast, monovalent S, bivalent S, and monovalent S-EABR mRNA-LNP boosters elicited less diverse polyclonal serum responses primarily targeting immunodominant RBD epitopes. Cryo-EM structures demonstrated that bivalent mRNA immunizations promote S heterotrimer formation, potentially enhancing bivalent S-EABR mRNA-LNP booster-induced antibody breadth and polyclass epitope targeting by activating cross-reactive B cells through intra-S crosslinking. These findings support the future design of bivalent or multivalent S-EABR mRNA-LNP boosters as a promising strategy to confer broader, and therefore potentially more durable, protection against emerging SARS-CoV-2 variants and other rapidly evolving viruses.
 
 ---
 
