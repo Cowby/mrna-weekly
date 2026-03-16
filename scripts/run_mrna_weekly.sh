@@ -75,20 +75,46 @@ if [ -n "$REPORT_FILE" ] && [ -f "$REPORT_FILE" ]; then
         echo "✅ Bibliography appended to report"
     fi
     
-    # Generate PDF from updated report
-    echo "📄 Generating PDF from updated report..."
+    # Generate PDF from updated report (emoji-free with styling)
+    echo "📄 Generating professional PDF..."
     REPORT_BASENAME=$(basename "$REPORT_FILE" .md)
-    HTML_FILE="$WEEKLY_DIR/${REPORT_BASENAME}.html"
+    CLEAN_MD="$WEEKLY_DIR/${REPORT_BASENAME}_clean.md"
+    HTML_FILE="$WEEKLY_DIR/${REPORT_BASENAME}_styled.html"
     PDF_FILE="$WEEKLY_DIR/${REPORT_BASENAME}.pdf"
     
     if command -v python3 &>/dev/null && python3 -c "import markdown" &>/dev/null; then
-        python3 -m markdown "$REPORT_FILE" > "$HTML_FILE"
+        # Step 1: Remove emojis
+        python3 "$SCRIPT_DIR/strip_emojis.py" "$REPORT_FILE" > "$CLEAN_MD"
         
+        # Step 2: Convert to HTML with CSS styling
+        python3 << EOF
+import markdown
+with open('$CLEAN_MD', 'r', encoding='utf-8') as f:
+    md = f.read()
+html_body = markdown.markdown(md, extensions=['tables', 'fenced_code'])
+html_full = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mRNA Therapeutics Weekly Report</title>
+    <link rel="stylesheet" href="report_style.css">
+</head>
+<body>
+{html_body}
+</body>
+</html>
+"""
+with open('$HTML_FILE', 'w', encoding='utf-8') as f:
+    f.write(html_full)
+EOF
+        
+        # Step 3: Generate PDF with WeasyPrint
         if command -v weasyprint &>/dev/null; then
             weasyprint "$HTML_FILE" "$PDF_FILE" 2>/dev/null
             if [ -f "$PDF_FILE" ]; then
-                echo "✅ PDF generated: $(basename "$PDF_FILE")"
+                echo "✅ Professional PDF generated: $(basename "$PDF_FILE")"
                 git add "$PDF_FILE" 2>/dev/null || true
+                rm -f "$CLEAN_MD"  # Cleanup temp file
             else
                 echo "⚠️  PDF generation failed"
             fi

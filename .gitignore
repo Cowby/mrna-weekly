@@ -1,0 +1,36 @@
+# OpenClaw workspace internal files
+.openclaw/
+AGENTS.md
+HEARTBEAT.md
+IDENTITY.md
+MEMORY.md
+SOUL.md
+TOOLS.md
+USER.md
+memory/
+
+# Job search (private)
+job-search/
+cv_template.html
+*.pdf
+!mrna-weekly/*.pdf
+!mrna-weekly/*_FINAL.pdf
+
+# Personal projects
+projects/
+tutorials/
+
+# Recipes & misc
+rezept-*.md
+rezept-*.pdf
+futterempfehlung.png
+yokogawa_*.pdf
+yokogawa_*.html
+
+# Temp files
+mrna-weekly/*_clean.md
+mrna-weekly/*_no_emoji.md
+mrna-weekly/*_UPDATED.pdf
+mrna-weekly/fetch_*.json
+mrna-weekly/test_*.json
+mrna-weekly/*.log
