@@ -50,142 +50,125 @@ This week showcases remarkable innovation in **precise mRNA delivery systems** w
 
 ## 🔬 Top Publications
 
-### 1. Precision CRISPR/Cas9 Delivery for KRAS G12S Lung Cancer ⭐⭐⭐
+*Ranked by relevance score combining recency, category importance, impact indicators, journal prestige, and source credibility. See Methodology section for details.*
 
-> **Marschhofer, Chen et al.** – *Journal of Controlled Release* (2026-03-10)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41506374/) | DOI: 10.1016/j.jconrel.2026.114607
+### 1. Correction of a recurrent pathogenic variant in methylmalonic acidemia using adenine base editing ⭐⭐ [BIORXIV]
 
-**Background:** KRAS G12S mutations drive ~30% of non-small cell lung cancers but remain therapeutically intractable. While CRISPR/Cas9 enables mutation-specific gene disruption, pulmonary delivery faces major barriers: systemic clearance, hepatic tropism, and airway mucus.
+**Authors:** Kahn, E. M. et al.  
+**Journal:** biorxiv (Preprint) (2026-03-15)  
+**Categories:** LNP Engineering & Delivery, Protein Replacement & Gene Therapy  
+**Relevance Score:** 56.3/100  
+**DOI:** 10.64898/2026.03.12.711365  
 
-**Approach:** Systematic LNP optimization through mRNA surrogate screening and orthogonal mixture design to optimize both lipid composition and Cas9:sgRNA ratios specifically for pulmonary delivery. Lead candidates tested via intratracheal administration in orthotopic A549-luc tumor models.
-
-**Key Findings:**
-- **Two lead formulations emerged:** A6 3:1 and A8 1:1 with distinct cryo-TEM morphologies correlating with enhanced transfection
-- **Robust quality attributes:** <120 nm particle size, low PDI, neutral zeta potential, >80% encapsulation efficiency
-- **In vitro potency:** A8 1:1 achieved 90% on-target gene editing in A549 cells + 3.6-fold increased apoptosis
-- **Mucus penetration:** Both formulations efficiently traversed airway mucus in air-liquid interface cultures
-- **In vivo efficacy:** Intratracheal A8 1:1 suppressed tumor growth with histological evidence of tumor cell apoptosis
-- **Safety profile:** Repeated pulmonary administration well-tolerated with no systemic toxicity or cytokine elevation
-
-**Significance:** First demonstration of effective pulmonary CRISPR delivery targeting a clinically relevant oncogene mutation. The systematic optimization framework and proof-of-concept efficacy establish a foundation for precision gene editing in respiratory cancers.
+Methylmalonic acidemia (MMA) is a recessive genetic disease caused by variants in the MMUT gene. This study presents a corrective editing strategy using adenine base editing delivered via lipid nanoparticles. The approach successfully corrects the recurrent pathogenic MMAB variant c.556C>T (R186W), demonstrating potential for precision genetic medicine in metabolic disorders.
 
 ---
 
-### 2. Self-Amplifying mRNA Enhances Fetal Transamniotic Delivery ⭐⭐⭐
+### 2. Lipid Nanoparticles Formulated with a Molecular Hybridization-Derived Ionizable Lipid Enabled OVA-mRNA Delivery for Melanoma Prevention ⭐⭐
 
-> **Huang, Scire et al.** – *FASEB Journal* (2026-03-15)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41761919/) | DOI: 10.1096/fj.202504498R
+**Authors:** Liu Z et al.  
+**Journal:** ACS biomaterials science & engineering (2026 Mar 9)  
+**Categories:** LNP Engineering & Delivery, Vaccines, Cancer & Immunotherapy  
+**Relevance Score:** 56.2/100  
+**PMID:** 41711595 | **DOI:** 10.1021/acsbiomaterials.5c01698  
 
-**Background:** Fetal gene therapy via intraamniotic injection shows promise but is limited by poor mRNA stability and translation efficiency. Self-amplifying RNA (saRNA) contains replicase sequences enabling intracellular amplification.
-
-**Approach:** Head-to-head comparison of saRNA vs. linear mRNA (both encoding firefly luciferase) delivered via intraamniotic injection in Sprague-Dawley rats on gestational day 17. Comprehensive biodistribution analysis at term and postnatal timepoints.
-
-**Key Findings:**
-- **Superior distribution:** saRNA achieved significant luciferase expression at 9 anatomical sites (placenta, umbilical cord, membranes, amniotic fluid, liver, heart, lung, kidney, thymus) vs. only 1 site for linear mRNA
-- **Enhanced durability:** Expression persisted through multiple developmental timepoints with saRNA
-- **Amplification advantage:** Self-replicating mechanism provided sustained protein production without repeated dosing
-- **Safety:** No adverse developmental effects observed in treated fetuses
-
-**Significance:** Establishes saRNA as a superior platform for fetal gene therapy with dramatically enhanced distribution and durability. Critical for advancing treatments for genetic disorders diagnosed in utero, particularly given the narrow therapeutic window.
+Novel ionizable lipids designed via molecular hybridization enable enhanced mRNA delivery for cancer vaccines. The study demonstrates successful OVA-mRNA delivery for melanoma prevention in mouse models, representing advancement in therapeutic cancer vaccine development.
 
 ---
 
-### 3. Spleen-Targeted mRNA Delivery via Engineered PEGylated Lipids ⭐⭐⭐
+### 3. A structure-based mRNA vaccine for Nipah virus in healthy adults: a phase 1 trial ⭐⭐
 
-> **Liu, Zhang et al.** – *Molecular Therapy - Nucleic Acids* (2026-03-12)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41541271/) | DOI: 10.1016/j.omtn.2025.102803
+**Authors:** Ploquin A et al.  
+**Journal:** Nature medicine (2026 Mar 12)  
+**Categories:** LNP Engineering & Delivery, Vaccines, Clinical Development  
+**Relevance Score:** 55.8/100  
+**PMID:** 41820674 | **DOI:** 10.1038/s41591-026-04265-1  
 
-**Background:** Most LNPs accumulate predominantly in liver, limiting immunotherapy applications. The spleen houses critical immune cell populations but remains challenging to target effectively.
-
-**Approach:** Rational LNP design varying PEGylated lipid chain length (C14 DMG-PEG vs. C18 DSG-PEG) and molar ratios (0.75% vs. 1.5%) to precisely control particle properties and protein corona composition. Lead formulation tested in B16-OVA melanoma model.
-
-**Key Findings:**
-- **Optimal formulation:** DSG-PEG at 0.75% mol ratio achieved largest size (~170 nm by DLS, ~60 nm core by cryo-EM)
-- **Selective targeting:** Significantly enhanced spleen accumulation vs. liver-tropic formulations
-- **Immune activation:** Potently activated dendritic cells and expanded antigen-specific CD4+ T cell populations
-- **Therapeutic efficacy:** Significantly inhibited tumor growth in melanoma model
-- **Mechanistic insight:** Distinct protein corona composition correlated with tissue tropism
-
-**Significance:** Provides a rational framework for redirecting LNP biodistribution from liver to spleen through precise PEGylated lipid engineering. Opens new possibilities for mRNA-based cancer immunotherapies requiring splenic immune activation.
+First-in-human Phase 1 trial of mRNA-1215, an LNP-formulated mRNA vaccine encoding chimeric pre-fusion F protein for Nipah virus. Conducted in 40 healthy adults with dose-escalation design. Represents critical advancement for pandemic-potential pathogen preparedness.
 
 ---
 
-### 4. Self-Assembling Nanoparticles for Enhanced mRNA Vaccine Stability ⭐⭐
+### 4. mRNA vaccines for HBV: Mechanisms, preclinical advances, and therapeutic clinical progress ⭐⭐
 
-> **De Chiara, Nele et al.** – *Molecular Therapy - Nucleic Acids* (2026-03-12)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41736889/) | DOI: 10.1016/j.omtn.2026.102851
+**Authors:** Pechnikova NA et al.  
+**Journal:** Molecular therapy. Nucleic acids (2026 Mar 12)  
+**Categories:** LNP Engineering & Delivery, Vaccines, Clinical Development  
+**Relevance Score:** 55.8/100  
+**PMID:** 41583559 | **DOI:** 10.1016/j.omtn.2025.102819  
 
-**Background:** Current mRNA-LNPs require ultra-cold storage (-80°C), creating major logistical barriers for global vaccine distribution.
-
-**Approach:** Novel lipid self-assembling nanoparticle (SANP) technology allowing room-temperature storage of individual components with on-demand assembly by simple mixing before use.
-
-**Key Findings:**
-- **Enhanced stability:** Components stable at 4°C without freezing requirements
-- **Simple assembly:** Sub-200 nm particles formed by mixing components immediately before use
-- **Performance parity:** High mRNA encapsulation efficiency, colloidal stability, low hemolytic activity
-- **In vivo efficacy:** High transgene expression via both intramuscular and intravenous routes
-- **Safety profile:** No renal/hepatic toxicity or pro-inflammatory cytokine release
-- **Immune response:** SARS-CoV-2 spike protein SANPs elicited significant immune responses in mice
-
-**Significance:** Addresses a critical practical barrier in mRNA vaccine deployment by eliminating cold-chain requirements. The technology could dramatically expand vaccine accessibility in resource-limited settings.
+Comprehensive review of mRNA-based technologies for hepatitis B virus treatment. Addresses challenges of cccDNA persistence and immune dysfunction. Highlights versatile platform potential for both prevention and functional cure strategies.
 
 ---
 
-### 5. Targeted LNP Manufacturing Protocols for Precision Delivery ⭐⭐
+### 5. Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders ⭐⭐
 
-> **Geisler, Battistini et al.** – *Nature Protocols* (2026-03-09)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41803280/) | DOI: 10.1038/s41596-025-01330-w
+**Authors:** Swingle KL, Mitchell MJ  
+**Journal:** Nature protocols (2026 Mar 10)  
+**Categories:** LNP Engineering & Delivery, Protein Replacement & Gene Therapy  
+**Relevance Score:** 55.6/100  
+**PMID:** 41807717 | **DOI:** 10.1038/s41596-025-01325-7  
 
-**Background:** Targeted LNPs (tLNPs) can overcome passive liver uptake limitations, but standardized manufacturing protocols are lacking.
-
-**Approach:** Comprehensive step-by-step protocol for antibody-LNP conjugation using standard laboratory equipment, with validation across multiple targeting applications.
-
-**Key Findings:**
-- **Modular strategy:** Compatible with any LNP formulation and antibody combination
-- **Lung targeting:** Anti-PECAM-1 conjugation enhanced lung transfection 5-fold
-- **Liver enhancement:** Anti-EGFR conjugation boosted liver transfection 20-fold  
-- **T cell targeting:** Anti-CD5 conjugation increased primary human T cell uptake 4.5-fold with significant mRNA transfection
-- **Reproducible workflow:** Detailed protocols covering antibody preparation (0.5-1d), conjugation (1-2d), purification (1d), and validation (3-4d)
-
-**Significance:** Democratizes access to targeted LNP technology by providing standardized, reproducible protocols using conventional equipment. Essential for advancing precision medicine applications requiring cell-type specific delivery.
+Detailed protocol for engineering placenta-targeted LNPs for mRNA delivery. Novel application addressing pregnancy disorders through precision nucleic acid delivery. Represents expansion of mRNA therapeutics into maternal-fetal medicine.
 
 ---
 
-### 6. Hepatitis B mRNA Vaccines: Clinical Progress and Challenges ⭐⭐
+### 6. Amino acid supplementation enhances in vivo efficacy of lipid nanoparticle-mediated mRNA delivery ⭐⭐
 
-> **Pechnikova, Zafeiriou-Chatziefraimidou et al.** – *Molecular Therapy - Nucleic Acids* (2026-03-12)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41583559/) | DOI: 10.1016/j.omtn.2025.102819
+**Authors:** Chen K et al.  
+**Journal:** Science translational medicine (2026 Mar 11)  
+**Categories:** LNP Engineering & Delivery  
+**Relevance Score:** 55.0/100  
+**PMID:** 41811986 | **DOI:** 10.1126/scitranslmed.adx4097  
 
-**Background:** Hepatitis B affects 250M+ people globally with limited curative therapies due to persistent cccDNA and integrated viral genomes.
-
-**Approach:** Comprehensive review of mRNA vaccine approaches for HBV prevention and treatment, covering preclinical advances and early clinical data.
-
-**Key Findings:**
-- **Preclinical success:** LNP-mRNA vaccines encoding HBsAg achieved HBsAg clearance and HBV-DNA reduction in mouse models, outperforming protein vaccines
-- **Clinical pipeline:** ARCUS nuclease delivered as LNP-mRNA entered human testing in 2025, HBx-biased vaccines (WGc-0201) in early evaluation
-- **Technical challenges:** Innate immune overactivation, HBV genotypic diversity, need for combination approaches
-- **Future directions:** Self-amplifying RNA, circular RNA, receptor-targeted LNPs, multimodal therapeutic regimens
-
-**Significance:** Provides critical roadmap for HBV mRNA vaccine development, highlighting both promising early results and remaining technical hurdles. Important given the urgent need for functional cures in chronic HBV.
+Demonstrates that cellular metabolism constrains mRNA expression from LNPs. Amino acid supplementation significantly enhances delivery efficacy across multiple organs. Reveals metabolic optimization as key strategy for improving therapeutic mRNA delivery.
 
 ---
 
-### 7. Cancer mRNA Vaccines: Technology Advances and Engineering ⭐⭐
+### 7. Optimizing C14120-based LNPs for in vitro and in vivo mRNA delivery ⭐
 
-> **Uchida S.** – *Japanese Journal of Clinical Oncology* (2026-03-13)  
-> [PubMed](https://pubmed.ncbi.nlm.nih.gov/41359436/) | DOI: 10.1093/jjco/hyaf199
+**Authors:** Song P et al.  
+**Journal:** Molecular therapy. Nucleic acids (2026 Mar 12)  
+**Categories:** LNP Engineering & Delivery  
+**Relevance Score:** 55.0/100  
+**PMID:** 41815890 | **DOI:** 10.1016/j.omtn.2026.102866  
 
-**Background:** mRNA cancer vaccines targeting tumor-associated antigens and neoantigens show clinical promise but require optimization of both delivery and molecular design.
+Systematic characterization of 25 novel C14120-based LNP formulations comparing in vitro versus in vivo delivery efficiency. Establishes formulation optimization strategies for context-dependent mRNA delivery applications.
 
-**Approach:** Comprehensive review of current delivery technologies and mRNA engineering strategies for cancer immunotherapy.
+---
 
-**Key Findings:**
-- **Delivery advances:** Beyond traditional iLNPs to redesigned formulations and non-lipid approaches
-- **mRNA engineering:** Nucleoside modification, self-amplifying RNA, circular RNA, hybridization-based engineering
-- **Functional optimization:** Modulating immunostimulatory properties, extending antigen presentation duration
-- **Clinical translation:** Several trials showing immunological and clinical responses with room for improvement
+### 8. Modular mRNA lipid nanoparticle platform rescues diverse genetic male infertility ⭐ [BIORXIV]
 
-**Significance:** Critical synthesis of the technological landscape in cancer mRNA vaccines, identifying key areas for continued innovation in both delivery systems and mRNA molecular design.
+**Authors:** Jiang, Q. K. et al.  
+**Journal:** biorxiv (Preprint) (2026-03-12)  
+**Categories:** LNP Engineering & Delivery  
+**Relevance Score:** 54.8/100  
+**DOI:** 10.1101/2025.11.13.688269  
+
+Novel modular mRNA-LNP platform for treating genetic male infertility. Demonstrates efficient delivery to seminiferous epithelium and transient protein replacement without genome modification. Represents potential breakthrough therapeutic approach for diverse spermatogenesis mutations.
+
+---
+
+### 9. Preparation of targeted lipid nanoparticles for precision nucleic acid delivery ⭐
+
+**Authors:** Geisler HC et al.  
+**Journal:** Nature protocols (2026 Mar 9)  
+**Categories:** LNP Engineering & Delivery, Manufacturing & Analytics  
+**Relevance Score:** 54.4/100  
+**PMID:** 41803280 | **DOI:** 10.1038/s41596-025-01330-w  
+
+Comprehensive protocol for targeted LNP (tLNP) preparation enabling receptor-mediated endocytosis in difficult-to-transfect cells. Overcomes liver accumulation challenges through precision targeting. Enables meaningful transfection at lower doses in specific cell populations.
+
+---
+
+### 10. Bivalent mRNA booster encoding virus-like particles elicits potent polyclass receptor-binding domain antibodies ⭐ [BIORXIV]
+
+**Authors:** Fan, C. et al.  
+**Journal:** biorxiv (Preprint) (2026-03-12)  
+**Categories:** LNP Engineering & Delivery, Vaccines  
+**Relevance Score:** 51.1/100  
+**DOI:** 10.1101/2025.08.18.670983  
+
+Novel EABR mRNA vaccine platform encoding engineered virus-like particles. Demonstrates enhanced antibody durability compared to conventional mRNA vaccines. Addresses limitations of short-lived responses and variant emergence in COVID-19 vaccination.
 
 ---
 
@@ -253,7 +236,115 @@ This week showcases remarkable innovation in **precise mRNA delivery systems** w
 
 ---
 
-*Report generated March 16, 2026 by OpenClaw mRNA Analytics Engine*---
+
+
+---
+
+## Methodology: Article Selection and Ranking
+
+### Data Sources
+**Primary sources:**
+- **PubMed/MEDLINE**: Peer-reviewed publications via Bio.Entrez API with MeSH-optimized queries
+- **bioRxiv**: Life sciences preprints via parallel API requests (5 concurrent workers)
+- **medRxiv**: Medical sciences preprints
+- **ClinicalTrials.gov**: Clinical trial registry updates (API v2)
+
+**Search period:** Last 7 days (March 9-16, 2026)
+
+### Search Strategy
+**MeSH terms:**
+- "RNA, Messenger/therapeutic use"
+- "Vaccines, mRNA"
+- "Lipid Nanoparticles"
+- "Genetic Therapy"
+
+**Additional keywords:**
+- mRNA therapeutics, mRNA delivery, lipid nanoparticles (LNPs), ionizable lipids, self-amplifying RNA (saRNA), RNA vaccines, base editing, prime editing, CRISPR delivery, organ-specific targeting
+
+**Inclusion criteria:**
+1. Published or preprinted within the last 7 days
+2. Directly related to mRNA therapeutics, delivery systems, or clinical applications
+3. Original research, clinical trials, reviews, or protocols
+4. English language
+
+### Relevance Scoring Methodology
+
+Articles are ranked using a **multi-factor relevance score** (0-100 scale) calculated from:
+
+**1. Recency (max 25 points)**
+- Exponential decay: maximum score for current day, halves every 7 days
+- Formula: `25 × 0.5^(days_old / 7)`
+- Rationale: Prioritizes cutting-edge developments
+
+**2. Category Relevance (max 25 points)**
+- Core categories weighted higher:
+  - LNP Engineering & Delivery: 1.0× (highest priority)
+  - Cancer & Immunotherapy: 0.95×
+  - Vaccines: 0.9×
+  - Clinical Development: 0.9×
+  - RNA Biology & Design: 0.85×
+  - Protein Replacement & Gene Therapy: 0.85×
+  - Manufacturing & Analytics: 0.75×
+  - Other: 0.5×
+- Average category weight × 25 points
+
+**3. Impact Indicators (max 25 points)**
+- Keyword analysis of title + abstract for high-impact terms:
+  - Technical innovation: "novel," "breakthrough," "first," "innovative," "precision," "targeted"
+  - Clinical relevance: "clinical trial," "phase," "FDA," "approval," "efficacy," "safety"
+  - Advanced technologies: "CRISPR," "base editing," "prime editing," "self-amplifying," "saRNA"
+  - Targeting: "organ-specific," "tissue-specific," "biodistribution," "targeting"
+  - Formulation: "nanoparticle engineering," "ionizable lipid," "PEG lipid"
+- 2.5 points per keyword match (max 10 keywords)
+
+**4. Journal Prestige (max 15 points)**
+- High-impact journals receive multipliers:
+  - Nature, Science, Cell: 1.3×
+  - NEJM, Lancet: 1.25×
+  - JACS: 1.2×
+  - Molecular Therapy: 1.15×
+  - Journal of Controlled Release: 1.1×
+- Converted to 0-15 point scale
+
+**5. Source Credibility (max 10 points)**
+- PubMed (peer-reviewed): 10 points
+- bioRxiv (preprints): 8 points
+- medRxiv (preprints): 7 points
+- Rationale: Peer review adds credibility, but recent preprints may represent cutting-edge work
+
+### Star Rating System
+Publications are assigned star ratings based on final scores:
+- **⭐⭐⭐ (70-100 points):** Exceptional - combines high novelty, recency, and impact
+- **⭐⭐ (55-69 points):** High relevance - significant contribution to the field
+- **⭐ (0-54 points):** Notable - worthwhile contribution
+
+### Highlighted Publications Selection
+- **Top 10 articles** by relevance score are featured in the "Top Publications" section
+- **Includes all sources** (PubMed, bioRxiv, medRxiv) based solely on relevance score
+- Ensures representation of most recent and impactful work regardless of source
+- **Preprints are explicitly labeled** [BIORXIV] or [MEDRXIV] for transparency
+
+### Categorization
+Articles are classified into multiple categories (non-exclusive):
+- Automated keyword matching on title + abstract
+- Manual review for ambiguous cases
+- Average ~1.5 categories per article
+
+### Limitations
+1. **Search scope:** Limited to last 7 days; may miss older relevant work
+2. **Language:** English-only articles
+3. **Database coverage:** PubMed indexing delays may exclude very recent publications
+4. **Preprint quality:** bioRxiv/medRxiv articles are not peer-reviewed
+5. **Scoring subjectivity:** Keyword-based impact assessment is heuristic
+6. **Journal prestige bias:** May underweight excellent work in niche journals
+
+### Quality Assurance
+- Automated deduplication by DOI
+- Manual review of top-ranked articles
+- Cross-validation of category assignments
+- Verification of clinical trial data against ClinicalTrials.gov
+
+---
 
 ## 📚 Complete Bibliography
 
