@@ -74,6 +74,30 @@ if [ -n "$REPORT_FILE" ] && [ -f "$REPORT_FILE" ]; then
         cat "$WEEKLY_DIR/bibliography_${DATE}.md" >> "$REPORT_FILE"
         echo "✅ Bibliography appended to report"
     fi
+    
+    # Generate PDF from updated report
+    echo "📄 Generating PDF from updated report..."
+    REPORT_BASENAME=$(basename "$REPORT_FILE" .md)
+    HTML_FILE="$WEEKLY_DIR/${REPORT_BASENAME}.html"
+    PDF_FILE="$WEEKLY_DIR/${REPORT_BASENAME}.pdf"
+    
+    if command -v python3 &>/dev/null && python3 -c "import markdown" &>/dev/null; then
+        python3 -m markdown "$REPORT_FILE" > "$HTML_FILE"
+        
+        if command -v weasyprint &>/dev/null; then
+            weasyprint "$HTML_FILE" "$PDF_FILE" 2>/dev/null
+            if [ -f "$PDF_FILE" ]; then
+                echo "✅ PDF generated: $(basename "$PDF_FILE")"
+                git add "$PDF_FILE" 2>/dev/null || true
+            else
+                echo "⚠️  PDF generation failed"
+            fi
+        else
+            echo "⚠️  weasyprint not found, skipping PDF generation"
+        fi
+    else
+        echo "⚠️  python3-markdown not found, skipping PDF generation"
+    fi
 else
     echo "⚠️  Step 3/5: No existing report found, bibliography saved separately"
 fi
