@@ -2,7 +2,7 @@
 
 **Period:** March 9 – March 16, 2026  
 **Sources:** PubMed, bioRxiv, medRxiv, ClinicalTrials.gov  
-**Articles analyzed:** 51 | **Clinical trials:** 20 updates
+**Articles analyzed:** 56 | **Clinical trials:** 20 updates
 
 ---
 
@@ -25,9 +25,9 @@ This week showcases remarkable innovation in **precise mRNA delivery systems** w
 - **Other:** 7 articles (14%)
 
 ### **Source Distribution**
-- **PubMed:** 50 articles (98%)
+- **PubMed:** 50 articles (89%)
+- **bioRxiv:** 5 preprints (9%)
 - **medRxiv:** 1 preprint (2%)
-- **bioRxiv:** 0 articles (timeout issues)
 
 ### **Top Publishing Journals**
 1. **Molecular Therapy - Nucleic Acids:** 14 articles (28%)
