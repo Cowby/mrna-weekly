@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
-"""Enhanced mRNA therapeutics literature fetcher.
+"""Enhanced mRNA therapeutics literature fetcher - FIXED bioRxiv timeouts.
 
-Uses Bio.Entrez for robust PubMed access with MeSH terms,
-bioRxiv/medRxiv API for preprints, and ClinicalTrials.gov for new studies.
-
-Usage:
-    python3 pubmed_fetch_v2.py [days] [max_results]
-    python3 pubmed_fetch_v2.py 14 50  # last 14 days, max 50 results
-
-Output: JSON to stdout with articles from all sources.
+Changes in this version:
+- Increased timeout from 60s → 120s
+- Reduced parallel workers from 5 → 3 (less aggressive)
+- Added retry mechanism (2 retries per request)
+- Better error handling
 """
 
 import json
@@ -18,6 +15,7 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
 
 # ── Bio.Entrez (PubMed) ──────────────────────────────────────────────
 
@@ -29,7 +27,6 @@ Entrez.tool = "mrna-weekly-report"
 # MeSH-optimized query for mRNA therapeutics
 PUBMED_QUERY = (
     '('
-    # MeSH terms (with subheadings for precision)
     '"RNA, Messenger"[MeSH] OR "mRNA"[tiab] OR "messenger RNA"[tiab]'
     ') AND ('
     '"Nanoparticles"[MeSH] OR "Lipid Nanoparticles"[tiab] OR "LNP"[tiab] '
@@ -168,53 +165,64 @@ BIORXIV_TERMS = [
 ]
 
 
-def _fetch_biorxiv_day(server: str, date_str: str) -> tuple[str, list[dict]]:
-    """Fetch bioRxiv data for a single day (helper for parallel execution)."""
+def _fetch_biorxiv_day_with_retry(server: str, date_str: str, max_retries: int = 2) -> tuple[str, list[dict]]:
+    """Fetch bioRxiv data for a single day with retry logic."""
     url = f"https://api.biorxiv.org/details/{server}/{date_str}/{date_str}/0/json"
     
-    try:
-        with urllib.request.urlopen(url, timeout=60) as r:
-            data = json.loads(r.read())
-        
-        collection = data.get("collection", [])
-        articles = []
-        
-        for item in collection:
-            title = item.get("title", "")
-            abstract = item.get("abstract", "")
-            text = (title + " " + abstract).lower()
+    for attempt in range(max_retries + 1):
+        try:
+            # Longer timeout: 120 seconds (was 60)
+            with urllib.request.urlopen(url, timeout=120) as r:
+                data = json.loads(r.read())
             
-            # Filter for mRNA relevance
-            if any(term.lower() in text for term in BIORXIV_TERMS):
-                categories = categorize_article(title, abstract)
-                doi = item.get("doi", "")
+            collection = data.get("collection", [])
+            articles = []
+            
+            for item in collection:
+                title = item.get("title", "")
+                abstract = item.get("abstract", "")
+                text = (title + " " + abstract).lower()
                 
-                articles.append({
-                    "source": server,
-                    "pmid": None,
-                    "title": title,
-                    "authors": parse_biorxiv_authors(item.get("authors", "")),
-                    "journal": f"{server} (Preprint)",
-                    "date": item.get("date", ""),
-                    "doi": doi,
-                    "abstract": abstract,
-                    "mesh_terms": [],
-                    "pub_types": ["Preprint"],
-                    "categories": categories,
-                    "url": f"https://doi.org/{doi}" if doi else "",
-                })
+                # Filter for mRNA relevance
+                if any(term.lower() in text for term in BIORXIV_TERMS):
+                    categories = categorize_article(title, abstract)
+                    doi = item.get("doi", "")
+                    
+                    articles.append({
+                        "source": server,
+                        "pmid": None,
+                        "title": title,
+                        "authors": parse_biorxiv_authors(item.get("authors", "")),
+                        "journal": f"{server} (Preprint)",
+                        "date": item.get("date", ""),
+                        "doi": doi,
+                        "abstract": abstract,
+                        "mesh_terms": [],
+                        "pub_types": ["Preprint"],
+                        "categories": categories,
+                        "url": f"https://doi.org/{doi}" if doi else "",
+                    })
+            
+            # Success!
+            if articles:
+                print(f"  ✓ {server} {date_str}: {len(articles)} articles", file=sys.stderr)
+            return (date_str, articles)
         
-        return (date_str, articles)
-    
-    except Exception as e:
-        print(f"  {server} {date_str} error: {e}", file=sys.stderr)
-        return (date_str, [])
+        except Exception as e:
+            if attempt < max_retries:
+                wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s
+                print(f"  ⚠ {server} {date_str} attempt {attempt + 1}/{max_retries + 1} failed ({e}), retrying in {wait_time}s...", file=sys.stderr)
+                time.sleep(wait_time)
+            else:
+                print(f"  ✗ {server} {date_str} failed after {max_retries + 1} attempts: {e}", file=sys.stderr)
+                return (date_str, [])
 
 
 def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv") -> list[dict]:
     """Search bioRxiv/medRxiv for recent preprints via the API.
     
-    Uses parallel requests (ThreadPoolExecutor) to fetch multiple days simultaneously.
+    Uses parallel requests (ThreadPoolExecutor) with retry logic.
+    Reduced from 5 → 3 parallel workers to be less aggressive.
     """
     today = datetime.now(timezone.utc)
     num_days = min(days, 14)  # Limit to 14 days max
@@ -225,12 +233,12 @@ def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv
         for i in range(num_days)
     ]
     
-    # Fetch in parallel (max 5 concurrent requests to be polite to API)
+    # Fetch in parallel (reduced from 5 → 3 workers)
     articles = []
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         # Submit all tasks
         futures = {
-            executor.submit(_fetch_biorxiv_day, server, date_str): date_str
+            executor.submit(_fetch_biorxiv_day_with_retry, server, date_str): date_str
             for date_str in dates_to_fetch
         }
         
@@ -240,10 +248,8 @@ def search_biorxiv(days: int = 14, max_results: int = 30, server: str = "biorxiv
             try:
                 _, day_articles = future.result()
                 articles.extend(day_articles)
-                if day_articles:
-                    print(f"  {server} {date_str}: {len(day_articles)} articles", file=sys.stderr)
             except Exception as e:
-                print(f"  {server} {date_str} failed: {e}", file=sys.stderr)
+                print(f"  ✗ {server} {date_str} exception: {e}", file=sys.stderr)
     
     return articles[:max_results]
 
@@ -376,10 +382,13 @@ def main():
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 14
     max_results = int(sys.argv[2]) if len(sys.argv) > 2 else 50
 
-    print(f"╔══ mRNA Weekly Report Data Fetch ══╗", file=sys.stderr)
+    print(f"╔══ mRNA Weekly Report Data Fetch (FIXED) ══╗", file=sys.stderr)
     print(f"║ Period: last {days} days", file=sys.stderr)
     print(f"║ Max results per source: {max_results}", file=sys.stderr)
-    print(f"╚═══════════════════════════════════╝", file=sys.stderr)
+    print(f"║ bioRxiv timeout: 120s (was 60s)", file=sys.stderr)
+    print(f"║ Parallel workers: 3 (was 5)", file=sys.stderr)
+    print(f"║ Retry logic: 2 retries per request", file=sys.stderr)
+    print(f"╚═══════════════════════════════════════════╝", file=sys.stderr)
 
     # 1. PubMed (MeSH-optimized)
     print(f"\n📚 Searching PubMed (Bio.Entrez + MeSH)...", file=sys.stderr)
@@ -419,6 +428,7 @@ def main():
     stats = compute_stats(unique_articles, trials)
 
     print(f"\n✅ Total unique articles: {stats['total_articles']}", file=sys.stderr)
+    print(f"   Sources: {json.dumps(stats['by_source'], indent=2)}", file=sys.stderr)
     print(f"   Categories: {json.dumps(stats['by_category'], indent=2)}", file=sys.stderr)
 
     # Output

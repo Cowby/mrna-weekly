@@ -1,0 +1,1617 @@
+{
+  "fetch_date": "2026-03-30T06:06:49.310235+00:00",
+  "period_days": 7,
+  "stats": {
+    "total_articles": 37,
+    "total_trials": 20,
+    "by_category": {
+      "LNP Engineering & Delivery": 19,
+      "Vaccines": 10,
+      "Cancer & Immunotherapy": 9,
+      "Other": 7,
+      "RNA Biology & Design": 6,
+      "Clinical Development": 5,
+      "Manufacturing & Analytics": 1,
+      "Protein Replacement & Gene Therapy": 1
+    },
+    "by_source": {
+      "pubmed": 37
+    },
+    "top_journals": {
+      "Vaccine": 2,
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)": 2,
+      "NPJ vaccines": 2,
+      "International journal of pharmaceutics": 2,
+      "PloS one": 2,
+      "Science translational medicine": 2,
+      "Scientific reports": 2,
+      "Chemical reviews": 1,
+      "ACS nano": 1,
+      "Journal of Korean medical science": 1
+    },
+    "trial_phases": {
+      "N/A": 4,
+      "NA": 2,
+      "PHASE1, PHASE2": 4,
+      "PHASE2": 5,
+      "PHASE2, PHASE3": 1,
+      "PHASE4": 1,
+      "PHASE3": 2,
+      "PHASE1": 1
+    }
+  },
+  "articles": [
+    {
+      "source": "pubmed",
+      "pmid": "41875901",
+      "title": "Beyond the Sequence: Chemical and Topological Design and Innovations in mRNA Therapeutics.",
+      "authors": [
+        "Liu D",
+        "Chen H",
+        "Pan A",
+        "Wang X"
+      ],
+      "journal": "Chemical reviews",
+      "date": "2026 Mar 24",
+      "doi": "10.1021/acs.chemrev.5c00347",
+      "abstract": "Messenger RNA (mRNA) has rapidly emerged as a transformative therapeutic modality, exemplified by its growing applications in infectious diseases, oncology, and genetic disorders. The chemical programmability of mRNA allows researchers to modulate its function by introducing synthetic modifications across the molecule horizontal line from the cap structure, untranslated regions (UTRs), coding sequence (CDS) to poly(A) tail and from base, backbone to ribose sugars. Beyond sequence-level design, recent advances have introduced a new dimension of control: topological engineering. Circular RNAs, branched structures, and synthetic lariat architectures are reshaping how we approach RNA stability, immunogenicity, and translation. This review surveys recent advances in the chemical and topological engineering of mRNA, emphasizing four key areas: (1) enzymatic, chemical, and hybrid methodologies that expand the repertoire of accessible mRNA modifications; (2) synthesis strategies for linear, circular, and branched mRNA topologies; (3) structure-activity relationships governing translation efficiency, decay, and immune activation; and (4) implications for next-generation mRNA-based therapeutics. By integrating chemical synthesis, synthetic biology, and RNA structural design, researchers are beginning to unlock the full therapeutic potential of engineered mRNA molecules.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875901/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41818630",
+      "title": "Mechanistic and Strategic Insights into How Lipid Nanoparticles Interact with Membrane-Based Biological Barriers.",
+      "authors": [
+        "Zhao Y",
+        "Liu C",
+        "Zhang X",
+        "Gu T",
+        "Wang Y",
+        "Zuo T"
+      ],
+      "journal": "ACS nano",
+      "date": "2026 Mar 24",
+      "doi": "10.1021/acsnano.5c21857",
+      "abstract": "Lipid nanoparticles (LNPs) have become the leading platform for nucleic acid delivery; yet, their therapeutic performance is strongly influenced by the membrane-based biological barriers they encounter in vivo. These barriers exist at multiple hierarchical levels, ranging from extracellular matrices and mucosal layers to endothelial interfaces, plasma membranes, and intracellular organelles. Each barrier imposes distinct physicochemical constraints that shape LNP transport, cellular entry, and cargo release. This review provides a mechanistic framework for understanding LNP-membrane interactions by integrating membrane biophysics, lipid chemistry, functional interfacial forces, and the acquired feature, i.e., protein corona. We also describe the interfaces encountered during major administration routes, including intramuscular, intravenous, intraperitoneal, inhaled, oral, and intratumoral delivery, and highlight how local architecture, fluid composition, and protein corona evolution influence biodistribution and targeting. At the cellular level, we compare the membrane properties of parenchymal, stromal, and immune cells, emphasizing how differences in surface chemistry, receptor expression, and endocytic pathways determine LNP binding and internalization. We then discuss the key organellar processes that regulate intracellular trafficking and mRNA release, including endosomal maturation, acid-triggered lipid protonation, fusion-driven membrane remodeling, and nonbilayer phase transitions. Moreover, we outline recent evidence for LNP transcytosis across restrictive barriers such as the blood-brain barrier, tumor vasculature, pulmonary epithelium, and intestinal mucosa, as well as the contribution of exocytosis and extracellular vesicles to secondary mRNA delivery. Finally, we highlight emerging experimental and computational tools for probing LNP-membrane interactions. By integrating molecular design considerations with membrane biophysics and nanobio interface chemistry, this review aims to provide a mechanistic and strategic perspective to guide the rational development of next-generation LNP delivery systems.",
+      "mesh_terms": [
+        "*Nanoparticles/chemistry/metabolism",
+        "Humans",
+        "*Lipids/chemistry",
+        "Animals",
+        "*Cell Membrane/metabolism/chemistry",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41818630/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41880821",
+      "title": "The stability landscape of mRNA vaccines: challenges and mitigation strategies.",
+      "authors": [
+        "Zhong L",
+        "Tao L",
+        "Zhai Z",
+        "Liao L",
+        "Shi C",
+        "Yao S"
+      ],
+      "journal": "Vaccine",
+      "date": "2026 Mar 24",
+      "doi": "10.1016/j.vaccine.2026.128515",
+      "abstract": "mRNA vaccines have emerged as a transformative platform in vaccinology, offering rapid development, high immunogenicity, and flexible design for preventing infectious diseases and treating various medical conditions. However, their widespread application is significantly hampered by inherent stability challenges, including molecular degradation, stringent cold-chain requirements, and limited shelf life. This review systematically examines the multidimensional factors influencing mRNA vaccine stability, encompassing molecular-level vulnerabilities of mRNA (such as hydrolysis-prone sites and nuclease sensitivity), structural and compositional stability of lipid nanoparticles (LNPs) delivery systems, and external environmental stressors (temperature, pH, nucleases). Crucially, we highlight innovative strategies to overcome these limitations, including molecular engineering of mRNA (5' cap analogs, optimized UTRs, elongated poly(A) tails, and nucleotide modifications), advanced LNP design (tunable ionizable lipids, PEGylation, and biocompatible formulations), and the application of lyophilization (freeze-drying) technology for ambient temperature storage. By integrating insights from recent advances in RNA biology, nanotechnology, and pharmaceutical engineering, this review provides a comprehensive framework for developing next-generation mRNA vaccines with enhanced stability, eliminated cold-chain dependence, and improved global accessibility-paving the way for broader clinical translation and equitable vaccine distribution.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines",
+        "RNA Biology & Design",
+        "Manufacturing & Analytics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880821/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41873448",
+      "title": "COVID-19 Vaccination Strategy and Evidence in Korea.",
+      "authors": [
+        "Hwang YH",
+        "Park WB"
+      ],
+      "journal": "Journal of Korean medical science",
+      "date": "2026 Mar 23",
+      "doi": "10.3346/jkms.2026.41.e114",
+      "abstract": "Coronavirus disease 2019 (COVID-19) has created major global challenges, with vaccination remaining the most effective measure to reduce severe outcomes and mortality. In Korea, six vaccines were approved, and the rapid rollout initiated in February 2021 contributed to comparatively low global mortality. As the epidemiological landscape of COVID-19 evolved and evidence on vaccine immunogenicity and safety accumulated, Korea adapted its vaccination strategies. During the 2024-2025 season, two mRNA vaccines (Pfizer-BioNTech and Moderna) and one recombinant protein vaccine (Novavax) targeting JN.1 lineage were administered primarily to high-risk groups. Beginning in October 2025, two mRNA vaccines (Pfizer-BioNTech and Moderna) adapted to LP.8.1 variant have been introduced as the updated 2025-2026 season formulations. Although safety concerns arose initially, Korean studies confirmed that COVID-19 vaccines provided strong effectiveness and acceptable safety, consistent with international findings. To enhance preparedness for future pandemics and epidemics, sustaining surveillance systems and maintaining updated vaccination policies are critical to ensure effective public health responses.",
+      "mesh_terms": [
+        "Humans",
+        "Republic of Korea/epidemiology",
+        "*COVID-19 Vaccines/immunology/adverse effects/administration & dosage",
+        "*COVID-19/prevention & control/epidemiology",
+        "SARS-CoV-2/immunology",
+        "*Vaccination"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873448/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41873855",
+      "title": "Liver-Detargeted Aromatic Bioreducible mRNA Lipid Nanoparticles Confer Lymph Node Tropism and Robust Antigen-Specific Immunity.",
+      "authors": [
+        "Yamagata HM",
+        "Padilla MS",
+        "Hamilton AG",
+        "Swingle KL",
+        "Thatte AS",
+        "Ricciardi AS"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Mar 24",
+      "doi": "10.1021/jacs.6c00080",
+      "abstract": "Lipid nanoparticles (LNPs) have been immensely successful in facilitating the delivery of nucleic acids to tissues of interest and continue to be optimized for mRNA delivery. These vehicles are particularly advantageous for vaccination due to their ease of production, highly tunable composition, and ability to induce robust immune responses without an adjuvant, as exemplified most recently by the clinical success of the Pfizer/BioNTech and Moderna COVID-19 vaccines. However, LNPs are known to exhibit off-target liver tropism. To address this limitation, we developed a library of aromatic bioreducible ionizable lipids that potently transfect secondary lymphoid tissues with liver detargeting capabilities compared with an industry standard ionizable lipid used in the COVID-19 vaccine. The library consists of three modular components: amine core structure, lipid tail length, and regiochemistry. These aromatic ionizable lipids employ benzene rings both as a scaffold for regiochemical differences and as a moiety to improve transfection. Bioreducible disulfide bonds in the lipids additionally serve to increase their biodegradability. When these aromatic ionizable lipids are formulated as LNPs, top-performing aromatic LNPs (aroLNPs) accumulate in and transfect lymph nodes while minimizing off-target liver tropism. Top-performing aroLNPs also induce strong antigen-specific immune responses, increased effector memory T cell generation, and decreased terminal effector T cell generation in mice when utilized in a preclinical SARS-CoV-2 vaccine study. Additionally, aroLNPs are strongly retained in the injection site and induce low levels of systemic inflammatory cytokines. Together, these results establish aroLNPs as a promising platform for vaccine delivery and potentially other immune-focused therapeutic applications.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873855/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41875325",
+      "title": "Cationic mRNA Lipid Nanoparticles for Ex Vivo NanoCAR-T Cell Engineering.",
+      "authors": [
+        "Harinck L",
+        "De Munter S",
+        "De Velder M",
+        "Ingels J",
+        "Berdecka D",
+        "Lentacker I"
+      ],
+      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "date": "2026 Mar 24",
+      "doi": "10.1002/advs.202521507",
+      "abstract": "Lipid nanoparticles (LNPs) are proposed as an attractive non-viral alternative for mRNA-based CAR-T cell engineering. However, the impact of the LNP charge and the composition of the transfection medium remain to be fully explored. Here, charge-neutral C12-200 LNPs and cationic DOTAP(C12-200) LNPs were compared for ex vivo transfection of activated primary human T cells. C12-200 LNPs achieved efficient transfection with high cell viability in serum-free medium supplemented with apolipoprotein E. Transfection efficiency correlated with low-density lipoprotein receptor expression following T cell activation, suggesting receptor-mediated uptake. In contrast, cationic LNPs demonstrated superior mRNA expression independent of medium composition or T cell activation state, albeit with reduced cytocompatibility. Both LNPs efficiently delivered anti-CD20 nanoCAR mRNA into primary T cells, enabling potent cytotoxicity against CD20(+) Raji cells in vitro. Together, our findings demonstrate that LNP charge, selected proteins in the culture medium, and T cell activation collectively play a critical role in ex vivo T cell engineering. Here, cationic LNPs offer the advantage of unspecific charge-dependent transfection, inducing high mRNA expression independent on T cell activation status or complex cell culture media. These traits offer opportunities to extend expression kinetics, transfect less activated T cell phenotypes, and simplify CAR-T cell manufacturing.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875325/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41903756",
+      "title": "Endogenous targeting lipid nanoparticles for systemic mRNA delivery to lung cancer tumors.",
+      "authors": [
+        "Goo YT",
+        "Grigoriev V",
+        "Korzun T",
+        "Salem A",
+        "Sharma KS",
+        "Singh P"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Mar 26",
+      "doi": "10.1016/j.jconrel.2026.114870",
+      "abstract": "Systemic delivery of mRNA therapeutics to lung cancer tumors remains challenging despite recent advances in organ-targeting lipid nanoparticles (LNPs). This study introduces novel LNPs, comprising commercially available DC-cholesterol (a cationic derivative of cholesterol) and 113-O12B ionizable lipid (DC_113), which provide selective mRNA translation in healthy lungs while achieving preferential protein expression in pulmonary tumors compared to adjacent lung tissue in an orthotopic cancer model. Analysis of LNPs with diverse ionizable lipids revealed that DC_113 has an apparent pK(a) above 7.9, the threshold required for efficient interaction with plasma vitronectin (Vtn) and subsequent targeting of Vtn receptors expressed in lung tissue and upregulated in tumors. DC_113 loaded with follistatin (FST)-coded mRNA preferentially delivered therapeutic cargo to tumors, resulting in significant FST expression and subsequent inhibition of Activin A, a key driver of cancer progression and cachexia. This cancer-preferential mRNA delivery achieved approximately 2.5-fold greater reduction in tumor burden than liver-tropic LNPs producing systemic FST. Furthermore, it efficiently mitigated cancer cachexia by improving food intake, maintaining body weight, and preserving muscle and adipose tissues without adverse effects. These findings present a novel strategy for endogenous targeting of LNPs to lung tumors that can enhance the potential of mRNA-based interventions for pulmonary cancer.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41903756/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41881999",
+      "title": "Cancer vaccines and RNA therapeutics: exploring the impact of microRNAs.",
+      "authors": [
+        "Rojas-Rojas MV",
+        "Muinos-Garcia A",
+        "Arriaga-Canon C",
+        "Herrera LA"
+      ],
+      "journal": "NPJ vaccines",
+      "date": "2026 Mar 25",
+      "doi": "10.1038/s41541-026-01425-9",
+      "abstract": "RNA-based therapies have been studied for decades, gaining global recognition with the success of the Pfizer-BioNTech mRNA vaccine. Despite ongoing challenges in standardization and optimization, RNA therapeutics have become central to precision medicine. This success has driven interest in oncology applications, particularly microRNAs (miRNAs), which regulate gene expression and cancer-related processes. This article reviews RNA-based cancer therapies, highlighting miRNA potential and clinical translation challenges.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "categories": [
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41881999/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41885077",
+      "title": "Lipid Nanoparticles with Side-Chain Polymer Coating for Targeted mRNA Delivery through Nanobody Attachment.",
+      "authors": [
+        "Choy OT",
+        "Fletcher NL",
+        "Huda P",
+        "Bell CA",
+        "Owen DJ",
+        "Whittaker AK"
+      ],
+      "journal": "Bioconjugate chemistry",
+      "date": "2026 Mar 26",
+      "doi": "10.1021/acs.bioconjchem.6c00045",
+      "abstract": "The use of mRNA therapies has innovated the clinical progress of cancer immunotherapy. However, current immunotherapeutic approaches are unable to achieve site- or immune-cell-specific delivery, resulting in adverse immune responses in off-target tissues. In addition, the commercial lipid nanoparticle (LNP) formulations with a poly(ethylene glycol) coating generally undergo significant hepatic accumulation during clearance. To promote site- and immune-cell-specific delivery of therapeutic mRNA-LNPs, we investigated several bioconjugation approaches to attach targeting antibodies onto the surface of polymer-functionalized mRNA-LNPs. Building on our previous work, side-chain sulfoxide polymer-lipid conjugate PMSEA-DSPE was used to incorporate a low-fouling polymeric LNP coating. trans-Cyclooctene functionality was incorporated within PMSEA-DSPE end groups to allow conjugation to the tetrazine-functionalized nanobody 9G8 for EGFR targeting. Bioconjugation methods were compared, including direct conjugation and post-insertion. The results showed that 9G8-attached PMSEA mRNA-LNPs prepared via direct conjugation significantly enhanced cell association and in vitro transfection efficiency with an EGFR-positive cell line, demonstrating the potency of active targeting for mRNA-LNP platforms with side-chain polymer coatings.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885077/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41902498",
+      "title": "CORE: Cholesterol Altered Lipid Nanoparticles for Splenic Expression of mRNA Payloads.",
+      "authors": [
+        "Narasipura EA",
+        "Fung V",
+        "VanKeulen-Miller R",
+        "Tiwade PB",
+        "Fenton OS"
+      ],
+      "journal": "Advanced healthcare materials",
+      "date": "2026 Mar 28",
+      "doi": "10.1002/adhm.202505862",
+      "abstract": "A central challenge within the field of nanomedicine is synthesizing and formulating vectors capable of extrahepatic delivery. mRNA lipid nanoparticles (LNPs) are no exception as most lipid-based formulations, when administered systemically, facilitate delivery and expression of mRNA to the liver. To address this delivery challenge, we developed a new class of LNPs-termed ChOlesterol alteREd lipid nanoparticles (CORE LNPs)-designed to shift mRNA expression away from the liver and toward the spleen, a central organ for systemic immune activation. To do so, we interfaced material synthesis with computational characterization to develop a series of novel cholesterol analogs which were incorporated alongside formulation components used for mRNA delivery. These were then optimized through design of experiment to generate 78 discrete formulations and were assessed for their physical properties, cellular uptake, and endosomal escape capabilities in vitro. Importantly, in vivo studies demonstrated that CORE LNPs were well-tolerated and achieved highly selective mRNA expression in the spleen following intravenous administration. These results suggest that interfacing synthesis with computational characterization of novel cholesterol derivatives may modulate both nanoparticle behavior and organ-level targeting, offering a promising strategy for developing spleen-specific mRNA therapies for vaccination and immune modulation.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41902498/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41905062",
+      "title": "Transient elevation of NT-proBNP after mRNA COVID-19 vaccination in healthy adults: A longitudinal biomarker analysis.",
+      "authors": [
+        "Dlouhy P",
+        "Petras M",
+        "Lesna IK",
+        "Macalik R",
+        "Polak J",
+        "Jabor A"
+      ],
+      "journal": "Vaccine",
+      "date": "2026 Mar 28",
+      "doi": "10.1016/j.vaccine.2026.128535",
+      "abstract": "BACKGROUND: Cardiovascular complications such as myocarditis and pericarditis have been reported following mRNA COVID-19 vaccination, particularly after the second dose. However, little is known about the cardiac biomarker response in otherwise healthy individuals after mRNA COVID-19 vaccination. METHODS: This study aimed to investigate the dynamics of high-sensitivity cardiac troponins (hs-cTnI, hs-cTnT) and N-terminal prohormone of brain natriuretic peptide (NT-proBNP) following mRNA COVID-19 vaccination. We analyzed serum samples collected at multiple time points between April and December 2021 from 83 healthy adult military personnel vaccinated with two doses of mRNA COVID-19 vaccines. Statistical analyses included mixed-effects ANOVA with Geisser-Greenhouse correction and logistic regression to assess the influence of covariates. RESULTS: NT-proBNP levels showed a significant but transient increase, particularly within 14 days after the second vaccine dose (geometric mean 36.2 pg/mL; p < 0.0001). Nearly 49% of participants exhibited a relative increase exceeding 1.5 times their individual baseline. No participant surpassed the 450 pg/mL threshold indicative of cardiovascular complications, and troponin levels remained unchanged across all assessed 14-day intervals. The observed NT-proBNP elevation was not significantly associated with any of the assessed covariates. However, non-significant trends were noted among men, individuals without prior COVID-19 infection or comorbidities, and those vaccinated with the mRNA-1273 (Moderna) vaccine. CONCLUSIONS: In healthy adults, mRNA COVID-19 vaccination was associated with a short-term, subclinical elevation in NT-proBNP, particularly after the second dose. While not indicative of overt cardiovascular injury, this biomarker response may reflect transient myocardial stress and warrants further research.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41905062/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41875360",
+      "title": "Localized NF-kappaB Inhibition Reduces Lipid Nanoparticle-Associated Inflammation.",
+      "authors": [
+        "Espy CL",
+        "Wu J",
+        "Omo-Lamai S",
+        "Wang L",
+        "Dong F",
+        "Milosavljevic A"
+      ],
+      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "date": "2026 Mar 24",
+      "doi": "10.1002/advs.202517931",
+      "abstract": "Lipid nanoparticles (LNPs) are widely used for nucleic acid delivery, yet their clinical utility is limited by an acute inflammatory response post-administration. LNP-associated inflammation (LAI) manifests as de novo inflammation in select organs (e.g., in the lungs after inhalation) and severely worsens pre-existing inflammation. NF-kappaB is a key transcription factor mediating this inflammation and represents a promising target for LAI mitigation strategies. However, systemic NF-kappaB inhibition carries risks of global immunosuppression, highlighting the need for localized inhibition. Here, we screen a panel of direct and indirect small molecule inhibitors of NF-kappaB for their ability to reduce LAI without disrupting LNPs' expression. We identify inhibitors that load efficiently into LNPs, retain anti-inflammatory activity in vitro and in vivo, and preserve expression of cargo mRNA in target tissues. Our results demonstrate that co-formulation of NF-kappaB inhibitors with cargo nucleic acids enables localized immunomodulation in LNPs, offering a modular strategy to enhance the safety profile of LNPs for therapeutic use in inflammatory or high-risk patient populations.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875360/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41894505",
+      "title": "One-component ionizable amphiphilic Janus dendrimers as a delivery platform for efficient mRNA vaccine development.",
+      "authors": [
+        "Ona NA",
+        "Zhang D",
+        "Lindesmith LC",
+        "Park WJ",
+        "Meshanni JA",
+        "Berkihiser S"
+      ],
+      "journal": "Science advances",
+      "date": "2026 Mar 27",
+      "doi": "10.1126/sciadv.adv1554",
+      "abstract": "There have been rapid advances in nucleoside-modified messenger RNA-based vaccines, particularly during the SARS-CoV-2 pandemic, demonstrating a rapid and cost-effective approach for addressing infectious diseases. A major challenge remains in developing a delivery system that protects mRNA from degradation and facilitates its passage through tissue and cellular barriers. Current four-component lipid nanoparticles enable efficient endosomal escape and are a pivotal technology for the delivery of mRNA vaccines. However, challenges such as stability, availability, durability, and adverse effects persist. We have developed a self-assembling one-component ionizable amphiphilic Janus dendrimers (IAJD) delivery system with naturally occurring amino heads, capable of efficiently delivering mRNA to the spleen and lymph nodes. This single-component system simplifies synthesis, reduces development complexity, and enables rapid global distribution of mRNA vaccines during pandemics. As a proof of concept, one-component IAJD97, formulated with mRNA encoding norovirus mRNA capsid protein, demonstrates the potential of IAJDs as efficient delivery platform for mRNA vaccines, advancing their effectiveness and expanding applications to improve public health outcomes.",
+      "mesh_terms": [
+        "*Dendrimers/chemistry",
+        "*RNA, Messenger/immunology/genetics/administration & dosage/chemistry",
+        "Animals",
+        "SARS-CoV-2/immunology",
+        "Humans",
+        "Mice",
+        "*Vaccine Development/methods",
+        "*COVID-19/prevention & control/immunology/virology",
+        "*COVID-19 Vaccines/immunology/administration & dosage",
+        "Nanoparticles/chemistry",
+        "*mRNA Vaccines/immunology",
+        "*Drug Delivery Systems",
+        "Vaccines, Synthetic/immunology"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41894505/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41882748",
+      "title": "A novel CLDN6 nanobody-based bispecific T-cell engager delivered by self-amplifying RNA platform exhibits potent antitumor efficacy.",
+      "authors": [
+        "Zhu Z",
+        "Li J",
+        "Lu Q",
+        "Zeng W",
+        "Yu Z",
+        "Liu N"
+      ],
+      "journal": "Journal of nanobiotechnology",
+      "date": "2026 Mar 25",
+      "doi": "10.1186/s12951-026-04319-z",
+      "abstract": "Ovarian cancer remains a highly lethal gynecologic malignancy with limited early detection and frequent relapse. Claudin-6 (CLDN6), minimally expressed in normal tissues but frequently upregulated in ovarian cancer, represents a promising tumor-specific target. Bispecific T-cell engagers (BiTEs) effectively redirect cytotoxic T cells toward tumor cells. However, previous studies have reported that protein-based BiTEs, particularly scFv-based constructs, may encounter challenges related to protein folding, aggregation, and in vivo stability. To address these limitations, CLDN6-nanobodies were developed through our screening platform, which display cross-species reactivity to human, murine and non-human primate CLDN6. Using this binder, we constructed CLDN6 nanobody-based BiTE (CLDN6-Nb-BiTE) encoded by self-amplifying mRNA (sa-mRNA) and delivered by lipid nanoparticles (LNPs), providing a functional alternative to protein administration. The LNP-sa-mRNA formulation was stable and uniform, enabling robust CLDN6-Nb-BiTE expression, antigen-dependent cytotoxicity, and cytokine release in vitro, while sustained CLDN6-Nb-BiTE production in vivo promoted T-cell recruitment and durable tumor control without systemic toxicity. Overall, our work introduces the first CLDN6-Nb-BiTE delivered by sa-mRNA, establishing a foundation for next-generation ovarian cancer immunotherapy.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882748/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41819610",
+      "title": "Integrated Enzyme-Powered DNA-Gold Nanomachine for In Vivo Amplified mRNA Photoacoustic Imaging and Enhanced Tumor Photothermal Therapy.",
+      "authors": [
+        "Fan M",
+        "Liang H",
+        "He Y",
+        "Shi M",
+        "Xu J",
+        "Shu H"
+      ],
+      "journal": "Analytical chemistry",
+      "date": "2026 Mar 24",
+      "doi": "10.1021/acs.analchem.5c07893",
+      "abstract": "Developing activatable nanotheranostics that can improve diagnostic and therapeutic performances and reduce side effects is highly attractive for precision cancer medicine but remains a daunting challenge. Herein, we develop an integrated enzyme-powered DNA-gold nanomachine (DGNM@CM) for the simultaneous amplification of in vivo mRNA photoacoustic (PA) imaging and tumor-specific photothermal therapy (PTT). The DGNM@CM consists of a gold nanoparticle (AuNP) core, an interlayer of linker DNA and partially complementary DNA duplex, which is bound to aptamer-inhibited DNA polymerase, and an outer layer of the tumor cell membrane (CM). Once specifically internalized by target tumor cells, the tumor-related mRNA target interacts with DGNM@CM, initiating a strand-displacement reaction and releasing an active DNA polymerase. This reaction induces the aggregation of AuNPs, which shift their absorption from the visible to near-infrared region, thereby simultaneously activating PA imaging and PTT. More importantly, the released active DNA polymerase can catalyze the recycling of target mRNA through cyclic strand-displacement polymerization reaction and induce the continuous aggregation of AuNPs, thus realizing significant amplification of both PA imaging signals and PTT efficacy. This DGNM@CM can accurately diagnose tumors in vivo and impressively suppress tumor growth with negligible toxicity. The developed DGNM@CM can be extended for the amplified PA detection of other biomolecules and the activation of therapy by them by changing corresponding DNA sequences, thus possessing broad application prospects in biosensing, bioimaging, and precision disease theranostics.",
+      "mesh_terms": [
+        "*Gold/chemistry",
+        "*Photoacoustic Techniques/methods",
+        "*Photothermal Therapy",
+        "Humans",
+        "*Metal Nanoparticles/chemistry",
+        "*RNA, Messenger/metabolism/genetics",
+        "Animals",
+        "Mice",
+        "*DNA/chemistry/metabolism",
+        "*Neoplasms/therapy/diagnostic imaging",
+        "*DNA-Directed DNA Polymerase/metabolism",
+        "Mice, Inbred BALB C",
+        "Mice, Nude",
+        "Cell Line, Tumor"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41819610/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41876554",
+      "title": "A new mRNA antigen vaccine induces potent B and T cell responses and in vivo protection against SARS-CoV-2.",
+      "authors": [
+        "Wen J",
+        "Moon J",
+        "Tucciarone L",
+        "Bu TH",
+        "Sun AY",
+        "Miller R"
+      ],
+      "journal": "NPJ vaccines",
+      "date": "2026 Mar 24",
+      "doi": "10.1038/s41541-026-01421-z",
+      "abstract": "The SARS-CoV-2 mRNA vaccine provides effective protection against viral infection and severe disease by inducing efficient adaptive immunity. However, vaccine efficacy is decreased against emerging variants, and immune memory is relatively short-lived. Here, we added new T cell epitopes to the RBD (receptor-binding domain) mRNA vaccine and identified a SARS-CoV-2 membrane epitope that significantly improved vaccine-induced immunity and protection in vivo. That new vaccine, designated G1-C, induced 8.2-fold higher levels of RBD-specific antibodies than did RBD and enhanced spike-specific T cell and B cell responses. Remarkably, the G1-C modulated hematopoietic stem cell (HSC) differentiation and increased levels of B and NK cells by regulating multiple signaling pathways in bone marrow potentially via Fos, Klf4, and Klf6 transcription factors. Altogether, these findings identify a new vaccine candidate to control viral infection by affecting the lymphoid-myeloid lineage bias and suggest the potential role of T cell epitopes in vaccine design and development.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41876554/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41905557",
+      "title": "Risk of major-structural-birth-defects following repeat mRNA COVID-19 vaccination in the first trimester: a population-based cohort study.",
+      "authors": [
+        "Wee LE",
+        "Abdul Malek MIB",
+        "Ho RWL",
+        "Lim JT",
+        "Chiew C",
+        "Li RJ"
+      ],
+      "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+      "date": "2026 Mar 27",
+      "doi": "10.1016/j.cmi.2026.03.027",
+      "abstract": "OBJECTIVES: Vaccine safety concerns (eg. foetal health) underpin maternal vaccine hesitancy during COVID-19 endemicity; while substantial real-world evidence highlights absence of increased risk for foetal abnormalities following one dose of COVID-19 vaccination during the first trimester, risk following repeat vaccination was not explicitly assessed. Risk of major-structural-birth-defects following re-vaccination of previously vaccinated mothers with mRNA COVID-19 vaccine doses in the first trimester was assessed using national vaccination registers and healthcare-claims databases. METHODS: Population-based cohort study, including all infants born to Singaporean mothers (citizens/permanent residents) aged 18-50 years who had previously received >/=1 vaccine dose, with a last-menstrual-period from 1(st) July 2021-31(st) December 2023. Exposure (vaccination) was determined using the national-immunisation-registry; outcomes (birth defects) were determined using national healthcare-claims data. Risk of major-structural-birth-defects following repeat vaccination (first trimester) was estimated using generalised Poisson regression with robust standard-errors and overlap weights applied. RESULTS: 47,665 live births were included in the final cohort. One-tenth (11.2%, 5,327/47,665) had repeat maternal COVID-19 vaccination (mRNA vaccine doses) during the first trimester, of which 9.9% (527/5,327) comprised bivalent formulations. Risk of a major-structural-birth-defect was not significantly increased (adjusted-prevalence-ratio, aPR=0.97[95%CI=0.74-1.27]) following repeat vaccination in the first trimester, versus no vaccination (first trimester). No significantly elevated risk of major-structural-birth-defect was observed following repeat vaccination with bivalent formulations (aPR=0.45[95%CI=0.14-1.39]) or ancestral vaccines (aPR=1.04[95%CI=0.79-1.36]), though confidence-intervals were wide. CONCLUSION: Repeat vaccination with mRNA COVID-19 vaccines in the first trimester was not significantly associated with increased risk for major-structural-birth-defects, underlining safety of maternal re-vaccination with seasonally updated COVID-19 booster doses during endemicity.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41905557/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41692280",
+      "title": "Hair follicle-targeted baicalin nanocrystal delivery using microneedles for long-acting treatment of androgenetic alopecia.",
+      "authors": [
+        "Xiong S",
+        "Ying W",
+        "Xiao T",
+        "Liu Z",
+        "Fu H",
+        "Chai G"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Mar 25",
+      "doi": "10.1016/j.ijpharm.2026.126675",
+      "abstract": "Androgenetic alopecia (AGA) is the most prevalent hair loss with conventional drug treatments necessitating prolonged compliance. However, current treatments are limited by side effects, frequent dosing, and the stratum corneum (SC) barrier with topical administration. Baicalin (BA) is a natural ingredient showing promise in treating AGA, but its poor water solubility and low bioavailability limit its clinical application. To address the challenges of BA solubility, skin barrier, and patient compliance, we combined BA nanocrystals (BA-NCs) with dissolving microneedles (MNs) to develop a drug delivery system, BA-NCs@MNs, for effective and long-acting treatment of AGA. The BA-NCs notably increased BA solubility by approximately 30-fold, facilitated cellular uptake, and reversed the abnormal mRNA expressions in dihydrotestosterone-induced hair follicle-associated cells. Furthermore, BA-NCs@MNs effectively overcame the SC barrier, improving BA penetration and skin retention by 6.93- and 11.6-fold, respectively, and most importantly, facilitated preferential delivery and accumulation at hair follicle sites. In an AGA mouse model, BA-NCs@MNs with only one dose every three days showed comparable therapeutic efficacy to commercial minoxidil (5 % w/v) with daily dose. This system mechanistically promoted hair follicle regeneration through remodeling the microenvironment by reducing 5alpha-reductase and androgen level, upregulating the expression of beta-catenin, promoting pericapillary angiogenesis, elevating hair follicle stem cell markers, and relieving oxidative stress. Taken together, BA-NCs@MNs is a synergistic and long-acting approach for treating AGA.",
+      "mesh_terms": [
+        "Animals",
+        "*Alopecia/drug therapy/metabolism",
+        "*Hair Follicle/drug effects/metabolism",
+        "*Nanoparticles/administration & dosage/chemistry",
+        "Mice",
+        "Male",
+        "*Flavonoids/administration & dosage/chemistry/pharmacokinetics",
+        "*Drug Delivery Systems/methods",
+        "Needles",
+        "Solubility",
+        "Humans",
+        "Skin Absorption",
+        "Administration, Cutaneous",
+        "Minoxidil/administration & dosage",
+        "Disease Models, Animal",
+        "Mice, Inbred C57BL"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41692280/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41698453",
+      "title": "Combination of HGF/IL-22 mRNAs delivered by GalNAc-lipid nanoparticles to treat acute liver injury.",
+      "authors": [
+        "Luo J",
+        "Jiang Y",
+        "Yin X",
+        "Xue W",
+        "Liu J",
+        "Wang M"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Mar 25",
+      "doi": "10.1016/j.ijpharm.2026.126679",
+      "abstract": "Acute liver injury (ALI), characterized by rapid hepatocyte damage induced by drugs, toxins, or viral infections, lacks clinically effective targeted therapies. Usually, the impaired hepatocytes significantly inhibit the uptake of medicines, leading to poor bioavailability and therapeutic outcome. Herein, a combination of hepatocyte growth factor (HGF) and interleukin-22 (IL-22) mRNAs delivered by N-acetylgalactosamine modified lipid nanoparticles (GalNAc-LNP) was developed to treat ALI. Tetra-antennary GalNAc cholesterol conjugate was first synthesized and incorporated into conventional LNP to encapsulate HGF/IL-22 mRNAs. After that, ALI mice model was applied to test the delivery effect of GalNAc-LNP. It was found that the GalNAc-LNP overcame delivery barriers caused by necrosis and inflammation, increasing protein expression of the encapsulated mRNA in the liver by 121.0%, owing to GalNAc- ASGPR targeting. Importantly, HGF/IL-22 mRNAs combination encapsulated within GalNAc-LNP markedly reduced necrotic foci, promoted hepatocyte regeneration, alleviated inflammatory response and accelerated recovery of liver function. The results demonstrated the synergistic effects of HGF-driven hepatocyte proliferation and IL-22-mediated inhibition of hepatic inflammation. Taken together, HGF/IL-22 mRNAs delivered by GalNAc-LNP possesses dual-target synergistic therapeutic output, holding potential for the treatment of ALI.",
+      "mesh_terms": [
+        "Animals",
+        "*Nanoparticles/chemistry/administration & dosage",
+        "*Hepatocyte Growth Factor/genetics/administration & dosage",
+        "Interleukin-22",
+        "*RNA, Messenger/administration & dosage",
+        "Mice",
+        "*Acetylgalactosamine/chemistry/administration & dosage",
+        "*Interleukins/genetics/administration & dosage",
+        "Lipids/chemistry",
+        "Male",
+        "Mice, Inbred C57BL",
+        "Hepatocytes/metabolism/drug effects",
+        "Liver/pathology/metabolism",
+        "*Chemical and Drug Induced Liver Injury",
+        "Humans",
+        "Disease Models, Animal",
+        "Liposomes"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41698453/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41897006",
+      "title": "Trivalent multi-epitope mRNA vaccine against norovirus, rotavirus, and adenovirus 40/41: epitope screening, molecular docking, and molecular dynamics simulation with in silico validation guided by immunoinformatics.",
+      "authors": [
+        "Wu X",
+        "Xu Y",
+        "Qin R",
+        "Luo Y",
+        "Hou Y",
+        "Zhou Z"
+      ],
+      "journal": "Infectious diseases of poverty",
+      "date": "2026 Mar 27",
+      "doi": "10.1186/s40249-026-01431-y",
+      "abstract": "BACKGROUND: Diarrheal diseases constitute a major global public health threat, particularly endangering young children, the elderly, and immunocompromised individuals. Three key pathogens-norovirus, rotavirus, and adenovirus 40/41-can induce dehydration, electrolyte imbalances, and severe complications, resulting in tens of thousands of deaths annually. Conventional vaccines have inherent limitations, including relatively long development cycles and high production costs. With the deep integration of bioinformatics and immunology, immunoinformatic techniques driven by high-throughput analysis enable reliable prediction of key epitope properties such as immunogenicity and antigenicity, offering an efficient approach for multivalent vaccine development. This study aims to develop a trivalent multi-epitope mRNA vaccine targeting these three pathogens using immunoinformatic methods, providing a potential innovative strategy for the prevention and control of diarrheal diseases. METHODS: The amino acid sequences corresponding to the target viral proteins were obtained from the NCBI Virus Database. Epitopes were screened and selected based on key properties including high antigenicity, non-allergenicity, and non-toxicity. Appropriate adjuvant components, along with the chosen T-lymphocyte and B-lymphocyte epitopes, were assembled using linker molecules to computationally construct the vaccine. Structural and related features of the computationally designed vaccine were analyzed using online tools. Molecular docking assays, in conjunction with molecular dynamics simulations, were performed to clarify the interaction modes and structural stability characteristics of ligand-receptor binding. mRNA sequences of the vaccine were designed through codon optimization, and their immunogenicity was ultimately assessed using immune simulations. RESULTS: A total of 16 cytotoxic T-cell epitopes, 5 helper T-cell epitopes, and 17 linear B-cell epitopes were selected to construct the vaccine. After evaluating immunological and physicochemical properties, molecular docking and molecular dynamics simulations were performed, suggesting favorable structural stability and plausible interactions with immune receptors. CONCLUSIONS: The computationally designed vaccine in this study was predicted to exhibit favorable structural stability, potential immune activation capability, and promising broad population coverage, providing preliminary insights for the development of vaccines against multiple viral co-infections; however, its immunogenicity and safety remain to be further validated through animal model experiments.",
+      "mesh_terms": [
+        "Molecular Docking Simulation",
+        "Molecular Dynamics Simulation",
+        "*Norovirus/immunology",
+        "*Rotavirus/immunology",
+        "Humans",
+        "Computational Biology",
+        "Epitopes, T-Lymphocyte/immunology",
+        "Epitopes, B-Lymphocyte/immunology",
+        "*Viral Vaccines/immunology",
+        "Adenoviridae/immunology",
+        "Epitopes/immunology",
+        "Rotavirus Infections/prevention & control",
+        "Caliciviridae Infections/prevention & control",
+        "Immunoinformatics"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41897006/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41800618",
+      "title": "Repeated COVID-19 vaccine boosters elicit variant-specific memory B cells in humans.",
+      "authors": [
+        "Tortorici MA",
+        "Sprouse KR",
+        "Addetia A",
+        "Brown JT",
+        "Lee J",
+        "Stewart C"
+      ],
+      "journal": "Cell reports",
+      "date": "2026 Mar 24",
+      "doi": "10.1016/j.celrep.2026.117052",
+      "abstract": "The first exposure to a pathogen impacts subsequent immune responses toward related pathogens. This immune imprinting explains that infection or vaccination with circulating SARS-CoV-2 variants primarily recalls cross-reactive memory B cells induced by prior Wuhan-Hu-1 (Wu) spike (S) exposure. The magnitude and persistence of immune imprinting in mRNA vaccinees are not understood. We investigate serum antibody and memory B cell responses after administration of multiple XBB.1.5 and JN.1/KP.2 COVID-19 vaccine boosters. We find that the JN.1/KP.2 booster elicits broadly neutralizing antibody responses against recent SARS-CoV-2 variants by recalling Wu S-induced immunity in all but one individual. We detect an increased fraction of serum antibodies, and particularly memory B cells, recognizing XBB.1.5 and KP.2, but not Wu, relative to individuals who received a single XBB.1.5 booster. Repeated exposures to antigenically divergent S thus contribute to overcoming immune imprinting and support vaccine updates for continued protection.",
+      "mesh_terms": [
+        "Humans",
+        "*Memory B Cells/immunology",
+        "*SARS-CoV-2/immunology",
+        "*COVID-19 Vaccines/immunology/administration & dosage",
+        "*COVID-19/immunology/prevention & control/virology",
+        "*Immunization, Secondary/methods",
+        "Antibodies, Neutralizing/immunology/blood",
+        "Antibodies, Viral/immunology/blood",
+        "Adult",
+        "Male",
+        "Female",
+        "Spike Glycoprotein, Coronavirus/immunology",
+        "Middle Aged",
+        "Immunologic Memory",
+        "Vaccination"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41800618/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41389887",
+      "title": "Inhibition of joint inflammation in rheumatoid arthritis by Wuwei Ganlu Medicinal Bath Granules via blocking toll-like receptor 4/nuclear factor-kappa B and NOD-like Receptor Pyrin Domain-Containing 3 signaling.",
+      "authors": [
+        "Wang T",
+        "Fang N",
+        "Tang B",
+        "Fu X",
+        "Kang X",
+        "Guanque C"
+      ],
+      "journal": "Journal of ethnopharmacology",
+      "date": "2026 Mar 25",
+      "doi": "10.1016/j.jep.2025.121034",
+      "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Lum medicinal bathing is a usage of external therapy in the Tibetan medicine system, Sowa Rigpa, specifically the application of herbal decoction to derive the bioactive compounds through skin absorption. Wuwei Ganlu (Five-Flavored Nectar) is one of the formulations used in treatment which is especially useful for the symptoms of rheumatoid arthritis (RA). The Four-Tantras (rGyud-bzhi), 8th-12th centuries, is the source of the preparation and clinical use of Wuwei Ganlu decoctions. In today's society, a standardized Tibetan herbal preparation called the Wuwei Ganlu Medicinal Bath Granules (WGMG) has been developed that maintains the core therapeutic characteristics of the traditional decoction while enhancing clinical applicability and standardization. It is composed of five kinds of Tibetan medicinal plants in equal proportions, the formula includes Juniperus formosana Hayata (Branch and Leaf), Rhododendron anthopogonoides Maxim (Flower), Myricaria germanica (L.). Desv. (Stem and Leaf), Ephedra saxatilis Royle ex Florin (Stem), and Artemisia sieversiana Ehrhart ex Willd. (Whole Plant). AIM OF THE STUDY: This study aimed to identify the active constituents of WGMG as well as understand the pharmacological mechanisms of WGMG in the treatment of collagen-induced arthritis (CIA) in rats. Furthermore, WGMG was screened for its core anti-inflammatory effects via the TLR4/NF-kappaB and NLRP3 signaling pathways. MATERIALS AND METHODS: UPLC-Q-TOF/MS was used to characterize chemical components of WGMG in rat serum and synovial fluid. Potential targets and the associated pathways were predicted using network pharmacology. CIA rats in vivo, were treated with WGMG via medicinal bath treatment at doses of 2.95, 5.90, and 11.8 g/L for 28 days. The effectiveness of the treatment was determined by looking at the arthritis scores, swelling measurements of the paws, and the serum cytokines that were measured by ELISA. Hematoxylin and eosin (H&E) and Safranin O-fast green staining were used to examine histopathological alterations. The Western blot, immunohistochemistry, and RT-PCR analyzes were used to uncover the underlying molecular mechanisms targeting on TLR4/NF-kappaB and NLRP3 inflammasome-related signaling molecules. RESULTS: The findings of the study revealed identification of a total of 89 compounds from WGMG, which were mainly composed of alkaloids, flavonoids, phenylpropanoids, phenolic acids and fatty acids. In addition, total of 28 and 21 compounds were respectively identified from serum and synovial fluid. Both serum and synovial fluid had eighteen common compounds such as kaempferol and trans-ferulic acid. The network pharmacology research indicates that 68 overlapping targets between WGMG components and RA were revealed. Moreover, TLR4/NF-kappaB was found to mediate the inflammation by regulating the signaling pathway. In CIA rats, WGMG-H group significantly decreased arthritis scores, paw swelling, and spleen index, indicating relievers of symptoms of arthritis. According to histopathological examination, WGMG-H reduced synovial hyperplasia, inflammatory cell infiltration, and cartilage erosion. Moreover, WGMG-H inhibited the serum levels of NF-kappaB, TNF-alpha, IL-1beta, IL-18 while enhanced IL-4 levels. Mechanistically, the protein and mRNA expression of TLR4, NF-kappaB, NLRP3, ASC, and caspase-1 were downregulated by WGMG, with high-dose WGMG having therapeutic efficacy similar to dexamethasone. CONCLUSION: WGMG shows potent anti-inflammatory activity via inhibitory effect on NLRP3 inflammasome activation, which due to inhibition of TLR4/NF-kappaB signaling pathway. This pharmacological mechanism is likely attributed to the bioactive components kaempferol and trans-ferulic acid. This research shows how WGMG may work in the body. The authors hope their findings might lead to new treatments for rheumatoid arthritis.",
+      "mesh_terms": [
+        "Animals",
+        "*NF-kappa B/metabolism/antagonists & inhibitors",
+        "*Arthritis, Rheumatoid/drug therapy/pathology/metabolism",
+        "*Toll-Like Receptor 4/metabolism/antagonists & inhibitors",
+        "*NLR Family, Pyrin Domain-Containing 3 Protein/metabolism/antagonists & inhibitors",
+        "Signal Transduction/drug effects",
+        "Rats",
+        "*Arthritis, Experimental/drug therapy/pathology/metabolism",
+        "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+        "Male",
+        "Rats, Sprague-Dawley",
+        "*Anti-Inflammatory Agents/pharmacology/therapeutic use",
+        "Medicine, Tibetan Traditional",
+        "Antirheumatic Agents/pharmacology",
+        "Cytokines/blood"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41389887/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41874231",
+      "title": "Mechanistic model for improved performance of mRNA-LNPs formulated under turbulent mixing conditions.",
+      "authors": [
+        "Mosesso R",
+        "Randall K",
+        "Vaidya A",
+        "Tang J",
+        "Northen T",
+        "Deliot A"
+      ],
+      "journal": "Journal of materials chemistry. B",
+      "date": "2026 Mar 24",
+      "doi": "10.1039/d6tb00052e",
+      "abstract": "mRNA delivery using lipid nanoparticles (LNPs) has become a cornerstone of modern biological therapeutics. During the formulation of LNPs, uniform mixing of LNP components is critical to ensuring desirable functional properties. This study employs simple bi-directional T-mixing of lipids in ethanol with mRNA in buffer to evaluate the effects of mixing chamber turbulence on mRNA-LNP biophysical attributes and develops a mechanistic model relating the mixing processes to biological performance. LNPs encapsulating hEPO mRNA formulated under turbulent mixing conditions with ionizable lipid OF-02 demonstrate higher hEPO expression than those formulated under laminar mixing conditions via two routes of administration in an in vivo mouse model. By measuring LNP zeta potential, fusogenicity, and lipid fluidity as functions of pH, we propose a hypothetical model for increased pH-sensitivity of the turbulently formulated LNPs, presumably resulting in improved intracellular release of mRNA. Unique profiles measured by small-angle X-ray scattering (SAXS) and greater homogeneity observed by cryo-TEM for LNPs formulated under turbulent mixing conditions further support this model. Increased serum protein binding for these turbulently mixed mRNA-LNPs suggests an additional mode of action involving receptor-mediated uptake following systemic delivery. A follow-up study with LNPs made with reduced lipid : mRNA mass ratios indicates that turbulent mixing may preserve LNP function with lower lipid load, compared to LNPs made with higher lipid load under laminar flow conditions. Altogether, these findings underscore important connections between LNP performance and formulation process, offering valuable insights for optimization of mRNA-LNP formulations.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874231/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41875063",
+      "title": "Impaired booster-induced SARS-CoV-2 antibody responses in rituximab-treated B-cell lymphoma patients despite peripheral B-Cell Recovery.",
+      "authors": [
+        "Jurca T",
+        "Boltezar L",
+        "Orazem M",
+        "Komlos KF",
+        "Pohar K",
+        "Jevnikar S"
+      ],
+      "journal": "Radiology and oncology",
+      "date": "2026 Mar 1",
+      "doi": "10.2478/raon-2026-0014",
+      "abstract": "BACKGROUND: Rituximab-treated patients with B-cell lymphoma exhibit profound B-cell depletion and impaired vaccine-induced antibody responses. However, it remains uncertain whether recovery of peripheral B-cell counts after rituximab is sufficient to restore effective humoral immunity following booster vaccination. PATIENTS AND METHODS: In this prospective, single-center observational study at the Institute of Oncology Ljubljana, adult B-cell lymphoma patients treated with or previously exposed to rituximab received the Comirnaty(R) mRNA COVID-19 vaccine. Antibody responses to the SARS-CoV-2 spike and nucleoprotein were measured at baseline, 14 days after the second dose, and at 3, 6, 9, and 12 months. A third dose was administered at 6 months. T-cell responses (IFN-gamma release) were assessed in patients before and after the primary series and booster dose. Lymphocyte subsets were analysed pre-vaccination. Adverse events and nutritional status were monitored. RESULTS: Patients undergoing anti-CD20 therapy showed absent antibody responses. Longer intervals since rituximab correlated with peripheral B-cell repopulation. However, even after reaching normal B-cell counts, patients' antibody responses after revaccination remained significantly lower than in controls. CONCLUSIONS: Rituximab is associated with impaired vaccine-induced antibody responses. Despite recovery of peripheral B-cell counts, patients with B-cell lymphoma show reduced humoral responses compared with healthy individuals following booster COVID-19 vaccination.",
+      "mesh_terms": [
+        "Humans",
+        "*Rituximab/therapeutic use",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "*Lymphoma, B-Cell/drug therapy/immunology",
+        "*SARS-CoV-2/immunology",
+        "Prospective Studies",
+        "*COVID-19/prevention & control/immunology",
+        "*B-Lymphocytes/immunology",
+        "Aged",
+        "Immunization, Secondary",
+        "*Antibodies, Viral/immunology/blood",
+        "*COVID-19 Vaccines/immunology/administration & dosage",
+        "*Antineoplastic Agents, Immunological/therapeutic use",
+        "Adult",
+        "Antibody Formation/drug effects",
+        "BNT162 Vaccine"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "categories": [
+        "Vaccines",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875063/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41889753",
+      "title": "Amphiphile Blending Controls Micelle Morphology to Enhance In Vitro Performance and Selective In Vivo mRNA Delivery to Lung and Spleen.",
+      "authors": [
+        "Panda S",
+        "Eaton EJ",
+        "Sowada JP",
+        "Stelljes EM",
+        "Gilkey AK",
+        "Ismagilova S"
+      ],
+      "journal": "JACS Au",
+      "date": "2026 Mar 23",
+      "doi": "10.1021/jacsau.6c00068",
+      "abstract": "Polymeric micelles assembled from amphiphilic block copolymers represent a versatile platform for mRNA delivery due to their modular chemical design and tunable self-assembly. Here, we report a library of ternary mixed micelles composed of amphiphiles displaying a cationic oligoamine (A7), anionic carboxyethyl acrylate (CEA), and neutral poly-(ethylene glycol) (PEG), engineered to enhance in vitro transfection and enable passive, ligand-free in vivo organ targeting. Systematic blending of these components allowed modulation of micelle surface chemistry and morphology, which are key parameters that govern mRNA complexation, stability, and biodistribution. Increasing incorporation of anionic amphiphiles resulted in a distinct evolution of morphology from spherical micelles to elongated wormlike structures, while maintaining uniformly high zeta potential and efficient mRNA complexation. Top-performing ternary formulations in vitro achieved over 95% transfection efficiency and cell viability across multiple cell types, representing a 2-fold performance enhancement relative to homomicelle controls. These formulations also exhibited robust mRNA internalization and efficient endosomal escape, resulting in a 7-fold improvement in GFP mean fluorescence intensity. Furthermore, by controlling micelle aggregation, we demonstrate that serum stability can be significantly improved, highlighting the tunability of this mixed micelle system. Finally, in vivo, increasing incorporation of anionic amphiphiles consistently shifted mRNA expression from lungs to spleen. We attribute this shift in organ tropism to morphology, where spherical micelles sequester in the lungs and wormlike ternary mixed micelles accumulate in the spleen. Transmission electron microscopy confirmed the elongated wormlike architecture that correlated with spleen localization, supporting morphology as the dominant factor driving organ selectivity. This morphology-driven organ selectivity marks a departure from traditional charge-centric targeting paradigms and establishes a tunable, composition-based framework for directing polymeric micelles to specific organs. Together, these findings introduce a simple yet powerful strategy for enhancing in vitro mRNA delivery and achieving organ-specific mRNA delivery using a blended micelle platform.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "RNA Biology & Design"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41889753/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41893817",
+      "title": "Structural Design of T-Cell Epitope-Based mRNA Vaccine Constructs Determines the Quality of T-Cell Immunity and Protective Efficacy Against SARS-CoV-2 in Mice.",
+      "authors": [
+        "Gushchin VA",
+        "Siniavin AE",
+        "Pochtovyi AA",
+        "Dzharullaeva AS",
+        "Shcherbinin DN",
+        "Ungur AS"
+      ],
+      "journal": "Vaccines",
+      "date": "2026 Mar 23",
+      "doi": "10.3390/vaccines14030281",
+      "abstract": "BACKGROUND/OBJECTIVES: Epitope-based mRNA vaccines represent a promising strategy for eliciting protective T-cell immunity against SARS-CoV-2 and as well as for non-infectious mRNA-based vaccines. However, how the structural architecture of vaccine constructs (including epitope arrangement, linker composition, signal peptide presence, and the combination of MHC class I and II epitopes) shapes the quality of T-cell responses remains poorly understood. METHODS: Ten tandem minigene mRNA constructs (Cons1-10) encoding different combinations of MHC class I and class II epitopes from SARS-CoV-2 proteins (S, N, M, ORF3a) were designed, encapsulated in lipid nanoparticles, and administered to C57BL/6 mice. Immunogenicity was assessed by cytokine profiling (IFN-gamma, IL-2, IL-4, IL-10) and T-cell proliferation assays. Protective efficacy was evaluated in K18-hACE2 transgenic mice challenged with SARS-CoV-2. RESULTS: Constructs lacking a signal peptide and enriched in MHC class I-restricted epitopes induced robust Th1 responses and strong CD8(+) T-cell proliferation, achieving up to 66% survival following lethal challenge. In contrast, constructs associated with elevated IL-10 and IL-4 production conferred limited protection (11-33%), consistent with functional skewing towards regulatory or Th2-associated immune profiles. CONCLUSIONS: These findings establish a direct link between construct design parameters and T-cell polarization quality, and provide a rational framework for next-generation epitope-based mRNA vaccine development.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Vaccines"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41893817/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41872138",
+      "title": "Rationale for multi-epitope TGFbeta vaccination in pancreatic cancer: evidence from immunologic and clinical correlates.",
+      "authors": [
+        "Ruders JH",
+        "Ahmad SM",
+        "Mortensen REJ",
+        "Met O",
+        "Byrdal M",
+        "Chen IM"
+      ],
+      "journal": "Signal transduction and targeted therapy",
+      "date": "2026 Mar 24",
+      "doi": "10.1038/s41392-026-02626-3",
+      "abstract": "Transforming growth factor beta (TGFbeta) plays a crucial role in pancreatic ductal adenocarcinoma (PDAC) progression by promoting immune suppression, fibrosis, and metastasis. Given its central role in shaping the tumor microenvironment, TGFbeta has attracted significant clinical interest as a target for immunotherapy. One promising and innovative approach involves TGFbeta-based immune-modulatory vaccines (IMVs). In this study, we explored the immunogenic potential of multiple TGFbeta-derived epitopes and assessed the clinical relevance of TGFbeta-specific T cells in PDAC patients. We identified T cell responses towards multiple epitopes, TGFbeta‑15, TGFbeta‑33, and TGFbeta‑38, in both healthy donors and PDAC patients, with TGFbeta‑33 eliciting particularly robust responses in the patient cohort. These primarily CD4(+) T cells displayed proinflammatory, as well as notable cytotoxic, properties and recognized target cells in a TGFbeta-dependent manner. Moreover, we found that higher baseline frequencies of TGFbeta‑33-specific T cells correlated with improved clinical outcomes following combined immune checkpoint inhibitor therapy and radiotherapy. Interestingly, patients with baseline responses to multiple TGFbeta-derived epitopes had longer overall and progression-free survival compared to those with responses to none or a single epitope. Using a single mRNA construct encoding multiple TGFbeta epitopes, we demonstrated effective activation of T cells specific for distinct TGFbeta epitopes. These findings support the potential of a multi-epitope TGFbeta-derived immune-modulatory vaccine to enhance anti-tumor immunity, representing a promising strategy to improve therapeutic responses in PDAC.",
+      "mesh_terms": [
+        "Humans",
+        "*Transforming Growth Factor beta/immunology/genetics",
+        "*Pancreatic Neoplasms/immunology/therapy/pathology/genetics",
+        "*Cancer Vaccines/immunology/administration & dosage",
+        "*Carcinoma, Pancreatic Ductal/immunology/therapy/pathology/genetics",
+        "Male",
+        "Female",
+        "Middle Aged",
+        "Aged",
+        "Vaccination",
+        "Tumor Microenvironment/immunology",
+        "*Epitopes, T-Lymphocyte/immunology"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Vaccines",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41872138/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41875186",
+      "title": "Efficacy of heparin in respiratory support of near-term rabbits with meconium-induced acute lung injury: Linear regression model analyses.",
+      "authors": [
+        "Xie S",
+        "Gu Q",
+        "Zhuang G",
+        "Guo X",
+        "Sun B"
+      ],
+      "journal": "PloS one",
+      "date": "2026",
+      "doi": "10.1371/journal.pone.0345718",
+      "abstract": "OBJECTIVES: To explore the pharmacotherapeutic efficacy of heparin in the management of meconium-induced acute lung injury (ALI) in near-term newborn rabbits subjected to mechanical ventilation (MV) and ancillary respiratory medications. METHODS: Newborn rabbits at 30-day gestation (term 31 days) were anesthetized, intratracheally intubated and received human meconium-saline suspension, followed by parallel MV with individually adjusted tidal volume in a multi-plethysmograph-ventilator system. When ALI was induced after initial 3-h MV, therapeutic effects of single or combined subcutaneous heparin (100 U/kg), surfactant (200 mg/kg), and inhaled nitric oxide (iNO, 10 ppm), were compared for lung protective ventilation and survival as outcome, analyzed with linear regression models. RESULTS: Significantly reduced respiratory compliance by meconium was reinstalled during ensuing 7-h MV, with improved survival, among the treatment groups. The impact was verified by lung injury severity, surfactant phospholipid pools, and multiple mRNA expressions of surfactant proteins, lung fluid clearance-related factors, inflammatory mediators, growth factors, endothelial cell injury and coagulation-related factors as subphenotyping biomarkers. The overall benefits of heparin alone, or exerted with the dual and triple regimens, were discernible by both generalized linear model and Cox proportional hazard ratio regression for survival and other major variables as outcome. Its adverse effects were intangible. CONCLUSION: The comparable efficacy of heparin, alongside the PS and NO, was corroborated in attenuating meconium-mediated, ventilator-induced ALI, which should warrant clinical investigation to validate.",
+      "mesh_terms": [
+        "Animals",
+        "Rabbits",
+        "*Heparin/pharmacology/therapeutic use/administration & dosage",
+        "*Acute Lung Injury/drug therapy/etiology/physiopathology",
+        "*Meconium",
+        "Animals, Newborn",
+        "Respiration, Artificial",
+        "Nitric Oxide/administration & dosage/pharmacology/therapeutic use",
+        "Humans",
+        "Linear Models",
+        "Pulmonary Surfactants",
+        "Disease Models, Animal",
+        "Meconium Aspiration Syndrome"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875186/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41880522",
+      "title": "In vivo generation of CAR myeloid cells through erythrocyte-mediated mRNA delivery for cancer immunotherapy.",
+      "authors": [
+        "Nie X",
+        "Liu Y",
+        "Song Y",
+        "Yao X",
+        "Chen Y",
+        "Lee HY"
+      ],
+      "journal": "Science translational medicine",
+      "date": "2026 Mar 25",
+      "doi": "10.1126/scitranslmed.ady6730",
+      "abstract": "Engineering myeloid cells with chimeric antigen receptors (CARs) holds great therapeutic promise, but their generation in vivo remains challenging. Here, we developed an erythrocyte-mediated messenger RNA (mRNA) delivery platform, termed mRNA-LNP-Ery, in which mRNA-loaded lipid nanoparticles (LNPs) are covalently anchored onto erythrocytes. Exploiting erythrocytes' intrinsic splenic homing capacity and unique biocompatibility, mRNA-LNP-Ery enables highly selective and efficient mRNA delivery to CD11b(+) myeloid cells in the spleen, with minimal uptake by hepatocytes. We also demonstrated that mRNA-LNP-Ery is internalized through phagocytosis and avoids lysosomal degradation, resulting in enhanced cytosolic mRNA translation. Delivery of mRNAs encoding CARs targeting human epidermal growth factor receptor 2 (HER2) or CD19 generated functional CAR myeloid cells in vivo that adopted a proinflammatory, antigen-presenting phenotype. These cells migrated to tumors, eliminated cancer cells, and remodeled the tumor microenvironment, leading to increased infiltration of effector T and natural killer (NK) cells. The antitumor effect was abolished in splenectomized mice and partially diminished in nude mice, indicating that therapeutic activity depends on both CAR myeloid cell formation within the spleen and their cross-talk with adaptive immunity. Furthermore, repeated administration of mRNA-LNP-Ery achieved superior antitumor efficacy to conventional mRNA-LNPs at one-tenth the mRNA dose, with minimal systemic toxicity, underscoring the high efficiency and safety of spleen-targeted delivery. Together, our findings established a clinically translatable erythrocyte-based mRNA platform that enables direct in vivo immune cell programming and advances CAR myeloid therapies for solid tumors.",
+      "mesh_terms": [
+        "Animals",
+        "*Myeloid Cells/metabolism/immunology/cytology",
+        "*RNA, Messenger/metabolism/genetics",
+        "Humans",
+        "*Erythrocytes/metabolism",
+        "*Neoplasms/therapy/immunology",
+        "*Immunotherapy/methods",
+        "*Receptors, Chimeric Antigen/metabolism",
+        "Mice",
+        "Cell Line, Tumor",
+        "Nanoparticles/chemistry",
+        "Mice, Nude",
+        "Tumor Microenvironment",
+        "Spleen"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880522/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41895502",
+      "title": "A clinically relevant retrograde intraductal injection (RIDI) for lipid nanoparticles-mediated base editing in the pancreas.",
+      "authors": [
+        "Sahel D",
+        "Tiyaboonchai A",
+        "Wakefield L",
+        "Renner J",
+        "Jozic A",
+        "Dorrell C"
+      ],
+      "journal": "Nanomedicine : nanotechnology, biology, and medicine",
+      "date": "2026 Mar 25",
+      "doi": "10.1016/j.nano.2026.102933",
+      "abstract": "Gene therapy offers potential curative strategies for many pancreatic diseases, including diabetes and inherited pancreatitis. However, their clinical translation has been hindered by the lack of an effective delivery platform. Lipid nanoparticles (LNPs) are established as a leading non-viral delivery system for nucleic acids; however, their tropism is limited to the liver following systemic administration. In this study, we evaluated retrograde intraductal injection (RIDI), a clinically relevant and routinely performed endoscopic technique, as a direct delivery route for LNPs into pancreatic tissue. RIDI of Cre mRNA-loaded LNPs resulted in the transfection of approximately 47% of acinar cells, leading to robust recombination. Extending this approach to gene editing, we observed ~20-30% of gene editing and 5% base editing in mouse models. Collectively, these findings establish RIDI as a viable strategy for pancreas-targeted LNP administration, highlighting its potential to enable gene therapy and gene editing in pancreatic diseases.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Protein Replacement & Gene Therapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41895502/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41882056",
+      "title": "Heterologous RBMRNA-405 mRNA booster enhances humoral immunity post-inactivated COVID-19 vaccination: a randomized clinical trial in adults and older through 12 months.",
+      "authors": [
+        "Yong X",
+        "He J",
+        "Zhang C",
+        "Wang Y",
+        "Ou Y",
+        "Zhang B"
+      ],
+      "journal": "Scientific reports",
+      "date": "2026 Mar 25",
+      "doi": "10.1038/s41598-026-45429-w",
+      "abstract": "",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882056/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41876763",
+      "title": "Human macrophage phagocytosis of lung cancer cells induced by CD47 blockade is augmented after knockdown of phagocytosis checkpoints mediated by siRNA-loaded lipid nanoparticles.",
+      "authors": [
+        "Antonsen KW",
+        "Mathiesen H",
+        "Friis HN",
+        "Sorensen BS",
+        "Andersen MN",
+        "Moestrup SK"
+      ],
+      "journal": "Journal of leukocyte biology",
+      "date": "2026 Mar 25",
+      "doi": "10.1093/jleuko/qiag043",
+      "abstract": "Macrophages can phagocytose tumor cells. However, tumor cells may avoid phagocytosis by activating macrophage-expressed phagocytosis checkpoints such as SIRPalpha, LILRB1, or Siglec-10. Here, we investigated if LNPs loaded with siRNA (siRNA-LNPs) specifically neutralizing these checkpoints may be used as a counter-regulatory approach to augment cancer cell phagocytosis in human macrophages. The NanoAssemblr Ignite platform was used to prepare siRNA-LNPs targeting genes of interest. Human monocyte-derived macrophages were generated in vitro from healthy anonymous blood donors and treated with one or more siRNA-LNPs under various conditions. Following treatments, abundance of mRNA was analyzed by RT-qPCR, while membrane protein and soluble protein was measured by flow cytometry and ELISA, respectively. Phagocytosis was assessed by flow cytometry and fluorescence microscopy. Target mRNAs were efficiently downregulated by siRNA-LNPs in a dose-dependent manner. Combination treatment targeting all three genes of interest was similar in knockdown effectiveness to single treatment for each target. A single dose resulted in significant downregulation of mRNA and protein for up to 7 days and did not reduce macrophage viability. Repeated dosing further reduced target abundance. Importantly, we observed a synergy between LILRB1-siRNA-LNPs and CD47 blockade that increased macrophage phagocytosis of NCI-H196 lung cancer cells. In conclusion, transfection with siRNA-LNPs resulted in an efficient simultaneous downregulation of phagocytosis checkpoints in human macrophages and augmented macrophage phagocytosis of tumor cells in response to CD47 blockade in vitro. Using siRNA-LNPs in cancer therapy may be a promising potential approach to augment phagocytosis and the innate immune response against tumor growth.",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "LNP Engineering & Delivery",
+        "Cancer & Immunotherapy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41876763/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41887602",
+      "title": "Feline calicivirus VP1-based mRNA vaccine protects cats against FCV challenge.",
+      "authors": [
+        "Zang D",
+        "Heng W",
+        "Li R",
+        "Wei C",
+        "Qi R",
+        "Dilba GM"
+      ],
+      "journal": "Virologica Sinica",
+      "date": "2026 Mar 24",
+      "doi": "10.1016/j.virs.2026.03.010",
+      "abstract": "",
+      "mesh_terms": [],
+      "pub_types": [
+        "Letter"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41887602/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41896268",
+      "title": "Adverse events following SARS-CoV-2 mRNA vaccination in norwegian adolescents.",
+      "authors": [
+        "Bergstad Larsen V",
+        "Gunnes N",
+        "Gran JM",
+        "Dahl J",
+        "Boas H",
+        "Viksmoen Watle S"
+      ],
+      "journal": "Scientific reports",
+      "date": "2026 Mar 27",
+      "doi": "10.1038/s41598-026-45261-2",
+      "abstract": "",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41896268/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41875110",
+      "title": "Voiding symptoms aggravate with decreasing stromal/epithelial ratio and increasing glandular-epithelial content in patients undergoing laser enucleation for benign prostatic hyperplasia, independently from prostate size.",
+      "authors": [
+        "Keller P",
+        "Hu S",
+        "Zhu W",
+        "Xu Y",
+        "Berger L",
+        "Nicola P"
+      ],
+      "journal": "PloS one",
+      "date": "2026",
+      "doi": "10.1371/journal.pone.0345306",
+      "abstract": "INTRODUCTION: Benign prostatic hyperplasia (BPH) includes epithelial, stromal and mixed hyperplasia, but their specific contributions to voiding symptoms and prostate volume (PV) are unknown. Here, we examined relationships of symptoms and PV with stromal and epithelial markers in patients undergoing laser enucleation for BPH. METHODS: Tissues were obtained from holmium or thulium laser enucleation of the prostate (n = 146 patients). Expressions of the smooth muscle marker calponin-1 (CNN1) and the glandular-epithelial cell marker keratin-19 (KRT19) were assessed by RT-PCR and Western blot, and analyzed for correlation with international prostate symptom score (IPSS), maximum urinary flow rate (Qmax), and PV. RESULTS: The ratio of CNN1/KRT19 mRNA correlated positively with Qmax (r = 0.3809, p = 0.0263), and by trend negatively with IPSS (r = -0.2161, p = 0.0944). Accordingly, the IPSS increased with keratin protein expression (r = 0.4244, p = 0.0307), while the Qmax tended to correlate negatively with keratin expression (r = -0.2058, p = 0.4999). PV correlated negatively with CNN1 mRNA expression (r = -0.205, p = 0.0405). The inverse correlation of CNN1 with PV persisted in patients without catheterization (r = -0.2568, p = 0.0457), but was lacking in catheterized patients after separated analyses. CONCLUSIONS: Voiding symptoms in patients undergoing laser enucleation for BPH aggravate with increasing keratin content. Symptoms in patients needing surgery for BPH depend rather on glandular-epithelial hyperplasia, but not on stromal hyperplasia, what might explain why these patients are refractory to treatment with alpha1-blockers.",
+      "mesh_terms": [
+        "Humans",
+        "Male",
+        "*Prostatic Hyperplasia/surgery/pathology/physiopathology/metabolism",
+        "Aged",
+        "*Prostate/pathology/surgery/metabolism",
+        "Middle Aged",
+        "Calcium-Binding Proteins/metabolism/genetics",
+        "Microfilament Proteins/metabolism/genetics",
+        "Calponins",
+        "Organ Size",
+        "Stromal Cells/pathology/metabolism",
+        "*Laser Therapy",
+        "Epithelial Cells/pathology/metabolism",
+        "RNA, Messenger/genetics/metabolism"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875110/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41880516",
+      "title": "NKX6.1 mRNA copy number is an actionable biomarker associated with islet function and clinical outcomes after islet transplantation.",
+      "authors": [
+        "Pasquetti G",
+        "Thevenet J",
+        "Chetboun M",
+        "de Graaf N",
+        "Carlotti F",
+        "de Koning E"
+      ],
+      "journal": "Science translational medicine",
+      "date": "2026 Mar 25",
+      "doi": "10.1126/scitranslmed.aed3562",
+      "abstract": "Islet transplantation, a validated therapy for type 1 diabetes, shows heterogeneous clinical outcomes. There is an unmet need for actionable biomarkers predicting islet graft potency before transplantation. We leveraged a comprehensive set of clinical data and islet samples to explore the relation between islet NKX6.1 gene expression and clinical transplantation outcomes. We measured NKX6.1 copy number with digital PCR in 114 clinical islet preparations and showed its linear correlation with islet graft function in a mouse bioassay, independently of islet mass, purity, and viability (P < 0.01). Analyzing the clinical outcomes of 34 patients who received two or three islet preparations, we showed the added value of total NKX6.1 copy number to predict primary graft function, as compared with islet mass alone (Delong test, P < 0.001). Using a multiple regression Cox model, adjusted for islet mass, purity, and viability, a high total NKX6.1 copy number was independently correlated with 10-year survival of islet graft success [adjusted hazard ratio (HR) [95% CI]: 0.63 [0.43; 0.92], P < 0.017] and insulin independence (HR [95% CI]: 0.70 [0.52; 93], P < 0.01). This relation was confirmed in an independent cohort of nine patients receiving a single islet transplantation in other centers. Genetic silencing with anti-NKX6.1 shRNA or pharmacological induction of NKX6.1 with silymarin in vitro indicated a causal link between NKX6.1 gene expression and islet graft function. These results suggest that NKX6.1 mRNA expression can predict islet graft function and may serve as an actionable biomarker of graft potency in beta cell replacement.",
+      "mesh_terms": [
+        "*Islets of Langerhans Transplantation",
+        "Humans",
+        "*Homeodomain Proteins/genetics/metabolism",
+        "Biomarkers/metabolism",
+        "Animals",
+        "Male",
+        "Female",
+        "*RNA, Messenger/genetics/metabolism",
+        "Treatment Outcome",
+        "*Islets of Langerhans/metabolism/physiology",
+        "Adult",
+        "Mice",
+        "*Gene Dosage",
+        "Middle Aged",
+        "Diabetes Mellitus, Type 1/genetics/therapy"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "categories": [
+        "Other"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880516/"
+    },
+    {
+      "source": "pubmed",
+      "pmid": "41876199",
+      "title": "[Omics analysis of the regulatory role of APOBEC in the immune microenvironment of head and neck squamous cell carcinoma with different HPV status].",
+      "authors": [
+        "Xu YG",
+        "Li DX",
+        "Wu C"
+      ],
+      "journal": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+      "date": "2026 Mar 23",
+      "doi": "10.3760/cma.j.cn112152-20250930-00494",
+      "abstract": "Objective: To investigate the differences in apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like (APOBEC) between human papillomavirus (HPV)-positive and HPV-negative head and neck squamous cell carcinoma (HNSCC) patients, analyze its association with the immune microenvironment and the cGAS-STING pathway, and evaluate its predictive value for immunotherapy efficacy. Methods: Whole-exome sequencing data from HNSCC patients (from September 2017 to March 2020 at the Third Affiliated Hospital of Kunming Medical University) were collected for somatic mutation profiling. APOBEC enrichment scores were calculated and integrated with differentially expressed genes (DEGs) to perform Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis and Gene Set Enrichment Analysis (GSEA). Single-cell RNA sequencing (scRNA-seq) data were utilized to validate the relationship between APOBEC3 expression, immune cell composition, and cGAS-STING module activity. Furthermore, an immunotherapy cohort was analyzed to evaluate the association of APOBEC3 family gene expression with immune checkpoint genes and therapeutic outcomes. Results: APOBEC mutational signatures were prevalent in both HPV-negative and HPV-positive HNSCC patients, but their driving patterns differed significantly: HPV-positive patients were dominated by APOBEC3A mutations, whereas the HPV-negative group exhibited a synergistic effect of multiple family members, including APOBEC3A/3B/3C/3D/3F. Pathway analysis indicated that in HPV-negative HNSCC, APOBEC activity was significantly associated with the enhancement of the cGAS-STING pathway, interferon response, and inflammatory response. Single-cell analysis confirmed that tumors with high APOBEC3 expression had richer immune cell infiltration, and the activities of four functional modules of the cGAS-STING pathway (cGAS-STING, NF-kappaB, interferon stimulation, and antigen presentation) were significantly upregulated. In the immunotherapy cohort, patients with high APOBEC3 expression exhibited higher expression of immune checkpoint molecules, and their treatment response rates were significantly superior to those in the low-expression group. Conclusions: APOBEC exhibits distinct driving mechanisms in HNSCC depending on HPV status. Its activity is closely related to cGAS-STING pathway activation, enhanced immune infiltration, and improved immunotherapy efficacy, suggesting potential predictive and therapeutic value.",
+      "mesh_terms": [
+        "Humans",
+        "*Tumor Microenvironment/immunology/genetics",
+        "*Squamous Cell Carcinoma of Head and Neck/immunology/virology/genetics",
+        "*APOBEC Deaminases/genetics",
+        "*Papillomavirus Infections/immunology/virology",
+        "*Head and Neck Neoplasms/immunology/genetics/virology/metabolism/therapy",
+        "Membrane Proteins/metabolism",
+        "Nucleotidyltransferases/metabolism",
+        "Immunotherapy",
+        "Male",
+        "Female",
+        "Mutation",
+        "Middle Aged",
+        "Papillomaviridae/isolation & purification",
+        "Exome Sequencing",
+        "Signal Transduction",
+        "Aged",
+        "STING Protein",
+        "Cyclic Guanosine Monophosphate-Adenosine Monophosphate Synthase"
+      ],
+      "pub_types": [
+        "English Abstract",
+        "Journal Article"
+      ],
+      "categories": [
+        "Cancer & Immunotherapy",
+        "Clinical Development"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41876199/"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07491094",
+      "title": "Repeated Examinations for Typing Pulmonary Embolism",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "N/A",
+      "conditions": [
+        "Pulmonary Embolism (Diagnosis)",
+        "Pulmonary Embolism Acute",
+        "Pulmonary Embolism With Acute Cor Pulmonale",
+        "Pulmonary Embolism With Right Ventricle Enlargement",
+        "Pulmonary Embolism (PE)"
+      ],
+      "interventions": [],
+      "sponsor": "Sahlgrenska University Hospital",
+      "summary": "PURPOSE\n\nThe two related purposes of the RE-TyPE study are:\n\n1. To improve understanding of the early clinical course of intermediate-high risk pulmonary embolism and its association with outcome and\n2. To establish a platform for longitudinal follow-up for all pulmonary embolism at Sahlgrenska University Hospital\n\nHYPOTHESES\n\n1. The dynamic pattern of change, evaluated thorough repeated measures of biomarkers, electrocardiography and echocardiography during the first 48 hours after pulmonary embolism, better predicts outcome than static measurements currently used to predict outcome\n2. Establishment of a platform for longitudinal follow-up will improve quality of care and outcome for patients with pulmonary embolism at Sahlgrenska University Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07491094"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05933954",
+      "title": "The Effects of 5G Radiation on Skin",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Electromagnetic Radiation (5GFR2)"
+      ],
+      "interventions": [
+        "5GFR2 non ionizing EMW exposure"
+      ],
+      "sponsor": "Prof. Olivier Gaide, MD-PhD",
+      "summary": "The current 5G waves used on the daily life are ranging from 410 MHz to 7125 MHz and are called FR1. The next deployed 5G waves will be FR2, from 24.45 GHz to 52.6 GHz. Our project targets the 27.5 GHz frequency, as it will be used in both Europe and the USA. Recent studies have shown that these 5G FR2 waves enter the skin but do not penetrate deeper in the body, which is why our project focuses on the skin.\n\nOur aim is to understand the effects of 5G waves on skin by performing a clinical trial. In this study, participants (healthy volunteers, patients with dermatoporosis, or whose skin is prone to developing cancer or who suffer from atopic dermatitis) will be exposed to carefully chosen 5G parameters and skin will be analyzed by state-of-the-art single cell RNA analysis (an unbiased and very sensitive technique ideal for studying cell behavior changes). This project will also decipher the differences between women and men, in response to 5G FR2 waves.",
+      "url": "https://clinicaltrials.gov/study/NCT05933954"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05668741",
+      "title": "A Phase 1/2 Study of VX-522 in Participants With Cystic Fibrosis (CF)",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        "VX-522 mRNA therapy",
+        "IVA"
+      ],
+      "sponsor": "Vertex Pharmaceuticals Incorporated",
+      "summary": "The purpose of this study is to evaluate the safety, and tolerability and efficacy of VX-522 in participants 18 years of age and older with cystic fibrosis and a cystic fibrosis transmembrane conductance regulator (CFTR) genotype not responsive to CFTR modulator therapy.",
+      "url": "https://clinicaltrials.gov/study/NCT05668741"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT02152995",
+      "title": "Trametinib in Increasing Tumoral Iodine Incorporation in Patients With Recurrent or Metastatic Thyroid Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Metastatic Thyroid Gland Carcinoma",
+        "Poorly Differentiated Thyroid Gland Carcinoma",
+        "Recurrent Thyroid Gland Carcinoma",
+        "Refractory Thyroid Gland Carcinoma",
+        "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7",
+        "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7",
+        "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7"
+      ],
+      "interventions": [
+        "Computed Tomography",
+        "Iodine I 124",
+        "Iodine I-131",
+        "Laboratory Biomarker Analysis",
+        "Pharmacodynamic Study",
+        "Positron Emission Tomography",
+        "Trametinib"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase II trial studies how well trametinib works in increasing tumoral iodine incorporation in patients with thyroid cancer that has come back or spread to another place in the body. Trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and may help make treatment with iodine I-131 more effective.",
+      "url": "https://clinicaltrials.gov/study/NCT02152995"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT03610906",
+      "title": "Prospective Pilot Study Identifying Clinically Relevant Biological Targets for Medical Therapy",
+      "status": "ENROLLING_BY_INVITATION",
+      "phase": "N/A",
+      "conditions": [
+        "Craniopharyngioma, Child"
+      ],
+      "interventions": [
+        "Tumor and Blood Specimens"
+      ],
+      "sponsor": "University of Colorado, Denver",
+      "summary": "New data suggests that the current treatment for pediatric adamantinomatous craniopharyngioma (CPA) may not be as effective as it could be.",
+      "url": "https://clinicaltrials.gov/study/NCT03610906"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07427680",
+      "title": "Study of TGM-312-SC01 in Healthy Participants and Adults With MASH",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Healthy Participants",
+        "MASH - Metabolic Dysfunction-Associated Steatohepatitis"
+      ],
+      "interventions": [
+        "TGM-312-SC01",
+        "Placebo"
+      ],
+      "sponsor": "Tangram Therapeutics Plc",
+      "summary": "The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamic (PD) effects of single ascending doses of TGM-312-SC01 in healthy adults and multiple ascending doses in patients with metabolic dysfunction-associated steatohepatitis (MASH).",
+      "url": "https://clinicaltrials.gov/study/NCT07427680"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05941520",
+      "title": "Acolbifene Versus Low Dose Tamoxifen for the Prevention of Breast Cancer in Premenopausal Women at High Risk for Development of Breast Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Breast Atypical Hyperplasia",
+        "Breast Carcinoma",
+        "Breast Ductal Carcinoma In Situ",
+        "Breast Lobular Carcinoma In Situ"
+      ],
+      "interventions": [
+        "Acolbifene Hydrochloride",
+        "Biospecimen Collection",
+        "Mammography",
+        "Questionnaire Administration",
+        "Random Periareolar Fine-Needle Aspiration",
+        "Tamoxifen"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase IIA trial compares the effect of acolbifene versus low dose tamoxifen in preventing breast cancer in premenopausal women at high risk for developing breast cancer. The usual approach for patients at increased risk for breast cancer is to undergo yearly breast magnetic resonance imaging or ultrasound in addition to yearly mammogram. Premenopausal women at very high lifetime risk for breast cancer (greater than 50%) can consider preventive removal (mastectomy) of both breasts. Premenopausal women age 35 or older with a prior diagnosis of atypical hyperplasia, lobular carcinoma in situ, or an estimated 10-year risk of greater than or equal to 3% or estimated 10-year risk of greater than or equal to 2-5 times that of the average woman (depending on age) may be advised to consider five years of standard dose tamoxifen. Standard dose tamoxifen is four times the dose used in this study. Estrogen can cause the development and growth of breast cancer cells. Acolbifene and tamoxifen blocks the use of estrogen by breast cells. This study may help researchers measure the effects of acolbifene and low dose tamoxifen on markers of breast cancer risk in mammogram imaging, breast tissue, and in blood samples.",
+      "url": "https://clinicaltrials.gov/study/NCT05941520"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06805305",
+      "title": "DOC1021 Dendritic Cell Immunotherapy for Treatment of Newly Diagnosed Adult Glioblastoma (GBM)",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Glioblastoma (GBM)"
+      ],
+      "interventions": [
+        "DOC1021",
+        "Tumor resection",
+        "Temodar (Temozolomide)",
+        "SOC cranial radiation"
+      ],
+      "sponsor": "Diakonos Oncology Corporation",
+      "summary": "The goal of this clinical trial is to learn if DOC1021 + pIFN alongside standard of care (SOC) will improve survival in adult patients newly diagnosed with glioblastoma (IDH-wt). It will also evaluate the safety of DOC1021 + pIFN. Researchers will compare DOC1021 dendritic cell immunotherapy regimen added to SOC compared to SOC treatment alone.\n\nParticipants in the DOC1021 + pIFN + SOC arm will:\n\n* Take filgrastim subcutaneously x 5 doses and subsequently undergo a leukapheresis collection\n* Undergo ultrasound guided perinodal DOC1021 injections every 2 weeks for a total of 3 doses\n* Receive subcutaneous pIFN injections weekly for a total of 6 doses in parallel with the DOC1021 injections\n\nBoth arms of the trial will:\n\n\\- Visit the clinic regularly to assess quality of life, symptoms, medication use, imaging, bloodwork, and to receive SOC treatment with surgery, temozolomide chemotherapy and radiation",
+      "url": "https://clinicaltrials.gov/study/NCT06805305"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT02594202",
+      "title": "Care of the Prostate Cancer Patient and Prospective Procurement of Prostate Cancer Tissue",
+      "status": "RECRUITING",
+      "phase": "N/A",
+      "conditions": [
+        "Prostate Cancer"
+      ],
+      "interventions": [],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "Background:\n\nProstate cancer is the most common noncutaneous cancer among men in the U.S. Researchers want to study blood, tissue, and fluid samples of people with prostate cancer. This will help them understand any changes in cells and genes. These changes might lead to the development and progression of prostate cancer. Researchers think the study could lead to new treatments.\n\nObjective:\n\nTo understand the changes in cells and genes that lead to the development and progression of prostate cancer. This could lead to new treatments.\n\nEligibility:\n\nMen ages 18 and older who have or are suspected to have prostate cancer\n\nDesign:\n\nParticipants will be screened with physical exam and medical history.\n\nParticipants will send tissue blocks of their tumor, if possible. If not, they will provide unstained slides of tumor tissue.\n\nParticipants may provide samples of blood, urine, saliva, and prostate secretions.\n\nParticipants may have imaging tests. They will lie in a machine that takes pictures of their body. These tests include:\n\nMRI of the prostate\n\nCT of the abdomen and pelvis\n\nChest x-ray\n\nParticipants may need a biopsy or surgery for treatment of their cancer. If so, researchers will collect tissue.\n\nParticipants may answer questions about their prostate cancer and quality of life.\n\nParticipants may have follow-up visits or other treatments. They may have follow-up phone calls every few months.",
+      "url": "https://clinicaltrials.gov/study/NCT02594202"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT04368728",
+      "title": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals",
+      "status": "COMPLETED",
+      "phase": "PHASE2, PHASE3",
+      "conditions": [
+        "SARS-CoV-2 Infection",
+        "COVID-19"
+      ],
+      "interventions": [
+        "BNT162b1",
+        "BNT162b2",
+        "Placebo",
+        "BNT162b2SA"
+      ],
+      "sponsor": "BioNTech SE",
+      "summary": "This is a Phase 1/2/3, randomized, placebo-controlled, observer-blind, dose-finding, vaccine candidate-selection, and efficacy study in healthy individuals.\n\nThe study consists of 2 parts: Phase 1: to identify preferred vaccine candidate(s) and dose level(s); Phase 2/3: an expanded cohort and efficacy part.\n\nThe study will evaluate the safety, tolerability, and immunogenicity of 3 different SARS-CoV-2 RNA vaccine candidates against COVID-19 and the efficacy of 1 candidate:\n\n* As a 2-dose (separated by 21 days) schedule;\n* At various different dose levels in Phase 1;\n* As a booster;\n* In 3 age groups (Phase 1: 18 to 55 years of age, 65 to 85 years of age; Phase 2/3: ≥12 years of age \\[stratified as 12-15, 16-55 or \\>55 years of age\\]).\n\nThe candidate selected for efficacy evaluation in Phase 2/3 is BNT162b2 at a dose of 30 µg.\n\nParticipants who originally received placebo will be offered the opportunity to receive BNT162b2 at defined points as part of the study.\n\nIn order to describe the boostability of BNT162, and potential heterologous protection against emerging SARS-CoV-2 VOCs, an additional dose of BNT162b2 at 30 µg will be given to Phase 1 participants approximately 6 to 12 months after their second dose of BNT162b1 or BNT162b2. This will provide an early assessment of the safety of a third dose of BNT162, as well as its immunogenicity.\n\nThe assessment of boostability will be further expanded in a subset of Phase 3 participants at selected sites in the US who will receive a third dose of BNT162b2 at 30 µg or a third and potentially a fourth dose of prototype BNT162b2VOC at 30 µg (BNT162b2s01, based upon the South African variant and hereafter referred to as BNT162b2SA). A further subset of Phase 3 participants will receive a third, lower, dose of BNT162b2 at 5 or 10 µg.\n\nTo further describe potential homologous and heterologous protection against emerging SARS-CoV-2 VOCs, a new cohort of participants will be enrolled who are COVID-19 vaccine-naïve (ie, BNT162b2-naïve) and have not experienced COVID-19. They will receive BNT162b2SA given as a 2-dose series, separated by 21 days.\n\nTo reflect current and anticipated recommendations for COVID 19 vaccine boosters, participants in C4591001 who meet specified recommendations and have not already received one, will be offered a third dose of BNT162b2 after their second dose of BNT162.",
+      "url": "https://clinicaltrials.gov/study/NCT04368728"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06585241",
+      "title": "A Study to Investigate the Immunogenicity and Safety of mRNA COVID-19 Variant-containing Vaccine Formulations",
+      "status": "RECRUITING",
+      "phase": "PHASE4",
+      "conditions": [
+        "SARS-CoV-2"
+      ],
+      "interventions": [
+        "mRNA-1273 Variant-containing Formulation"
+      ],
+      "sponsor": "ModernaTX, Inc.",
+      "summary": "The purpose of this study is to investigate the immunogenicity and safety of mRNA COVID-19 variant-containing vaccine formulations against the vaccine-matched variants and newly emerged variants of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "url": "https://clinicaltrials.gov/study/NCT06585241"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06172296",
+      "title": "Dinutuximab With Chemotherapy, Surgery and Stem Cell Transplantation for the Treatment of Children With Newly Diagnosed High Risk Neuroblastoma",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Ganglioneuroblastoma, Nodular",
+        "Neuroblastoma"
+      ],
+      "interventions": [
+        "Biospecimen Collection",
+        "Bone Marrow Aspiration",
+        "Bone Marrow Biopsy",
+        "Carboplatin",
+        "Cisplatin",
+        "Computed Tomography",
+        "Cyclophosphamide",
+        "Dinutuximab",
+        "Doxorubicin",
+        "Echocardiography Test",
+        "Etoposide",
+        "FDG-Positron Emission Tomography and Computed Tomography Scan",
+        "Hematopoietic Cell Transplantation",
+        "Irinotecan",
+        "Isotretinoin",
+        "Leukapheresis",
+        "Magnetic Resonance Imaging",
+        "Melphalan",
+        "Multigated Acquisition Scan",
+        "Radiation Therapy",
+        "Radionuclide Imaging",
+        "Survey Administration",
+        "Temozolomide",
+        "Thiotepa",
+        "Topotecan",
+        "Tumor Resection",
+        "Vincristine"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase III trial tests how well the addition of dinutuximab to Induction chemotherapy along with standard of care surgical resection of the primary tumor, radiation, stem cell transplantation, and immunotherapy works for treating children with newly diagnosed high-risk neuroblastoma. Dinutuximab is a monoclonal antibody that binds to a molecule called GD2, which is found on the surface of neuroblastoma cells, but is not present on many healthy or normal cells in the body. When dinutuximab binds to the neuroblastoma cells, it helps signal the immune system to kill the tumor cells. This helps the cells of the immune system kill the cancer cells, this is a type of immunotherapy. When chemotherapy and immunotherapy are given together, during the same treatment cycle, it is called chemoimmunotherapy. This clinical trial randomly assigns patients to receive either standard chemotherapy and surgery or chemoimmunotherapy (chemotherapy plus dinutuximab) and surgery during Induction therapy. Chemotherapy drugs administered during Induction include, cyclophosphamide, topotecan, cisplatin, etoposide, vincristine, and doxorubicin. These drugs work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing or by stopping them from spreading. Upon completion of 5 cycles of Induction therapy, a disease evaluation is completed to determine how well the treatment worked. If the tumor responds to therapy, patients receive a tandem transplantation with stem cell rescue. If the tumor has little improvement or worsens, patients receive chemoimmunotherapy on Extended Induction. During Extended Induction, dinutuximab is given with irinotecan, temozolomide. Patients with a good response to therapy move on to Consolidation therapy, when very high doses of chemotherapy are given at two separate points to kill any remaining cancer cells. Following, transplant, radiation therapy is given to the site where the cancer originated (primary site) and to any other areas that are still active at the end of Induction. The final stage of therapy is Post-Consolidation. During Post-Consolidation, dinutuximab is given with isotretinoin, with the goal of maintaining the response achieved with the previous therapy. Adding dinutuximab to Induction chemotherapy along with standard of care surgical resection of the primary tumor, radiation, stem cell transplantation, and immunotherapy may be better at treating children with newly diagnosed high-risk neuroblastoma.",
+      "url": "https://clinicaltrials.gov/study/NCT06172296"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07492316",
+      "title": "RNA-lipid Particle (RNA-LP) Vaccines for Recurrent/Progressive Medulloblastoma (MB)",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "PHASE1",
+      "conditions": [
+        "Recurrent Medulloblastoma"
+      ],
+      "interventions": [
+        "Autologous total tumor mRNA and pp65 full length (fl) lysosomal associated membrane protein (LAMP) mRNA loaded DOTAP liposome vaccine administered intravenously (RNA loaded lipid particles, RNA-LPs)"
+      ],
+      "sponsor": "University of Florida",
+      "summary": "The primary objective will be to demonstrate the manufacturing feasibility and safety, and to determine the maximum tolerated dose (MTD) of RNA-LP vaccines in pediatric patients with recurrent/progressive Medulloblastoma (MB)",
+      "url": "https://clinicaltrials.gov/study/NCT07492316"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05223036",
+      "title": "Testing Obeticholic Acid for Familial Adenomatous Polyposis",
+      "status": "SUSPENDED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Attenuated Familial Adenomatous Polyposis",
+        "Colorectal Carcinoma",
+        "Duodenal Carcinoma",
+        "Familial Adenomatous Polyposis"
+      ],
+      "interventions": [
+        "Biopsy Procedure",
+        "Biospecimen Collection",
+        "Gastrointestinal Endoscopy",
+        "Obeticholic Acid",
+        "Placebo Administration",
+        "Questionnaire Administration"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This phase IIa trial investigates if giving obeticholic acid (OCA) is safe and has a beneficial effect on the number of polyps in the small bowel and colon in patients with familial adenomatous polyposis (FAP). FAP is a rare gene defect that increases the risk of developing cancer of the intestines and colon. OCA is a drug similar to a bile acid the body makes. It is fluid made and released by the liver. OCA binds to a receptor in the intestine that is believed to have a positive effect on preventing cancer development. OCA has been effective in treating primary biliary cholangitis (PBC), a liver disease, and is approved by the Food and Drug Administration (FDA) for use at a lower dose (10 mg). There have been studies showing that OCA decreases inflammation and fibrosis. However, it is not yet known whether OCA works on reducing the number of polyps in patients with FAP.",
+      "url": "https://clinicaltrials.gov/study/NCT05223036"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT02243592",
+      "title": "Molecular Profiling in Tissue Samples From Patients With Cancer Who Are Exceptional Responders to Treatment",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "N/A",
+      "conditions": [
+        "Malignant Neoplasm"
+      ],
+      "interventions": [
+        "Laboratory Biomarker Analysis"
+      ],
+      "sponsor": "National Cancer Institute (NCI)",
+      "summary": "This pilot research trial studies molecular profiling in tissue samples from patients with cancer who got better with treatment that didn't work for most other patients with the same disease. Studying samples of tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in deoxyribonucleic acid (DNA) and identify biomarkers related to how well patients respond to treatment.",
+      "url": "https://clinicaltrials.gov/study/NCT02243592"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05265065",
+      "title": "Evaluation of Full Versus Fractional Dose of COVID-19 Vaccine Given as a Booster for the Prevention of COVID-19 in Adults in Mongolia.",
+      "status": "COMPLETED",
+      "phase": "PHASE3",
+      "conditions": [
+        "COVID-19"
+      ],
+      "interventions": [
+        "Tozinameran - Standard Dose",
+        "Tozinameran - Fractional Dose"
+      ],
+      "sponsor": "Murdoch Childrens Research Institute",
+      "summary": "This clinical trial is a single-blind, randomised study to determine the reactogenicity and immunogenicity of severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) vaccine (Pfizer-BioNTech) as booster dose in adults, who have previously received either Sinopharm (BBIBP-CorV®), AstraZeneca (ChAdOx1-S, or Vaxzevria®) or Sputnik V (Gam-COVID-Vac®) as their primary doses 6 to 9 months earlier. Both standard and fractional doses will be tested.\n\nParticipants are healthy adults aged 18 years or older, with no upper age limit. Procedures will be implemented to ensure participants of all ages (aged 18 and above) are included and that there is an even age distribution (\\<50 and ≥50 years) in each group. There will be a total of 6 groups (Sinopharm-standard dose Pfizer, Sinopharm-fractional dose Pfizer, AstraZeneca-standard dose Pfizer, AstraZeneca-fractional dose Pfizer, Sputnik - standard dose Pfizer, Sputnik - fractional dose Pfizer), with 200 participants per group for Sinopharm and 100 for AstraZeneca and Sputnik.",
+      "url": "https://clinicaltrials.gov/study/NCT05265065"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT07407569",
+      "title": "Developing a First-void Urine-based Infection Model to Study HPV-specific Antibody-virion Interaction Before and After HPV Vaccination",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Human Papilloma Virus Infection Type 16"
+      ],
+      "interventions": [
+        "Gardasil 9 (2 dose regimen)"
+      ],
+      "sponsor": "Universiteit Antwerpen",
+      "summary": "The current study is an open-label, non-randomized, longitudinal exploratory trial using the licensed Gardasil 9 (9vHPV) vaccine in an off-label context to investigate biological and immunological outcomes in human papillomavirus type 16 (HPV16) positive women. Two doses of the licensed Gardasil 9 vaccine will be administered to approximately 50 women between 18 and 45 years old, who test positive for HPV16 DNA at baseline using a type-specific quantitative PCR assay, but have no presence of apparent anogenital lesions and are thus not referred for treatment or intervention at the time of inclusion.\n\nThe primary objective of this study is to demonstrate that vaccination with a two-dose regimen of the 9vHPV vaccine reduces the viral infectivity of particles in the female genital tract of HPV16-positive women, by using first-void urine samples. The secondary objectives are to follow up HPV type-specific antibody responses in these first-void urine samples after natural infection and vaccination after one or two doses of the 9vHPV vaccine and to compare these with the responses in serum, and to monitor HPV infections in first-void urine over time.\n\nCandidates will be selected for participation based on the result of their HPV DNA test performed on a sample collected during routine screening or symptomatic (opportunistic) testing in one of the following centers:\n\n* The University Hospital of Antwerp (UZA).\n* The University Hospital of Leuven (UZ Leuven).\n* Ghent University Hospital (UZ Gent).\n\nWomen are followed for up to 24 months, in which first-void urine and serum samples will be collected at different timepoints.\n\nThe following laboratory procedures will be applied to reach study objectives\n\n* Assessment of HPV DNA positivity: HPV genotyping in first-void urine samples.\n* Assessment of HPV infectivity: Detection of HPV16 E1\\^E4 spliced mRNA in HaCaT keratinocytes after infection with virions from first-void urine samples.\n* Assessment of HPV immunogenicity: Detection of HPV-specific antibodies in first-void urine and serum samples.",
+      "url": "https://clinicaltrials.gov/study/NCT07407569"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT06714253",
+      "title": "Study of Circular RNA Treatment in Patients With Radiation Induced Xerostomia-1",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Radiation-Induced Xerostomia and Hyposalivation"
+      ],
+      "interventions": [
+        "RXRG001",
+        "Placebo"
+      ],
+      "sponsor": "RiboX Therapeutics Ltd.",
+      "summary": "This is a first-in-human clinical study to evaluate the safety, tolerability and efficacy of RXRG001 administered in the ducts of the parotid glands in adult patients with radiation-induced xerostomia (dry mouth) and hyposalivation (reduced saliva production).\n\nIn Part 1 of the study (open-label, single-arm), patients will receive unilateral administrations of RXRG001 in 3 single ascending dose cohorts and in 3 multiple ascending dose cohorts.\n\nPart 2 of the study has a randomized, double-blind, placebo-controlled design. Patients will receive bilateral administrations of RXRG001 in 3 multiple ascending dose cohorts.",
+      "url": "https://clinicaltrials.gov/study/NCT06714253"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT00536185",
+      "title": "Heart & Health Study",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "conditions": [
+        "Heart Disease"
+      ],
+      "interventions": [
+        "Fish Oil",
+        "Placebo"
+      ],
+      "sponsor": "USDA, Western Human Nutrition Research Center",
+      "summary": "We hope to learn more about why certain people have higher levels of the 5-LO protein and whether taking fish oil supplements gives such individuals greater protection than others against cardiovascular disease. The 5-LO protein is important in the development of heart disease because it converts a type of oil from meat into a compound that can cause inflammation in blood vessels. This inflammation is a major cause of heart disease.\n\nResearchers think that people with higher levels of a protein called 5-LO in their white blood cells may have a healthier response to using fish oil supplements than do people with lower levels of this protein.",
+      "url": "https://clinicaltrials.gov/study/NCT00536185"
+    },
+    {
+      "source": "clinicaltrials",
+      "nct_id": "NCT05130437",
+      "title": "A Study to Assess the Long-term Safety and Clinical Activity of mRNA-3927 in Participants Previously Enrolled in the mRNA-3927-P101 Study",
+      "status": "RECRUITING",
+      "phase": "PHASE1, PHASE2",
+      "conditions": [
+        "Propionic Acidemia"
+      ],
+      "interventions": [
+        "mRNA-3927"
+      ],
+      "sponsor": "ModernaTX, Inc.",
+      "summary": "The main purpose of this study is to evaluate the long-term safety of mRNA-3927 administered to participants with propionic acidemia (PA) who have previously participated in Study mRNA-3927-P101 (NCT04159103).",
+      "url": "https://clinicaltrials.gov/study/NCT05130437"
+    }
+  ]
+}
